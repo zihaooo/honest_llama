@@ -8,7 +8,7 @@ import pickle
 import sys
 sys.path.append('../')
 
-import llama
+#import llama
 import pickle
 import argparse
 from transformers import AutoTokenizer, AutoModel, AutoModelForCausalLM
