@@ -14,7 +14,7 @@ from transformers import AutoTokenizer, AutoModel, AutoModelForCausalLM, AutoCon
 
 import sys
 sys.path.append('../')
-import llama
+# import llama
 
 # Specific pyvene imports
 from utils import alt_tqa_evaluate, flattened_idx_to_layer_head, layer_head_to_flattened_idx, get_interventions_dict, get_top_heads, get_separated_activations, get_com_directions
