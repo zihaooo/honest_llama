@@ -16,7 +16,7 @@ import pandas as pd
 import warnings
 from einops import rearrange
 from transformers import AutoTokenizer, AutoModelForCausalLM
-from baukit import Trace, TraceDict
+# from baukit import Trace, TraceDict
 import sklearn
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 from sklearn.linear_model import LogisticRegression
@@ -156,24 +156,24 @@ def tokenized_tqa_gen(dataset, tokenizer):
     return all_prompts, all_labels, all_categories
 
 
-def get_llama_activations_bau(model, prompt, device): 
-    HEADS = [f"model.layers.{i}.self_attn.head_out" for i in range(model.config.num_hidden_layers)]
-    MLPS = [f"model.layers.{i}.mlp" for i in range(model.config.num_hidden_layers)]
-
-    with torch.no_grad():
-        prompt = prompt.to(device)
-        with TraceDict(model, HEADS+MLPS) as ret:
-        # with TraceDict(model, HEADS+MLPS, retain_input=True) as ret:
-            output = model(prompt, output_hidden_states = True)
-        hidden_states = output.hidden_states
-        hidden_states = torch.stack(hidden_states, dim = 0).squeeze()
-        hidden_states = hidden_states.detach().cpu().numpy()
-        head_wise_hidden_states = [ret[head].output.squeeze().detach().cpu() for head in HEADS]
-        head_wise_hidden_states = torch.stack(head_wise_hidden_states, dim = 0).squeeze().numpy()
-        mlp_wise_hidden_states = [ret[mlp].output.squeeze().detach().cpu() for mlp in MLPS]
-        mlp_wise_hidden_states = torch.stack(mlp_wise_hidden_states, dim = 0).squeeze().numpy()
-
-    return hidden_states, head_wise_hidden_states, mlp_wise_hidden_states
+# def get_llama_activations_bau(model, prompt, device):
+#     HEADS = [f"model.layers.{i}.self_attn.head_out" for i in range(model.config.num_hidden_layers)]
+#     MLPS = [f"model.layers.{i}.mlp" for i in range(model.config.num_hidden_layers)]
+#
+#     with torch.no_grad():
+#         prompt = prompt.to(device)
+#         with TraceDict(model, HEADS+MLPS) as ret:
+#         # with TraceDict(model, HEADS+MLPS, retain_input=True) as ret:
+#             output = model(prompt, output_hidden_states = True)
+#         hidden_states = output.hidden_states
+#         hidden_states = torch.stack(hidden_states, dim = 0).squeeze()
+#         hidden_states = hidden_states.detach().cpu().numpy()
+#         head_wise_hidden_states = [ret[head].output.squeeze().detach().cpu() for head in HEADS]
+#         head_wise_hidden_states = torch.stack(head_wise_hidden_states, dim = 0).squeeze().numpy()
+#         mlp_wise_hidden_states = [ret[mlp].output.squeeze().detach().cpu() for mlp in MLPS]
+#         mlp_wise_hidden_states = torch.stack(mlp_wise_hidden_states, dim = 0).squeeze().numpy()
+#
+#     return hidden_states, head_wise_hidden_states, mlp_wise_hidden_states
 
 def get_llama_activations_pyvene(collected_model, collectors, prompt, device):
     with torch.no_grad():

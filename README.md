@@ -85,6 +85,10 @@ In the root folder of this repo, run the following commands to set things up.
 ```
 conda env create -f environment.yaml
 conda activate iti
+pip install -r requirements.txt
+git clone https://github.com/sylinrl/TruthfulQA.git
+cd TruthfulQA
+pip install -e .
 python -m ipykernel install --user --name iti --display-name "iti"
 mkdir -p validation/results_dump/answer_dump
 mkdir -p validation/results_dump/summary_dump
@@ -93,12 +97,11 @@ mkdir validation/splits
 mkdir validation/sweeping/logs
 mkdir get_activations/logs
 mkdir features
-git clone https://github.com/sylinrl/TruthfulQA.git
 ```
 
 ## TruthfulQA Evaluation
 
-Since we need to evaluate using TruthfulQA API, you should first export your OpenAI API key as an environment variable. Then install following [their instructions](https://github.com/sylinrl/TruthfulQA) to the iti environment. Some pip packages installed via TruthfulQA are outdated; important ones to update are datasets, transformers, einops.
+Since we need to evaluate using TruthfulQA API, you should first export your OpenAI API key as an environment variable. ~~Then install following [their instructions](https://github.com/sylinrl/TruthfulQA) to the iti environment.~~ Some pip packages installed via TruthfulQA are outdated; important ones to update are datasets, transformers, einops.
 
 
 Next, you need to obtain GPT-judge and GPT-info models by finetuning on the TruthfulQA dataset. Run finetune_gpt.ipynb using your own OpenAI API key.
