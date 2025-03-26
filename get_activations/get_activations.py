@@ -42,7 +42,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_name', type=str, default='llama_7B')
     parser.add_argument('--model_prefix', type=str, default='', help='prefix of model name')
-    parser.add_argument('--dataset_name', type=str, default='tqa_mc2')
+    parser.add_argument('--dataset_name', type=str, default='tqa_gen_end_q')
     parser.add_argument('--device', type=int, default=0)
     args = parser.parse_args()
 
