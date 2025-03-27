@@ -112,7 +112,7 @@ def main():
     
     # get two folds using numpy
     fold_idxs = np.array_split(np.arange(len(df)), args.num_fold)
-
+    print(f"Before create base model: Memory Allocated: {torch.cuda.memory_allocated() / (1024 ** 3):.2f} GB")
     # create model
     model_name_or_path = HF_NAMES[args.model_prefix + args.model_name]
     tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, trust_remote_code=True)
@@ -120,6 +120,7 @@ def main():
     if tokenizer.pad_token is None:
             tokenizer.pad_token = tokenizer.eos_token
     model.generation_config.pad_token_id = tokenizer.pad_token_id
+    print(f"After create base model: Memory Allocated: {torch.cuda.memory_allocated() / (1024 ** 3):.2f} GB")
 
     # define number of layers and heads
     num_layers = model.config.num_hidden_layers
@@ -190,7 +191,9 @@ def main():
                 "component": f"model.layers[{layer}].self_attn.o_proj.input",
                 "intervention": wrapper(intervener),
             })
+        print(f"Before create intervened model: Memory Allocated: {torch.cuda.memory_allocated() / (1024 ** 3):.2f} GB")
         intervened_model = pv.IntervenableModel(pv_config, model)
+        print(f"After create intervened model: Memory Allocated: {torch.cuda.memory_allocated() / (1024 ** 3):.2f} GB")
 
         filename = f'{args.model_prefix}{args.model_name}_seed_{args.seed}_top_{args.num_heads}_heads_alpha_{int(args.alpha)}_fold_{i}'
 
