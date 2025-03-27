@@ -16,7 +16,7 @@
 ulimit -c 0
 source /home/zihaooo/miniconda3/bin/activate iti
 
-cd /scratch/mcity_project_root/mcity_project/zihaooo/iti/activation
+cd /scratch/mcity_project_root/mcity_project/zihaooo/iti/get_activations
 
 python get_activations.py --model_name llama3_8B_instruct --dataset_name tqa_mc2
 #python get_activations.py --model_name llama3_8B_instruct --dataset_name tqa_gen_end_q
