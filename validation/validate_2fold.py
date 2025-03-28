@@ -131,7 +131,10 @@ def main():
     num_layers = model.config.num_hidden_layers
     num_heads = model.config.num_attention_heads
     hidden_size = model.config.hidden_size
-    head_dim = hidden_size // num_heads
+    if 'llama' in args.model_name:
+        head_dim = hidden_size // num_heads
+    elif 'gemma' in args.model_name:
+        head_dim = model.config.head_dim
     num_key_value_heads = model.config.num_key_value_heads
     num_key_value_groups = num_heads // num_key_value_heads
 
