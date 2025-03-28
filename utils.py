@@ -539,7 +539,7 @@ def alt_tqa_evaluate(models, metric_names, input_path, output_path, summary_path
 
     for mdl in models.keys():
         # llama
-        if 'llama' in mdl or 'alpaca' in mdl or 'vicuna' in mdl:
+        if 'llama' in mdl or 'gemma' in mdl: #
             assert models[mdl] is not None, 'must provide llama model'
             llama_model = models[mdl]
             llama_tokenizer = AutoTokenizer.from_pretrained(ENGINE_MAP[mdl])
