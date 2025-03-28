@@ -617,7 +617,7 @@ def alt_tqa_evaluate(models, metric_names, input_path, output_path, summary_path
         # if model_key not in questions.columns:
         #     warnings.warn("Answers missing for {0}!".format(model_key), stacklevel=2)
         #     continue
-        if 'llama' in model_key or 'alpaca' in model_key or 'vicuna' in model_key:
+        if 'llama' in model_key or 'gemma' in model_key:
             ce_loss = run_ce_loss(model_key, model=llama_model, tokenizer=llama_tokenizer, device=device, interventions=interventions, intervention_fn=intervention_fn)
             kl_wrt_orig = run_kl_wrt_orig(model_key, model=llama_model, tokenizer=llama_tokenizer, device=device, interventions=interventions, intervention_fn=intervention_fn, separate_kl_device=separate_kl_device, orig_model=orig_model)
 
