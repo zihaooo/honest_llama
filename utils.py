@@ -544,6 +544,15 @@ def alt_tqa_evaluate(models, metric_names, input_path, output_path, summary_path
             assert models[mdl] is not None, 'must provide llama model'
             llama_model = models[mdl]
             llama_tokenizer = AutoTokenizer.from_pretrained(ENGINE_MAP[mdl])
+
+            ce_loss = run_ce_loss(mdl, model=llama_model, tokenizer=llama_tokenizer, device=device,
+                                  interventions=interventions, intervention_fn=intervention_fn)
+            kl_wrt_orig = run_kl_wrt_orig(mdl, model=llama_model, tokenizer=llama_tokenizer,
+                                          device=device,
+                                          interventions=interventions, intervention_fn=intervention_fn,
+                                          separate_kl_device=separate_kl_device, orig_model=orig_model)
+            print(mdl, 'CE Loss:', ce_loss, 'KL wrt Orig:', kl_wrt_orig)
+
             # continue
             if 'judge' in metric_names or 'info' in metric_names:
                 questions = tqa_run_answers(questions, ENGINE_MAP[mdl], mdl, preset, model=llama_model, tokenizer=llama_tokenizer,
@@ -613,7 +622,7 @@ def alt_tqa_evaluate(models, metric_names, input_path, output_path, summary_path
     results['CE Loss'] = np.nan
     results['KL wrt Orig'] = np.nan
 
-    for model_key in models.keys(): 
+    for model_key in models.keys():
         # if model_key not in questions.columns:
         #     warnings.warn("Answers missing for {0}!".format(model_key), stacklevel=2)
         #     continue
