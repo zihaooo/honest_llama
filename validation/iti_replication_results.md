@@ -94,3 +94,14 @@ For now, I'd recommend using ITI directly to obtain more consistent results. But
 | llama3_70B_instruct  | Baked-in     | 0.38            | 0.67       | 0.57       | 0.42      | 0.63      | 2.48    | 0.00            |
 
 -- Results contributed by Justin Ji @jujipotle.
+
+
+# Our replication results
+| Model              | Intervention | True*Info Score | True Score | Info Score | MC1 Score | MC2 Score | CE Loss | KL wrt Original |
+|--------------------|--------------|-----------------|------------|------------|-----------|-----------|---------|-----------------|
+| llama_7B           | Baseline     | 0.3136          | 0.3256     | 0.9633     | 0.2546    | 0.4016    | 2.1160  | 0.0000          |
+| llama_7B           | ITI          | 0.4008          | 0.4198     | 0.9547     | 0.2803    | 0.4364    | 2.1854  | 0.0777          |
+| llama2_chat_7B     | Baseline     | 0.5761          | 0.6695     | 0.8604     | 0.3378    | 0.5105    | 2.4671  | 0.0000          |
+| llama2_chat_7B     | ITI          | 0.6355          | 0.7025     | 0.9046     | 0.3586    | 0.5236    | 2.5128  | 0.1221          |
+| llama3_8B_instruct | Baseline     | 0.6173          | 0.6928     | 0.8911     | 0.3905    | 0.5836    | 2.7837  | 0.0000          |
+| llama3_8B_instruct | ITI          | 0.7066          | 0.7687     | 0.9192     | 0.3978    | 0.5872    | 2.8915  | 0.3190          |
