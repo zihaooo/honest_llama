@@ -12,7 +12,8 @@ from transformers import AutoTokenizer, AutoModel, AutoModelForCausalLM, AutoCon
 
 import sys
 sys.path.append('../')
-from utils import alt_tqa_evaluate, flattened_idx_to_layer_head, layer_head_to_flattened_idx, get_interventions_dict, get_top_heads, get_separated_activations, get_com_directions
+from utils import alt_tqa_evaluate, flattened_idx_to_layer_head, layer_head_to_flattened_idx, get_interventions_dict, \
+    get_top_heads, get_separated_activations, get_com_directions, get_special_directions, get_matrix_directions
 import llama
 
 HF_NAMES = {
@@ -63,7 +64,8 @@ def main():
     parser.add_argument('--judge_name', type=str, required=False)
     parser.add_argument('--info_name', type=str, required=False)
     parser.add_argument('--instruction_prompt', default='default', help='instruction prompt for truthfulqa benchmarking, "default" or "informative"', type=str, required=False)
-
+    parser.add_argument('--use_special_direction', action='store_true', default=False)
+    parser.add_argument('--use_mat_direction', action='store_true', default=False)
     args = parser.parse_args()
 
     # set seeds
@@ -138,25 +140,90 @@ def main():
 
         # get directions
         if args.use_center_of_mass:
-            com_directions = get_com_directions(num_layers, num_heads, train_set_idxs, val_set_idxs, separated_head_wise_activations, separated_labels)
+            com_directions = get_com_directions(num_layers, num_heads, train_set_idxs, val_set_idxs,
+                                                separated_head_wise_activations, separated_labels)
+        elif args.use_special_direction:
+            com_directions = get_special_directions(num_layers, num_heads, train_set_idxs, val_set_idxs,
+                                                    separated_head_wise_activations, separated_labels, df)
+        elif args.use_mat_direction:
+            com_directions = get_matrix_directions(num_layers, num_heads, train_set_idxs, val_set_idxs,
+                                                   separated_head_wise_activations, separated_labels)
         else:
             com_directions = None
+        print("Finished computing com_directions of shape", com_directions.shape)
         top_heads, probes = get_top_heads(train_set_idxs, val_set_idxs, separated_head_wise_activations, separated_labels, num_layers, num_heads, args.seed, args.num_heads, args.use_random_dir)
-
         print("Heads intervened: ", sorted(top_heads))
     
-        interventions = get_interventions_dict(top_heads, probes, tuning_activations, num_heads, args.use_center_of_mass, args.use_random_dir, com_directions)
+        interventions = get_interventions_dict(top_heads, probes, tuning_activations, num_heads, args.use_center_of_mass, args.use_random_dir, args.use_mat_direction, args.use_special_direction, com_directions)
+        print("Finished computing interventions dict")
 
-        def lt_modulated_vector_add(head_output, layer_name, start_edit_location='lt'): 
+        def lt_modulated_vector_add(_head_output, layer_name, start_edit_location='lt', prompt_encoding=None):
+
+            head_output = _head_output.detach().type(torch.float32)
             head_output = rearrange(head_output, 'b s (h d) -> b s h d', h=num_heads)
+            layer = int(layer_name.split('.')[2])
+            # print("head output shape", head_output.shape)
+
+            # Get actual runtime head dimension
+            runtime_head_dim = head_output.shape[-1]
+
+            if prompt_encoding is not None:  # use_special_direction
+                assert prompt_encoding.shape == (384,)
+                prompt_encoding = torch.FloatTensor(prompt_encoding).to(head_output.device.index).reshape(-1, 384)
+            # print("Prompt encoding", prompt_encoding.shape)
+
             for head, direction, proj_val_std in interventions[layer_name]:
-                direction_to_add = torch.tensor(direction).to(head_output.device.index)
-                if start_edit_location == 'lt': 
-                    head_output[:, -1, head, :] += args.alpha * proj_val_std * direction_to_add
-                else: 
-                    head_output[:, start_edit_location:, head, :] += args.alpha * proj_val_std * direction_to_add
+                if len(direction.shape) == 2:  # use_mat_direction or use_special_direction
+                    activations = torch.FloatTensor(tuning_activations[:, layer, head, :]).to(
+                        head_output.device.index)  # batch_all x 128
+                    assert (proj_val_std is None)
+                    direction = torch.FloatTensor(direction).to(head_output.device.index)  # 128 x 384
+
+                    if start_edit_location == 'lt':
+                        if prompt_encoding is None:
+                            direction_to_add = head_output[:, -1, head, :] @ direction.T  # batch x 128
+                        else:  # use_special_direction
+                            # uses batch size = 1
+                            direction_to_add = prompt_encoding @ direction.T  # 1 x 128
+                        direction_to_add = direction_to_add / torch.linalg.norm(direction_to_add, axis=1).reshape(-1, 1)
+
+                        # compute stddev online
+                        proj_vals = activations @ direction_to_add.T  # batch_all x batch
+                        proj_val_std = torch.std(proj_vals, axis=0).reshape(1, -1)  # batch x 1
+                        # print("proj_val_std has shape", proj_val_std.shape)
+
+                    else:
+                        if prompt_encoding is None:
+                            direction_to_add = torch.einsum('bij,jk->bik',
+                                                            head_output[:, start_edit_location:, head, :], direction.T)
+                            direction_to_add = direction_to_add / torch.linalg.norm(direction_to_add, axis=2)[:, :,
+                                                                  None]  # batch x location_indices x 128
+                        else:
+                            direction_to_add = prompt_encoding @ direction.T  # 1 x 128
+                            direction_to_add = direction_to_add.unsqueeze(1).repeat(1, head_output.shape[
+                                1] - start_edit_location, 1)  # 1 x location_indices, 128
+                            direction_to_add = direction_to_add / torch.linalg.norm(direction_to_add, axis=2)[:, :,
+                                                                  None]  # batch x location_indices x 128
+
+                        # compute stddev online
+                        proj_vals = torch.einsum('Bk,bik->Bbi', activations, direction_to_add)
+                        proj_val_std = torch.std(proj_vals, axis=0)[:, :, None]  # batch x location_indices x 1
+                        # print("proj_val_std has shape", proj_val_std.shape)
+
+                    proj_val_std = torch.Tensor(proj_val_std).to(head_output.device.index)
+                    if start_edit_location == 'lt':
+                        head_output[:, -1, head, :] += args.alpha * proj_val_std * direction_to_add
+                    else:
+                        head_output[:, start_edit_location:, head, :] += args.alpha * proj_val_std * direction_to_add
+                else:
+                    assert (proj_val_std is not None)
+                    direction_to_add = torch.FloatTensor(direction).to(head_output.device.index)  # 128 x 1
+                    if start_edit_location == 'lt':
+                        head_output[:, -1, head, :] += args.alpha * proj_val_std * direction_to_add
+                    else:
+                        head_output[:, start_edit_location:, head, :] += args.alpha * proj_val_std * direction_to_add
             head_output = rearrange(head_output, 'b s h d -> b s (h d)')
-            return head_output
+            return head_output.type(torch.float16)
 
         filename = f'{args.model_prefix}{args.model_name}_seed_{args.seed}_top_{args.num_heads}_heads_alpha_{int(args.alpha)}_fold_{i}'
 
@@ -164,6 +231,12 @@ def main():
             filename += '_com'
         if args.use_random_dir:
             filename += '_random'
+        if args.use_honest:
+            filename = 'honest_' + filename
+        if args.use_special_direction:
+            filename += '_special'
+        if args.use_mat_direction:
+            filename += '_mat'
                                 
         curr_fold_results = alt_tqa_evaluate(
             models={args.model_name: model},
@@ -176,7 +249,8 @@ def main():
             intervention_fn=lt_modulated_vector_add, 
             instruction_prompt=args.instruction_prompt,
             judge_name=args.judge_name, 
-            info_name=args.info_name
+            info_name=args.info_name,
+            use_special_direction=args.use_special_direction
         )
 
         print(f"FOLD {i}")
