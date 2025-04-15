@@ -607,7 +607,7 @@ def alt_tqa_evaluate(models, metric_names, input_path, output_path, summary_path
             utilities.save_questions(questions, output_path)
 
             if 'mc' in metric_names:
-                questions = tqa_run_probs(questions, ENGINE_MAP[mdl], mdl, model=llama_model, tokenizer=llama_tokenizer, preset=preset, device=device, cache_dir=cache_dir, verbose=False, interventions=interventions, intervention_fn=intervention_fn, instruction_prompt=instruction_prompt, many_shot_prefix=many_shot_prefix, use_special_direction=False)
+                questions = tqa_run_probs(questions, ENGINE_MAP[mdl], mdl, model=llama_model, tokenizer=llama_tokenizer, preset=preset, device=device, cache_dir=cache_dir, verbose=False, interventions=interventions, intervention_fn=intervention_fn, instruction_prompt=instruction_prompt, many_shot_prefix=many_shot_prefix, use_special_direction=use_special_direction)
                 utilities.save_questions(questions, output_path)
 
     for model_key in models.keys(): 

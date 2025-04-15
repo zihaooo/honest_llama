@@ -231,8 +231,8 @@ def main():
             filename += '_com'
         if args.use_random_dir:
             filename += '_random'
-        if args.use_honest:
-            filename = 'honest_' + filename
+        # if args.use_honest:
+        #     filename = 'honest_' + filename
         if args.use_special_direction:
             filename += '_special'
         if args.use_mat_direction:
