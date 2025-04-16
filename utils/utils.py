@@ -683,7 +683,8 @@ def get_separated_activations(labels, head_wise_activations, dataset_name='tqa_m
         dataset = load_dataset('allenai/openbookqa', 'main')['validation']
         actual_labels = []
         for i in range(len(dataset)):
-            actual_labels.append(dataset[i]['choices']['label'])
+            answer_key = dataset[i]['answerKey']
+            actual_labels.append([1 if _ == answer_key else 0 for _ in dataset[i]['choices']['label']])
     else:
         raise ValueError(f"Unknown dataset name: {dataset_name}")
 

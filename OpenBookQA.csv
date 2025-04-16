@@ -1,501 +1,501 @@
 Type,Category,Question,Best Answer,Correct Answers,Incorrect Answers
-OpenBookQA,OpenBookQA,"Frilled sharks and angler fish live far beneath the surface of the ocean, which is why they are known as?",Deep sea animals.,['Deep sea animals.'],"['fish.', 'Long Sea Fish.', 'Far Sea Animals.']"
-OpenBookQA,OpenBookQA,"Gas can fill any container it is given, and liquid?",uses what it needs.,['uses what it needs.'],"['is standard weight and size.', 'is the opposite of variable.', 'only needs a few.']"
-OpenBookQA,OpenBookQA,"When birds migrate south for the winter, they do it because?",they are genetically called to.,['they are genetically called to.'],"['their children ask for them to.', 'it is important to their happiness.', 'they decide to each year.']"
-OpenBookQA,OpenBookQA,If a person walks in the opposite direction of a compass arrow they are walking?,south.,['south.'],"['west.', 'north.', 'east.']"
-OpenBookQA,OpenBookQA,An example of lots kinetic energy would be?,An aircraft taking a trip.,['An aircraft taking a trip.'],"['Drinking a cold glass of water.', 'A snail moving across the sidewalk.', 'sitting without moving anywhere.']"
-OpenBookQA,OpenBookQA,Which organism cannot specialize?,protozoa.,['protozoa.'],"['mammal.', 'plant.', 'fish.']"
-OpenBookQA,OpenBookQA,A person can grow cabbage in January with the help of what product?,Green house.,['Green house.'],"['Parliment.', 'Congress.', 'White house.']"
-OpenBookQA,OpenBookQA,"A frog, in winter, will burrow itself into soft mud, until it freezes, then in the spring?","it unfreezes, because it is cold-blooded.","['it unfreezes, because it is cold-blooded.']","['it melts, because it is warm-blooded.', 'it remains frozen until it dies.', 'it dies, because it is warm-blooded.']"
-OpenBookQA,OpenBookQA,Which describes the size of an object?,It holds 500 mL of water.,['It holds 500 mL of water.'],"['It attracts all metals.', 'It is a sphere.', 'It is red and purple.']"
-OpenBookQA,OpenBookQA,A body may find its temperature to be lowered after?,fluid spreads from pores.,['fluid spreads from pores.'],"['water is heated up.', 'the air becomes arid.', 'the sky stays bright.']"
-OpenBookQA,OpenBookQA,"If a person enjoys long, sunny days their favorite month would be?",July.,['July.'],"['October.', 'April.', 'March.']"
-OpenBookQA,OpenBookQA,An example of data collection is?,speaking with a witness.,['speaking with a witness.'],"['Deleting case files on the computer.', 'Touching evidence without gloves.', 'Throwing documents in the trash.']"
-OpenBookQA,OpenBookQA,An animal can hunt by cracking open a?,shell.,['shell.'],"['claw.', 'house.', 'bone.']"
-OpenBookQA,OpenBookQA,Oil is a nonrenewable resource which tells us that when?,"the final barrel is gone, there supply is finished.","['the final barrel is gone, there supply is finished.']","['it can be remade.', 'it can be found in other places.', 'there is an endless supply.']"
-OpenBookQA,OpenBookQA,Magma contains?,particles of iron.,['particles of iron.'],"['Loads of leaves.', 'Soda.', 'Silly Putty.']"
-OpenBookQA,OpenBookQA,Dew is formed when what condenses?,H2O haze.,['H2O haze.'],"['carbon dioxide.', 'warm air.', 'oxygen.']"
-OpenBookQA,OpenBookQA,The Earth revolving around the sun can cause?,constellations to appear in one place in spring and another in fall.,['constellations to appear in one place in spring and another in fall.'],"['the stars to rotate diagonally in the sky.', ""earth's axis to be widened."", 'stars to fade as winter approaches.']"
-OpenBookQA,OpenBookQA,Plants need light for?,glucose.,['glucose.'],"['love.', 'reading.', 'driving.']"
-OpenBookQA,OpenBookQA,Tunnels?,lead to less impacted soil.,['lead to less impacted soil.'],"['pact down soil to make it denser.', 'firm up the ground.', 'help prevent the effects of erosion.']"
-OpenBookQA,OpenBookQA,"A fire starts in a wide, open field and catches onto a forest. The fire started even though people were far away from the woods. A potential cause for the start of it could have been?",storms.,['storms.'],"['wind.', 'sand.', 'stones.']"
-OpenBookQA,OpenBookQA,To have a positive impact of the environment?,salvage plastic bottles instead of throwing them away.,['salvage plastic bottles instead of throwing them away.'],"['use Styrofoam plates and bowls.', 'use more paper towels.', 'drive a car that guzzles gas.']"
-OpenBookQA,OpenBookQA,Taking shorter showers leads to?,less energy used by the water heater.,['less energy used by the water heater.'],"['water shortages for the local environment.', 'increased energy consumption by the water heater.', 'an empty water heater.']"
-OpenBookQA,OpenBookQA,Roads present danger to animals because?,people driving cars might be unaware the animal is close by.,['people driving cars might be unaware the animal is close by.'],"['only chickens can cross the road.', 'road signs are hard to read.', 'cops will stop them for speeding.']"
-OpenBookQA,OpenBookQA,plant requires what for photosynthesis?,light from our closest star.,['light from our closest star.'],"['light that changes color.', 'the reflection of something shiny.', 'light reflected from our orbiting rock.']"
-OpenBookQA,OpenBookQA,Winter solstice occurs on a day when?,the darkness is greatest.,['the darkness is greatest.'],"['the sun is brightest.', 'the sun is eclipsed.', 'the moon is full.']"
-OpenBookQA,OpenBookQA,What boils at the boiling point?,Kool-Aid.,['Kool-Aid.'],"['Cotton.', 'Paper towel.', 'Hair.']"
-OpenBookQA,OpenBookQA,When vapor condenses overnight it often ends up on?,rosebuds.,['rosebuds.'],"['bees.', 'clothing.', 'people.']"
-OpenBookQA,OpenBookQA,Which is a good source of nutrients for a mushroom?,a cut peony.,['a cut peony.'],"['a trotting horse.', 'a roaring lion.', 'a flying eagle.']"
-OpenBookQA,OpenBookQA,which of these animal's habitat is peat likely to be found?,an alligator's habitat.,"[""an alligator's habitat.""]","[""a dog's habitat."", ""a cat's habitat."", ""a human's habitat.""]"
-OpenBookQA,OpenBookQA,A strawberry is in zero way a true berry because it?,"has seeds outside the flesh, unlike the blueberry.","['has seeds outside the flesh, unlike the blueberry.']","['is unable to spread its seed.', 'is a different color than other berries.', 'is too wet inside.']"
-OpenBookQA,OpenBookQA,The epidermis is part of?,is the largest organ and also the body's first defense against germs.,"[""is the largest organ and also the body's first defense against germs.""]","['is used the second largest organ and used for breathing by humans.', 'soaks in toxins in the air.', 'repels sunlight and UV rays.']"
-OpenBookQA,OpenBookQA,Alligators?,eat gar.,['eat gar.'],"['eat only foliage.', 'have live births.', 'are warm-blooded.']"
-OpenBookQA,OpenBookQA,What might occur during an experiment?,solution overflowing from a beaker.,['solution overflowing from a beaker.'],"['severe oxygen depletion in the atmosphere.', 'layers of the ozone disintegrating.', 'midterm exams for math class.']"
-OpenBookQA,OpenBookQA,"Frogs are unable to give live birth, and their eggs are soft, unlike other eggs, in fact?",frog eggs are transparent.,['frog eggs are transparent.'],"['frog eggs are sour.', 'frog eggs are yellow.', 'frog eggs are hollow.']"
-OpenBookQA,OpenBookQA,"A woman wants to figure out what renewable resources she can use in order to be more environmentally friendly and sufficient. She decides to use all of these resources that are renewable, with the exception of the one nonrenewable, which is?",aluminium.,['aluminium.'],"['sunlight.', 'wood.', 'water.']"
-OpenBookQA,OpenBookQA,Cocoon creation occurs?,after the caterpillar stage.,['after the caterpillar stage.'],"['after the chrysalis stage.', 'after the eggs are laid.', 'after the cocoon emerging stage.']"
-OpenBookQA,OpenBookQA,Where would animals shiver the most?,Arctic Circle.,['Arctic Circle.'],"['Sumatra.', 'Java.', 'tropical rainforest.']"
-OpenBookQA,OpenBookQA,In the desert it was harder to find a?,stream.,['stream.'],"['cactus.', 'dry bed.', 'canyon.']"
-OpenBookQA,OpenBookQA,Why can an Owl retain it's body temperature during the winter?,It's warm blooded.,"[""It's warm blooded.""]","[""It's neither."", ""It's both."", ""It's cold blooded.""]"
-OpenBookQA,OpenBookQA,What is the source of energy for physical cycles on Earth?,a medium-sized star which our planet orbits.,['a medium-sized star which our planet orbits.'],"['clouds that are heavy with rain.', 'a thinner ozone layer.', 'heat from stars at night.']"
-OpenBookQA,OpenBookQA,Pasteurization reduces the amount of bacteria in?,cheddar cheese.,['cheddar cheese.'],"['green tea.', 'orange juice.', 'almond milk.']"
-OpenBookQA,OpenBookQA,A person is trapped in a cabin while it storms outside. The person knows it is storming because of?,the precipitation.,['the precipitation.'],"['the sun.', 'the sea.', 'the stars.']"
-OpenBookQA,OpenBookQA,Which would best store new whale offspring?,large aquarium.,['large aquarium.'],"['large egg carton.', 'bag.', 'mud hole.']"
-OpenBookQA,OpenBookQA,All the deer in one area moved away. This could be because?,all the trees had died from disease and fell down.,['all the trees had died from disease and fell down.'],"['They wanted to go to Disneyland.', 'The deer went for a walk and got lost.', 'They wanted to live where there were move wolves to keep them company.']"
-OpenBookQA,OpenBookQA,An herbivore like a giraffe will only consume?,green matter.,['green matter.'],"['sticks.', 'algae.', 'cheese.']"
-OpenBookQA,OpenBookQA,Climate change has sped up dramatically because?,CO2 production has accelerated.,['CO2 production has accelerated.'],"['a rapid decline the production of carbon dioxide.', 'oxygen levels have spiked.', 'Fe has been present in an overabundance.']"
-OpenBookQA,OpenBookQA,What is most necessary for a  bitcoin operation?,metal.,['metal.'],"['abacus.', 'plastic.', 'wood.']"
-OpenBookQA,OpenBookQA,If something is outside during the day what will it receive?,sunbeams.,['sunbeams.'],"['food.', 'energy.', 'water.']"
-OpenBookQA,OpenBookQA,"A turtle may lay six eggs, and a sea turtle may lay a hundred eggs, and?",sea turtles will hatch more.,['sea turtles will hatch more.'],"['turtles will hatch more.', 'animals can lay eggs.', 'turtles are warm blooded.']"
-OpenBookQA,OpenBookQA,Squirrels store acorns?,to have nourishment thru the cold months.,['to have nourishment thru the cold months.'],"['they build their homes from them.', 'they use them to keep warm.', 'because they like the aesthetic.']"
-OpenBookQA,OpenBookQA,Plant growth may be positively affected by?,extra rainfall.,['extra rainfall.'],"['freezing temperatures.', 'increase in pests.', 'long droughts.']"
-OpenBookQA,OpenBookQA,An electric car uses less gasoline than a regular car because?,power is prioritized over gas.,['power is prioritized over gas.'],"['parts of the engine are flawed.', 'gas is unable to be used.', 'electricity is more expensive.']"
-OpenBookQA,OpenBookQA,Revolution happens when?,Mars orbits the sun.,['Mars orbits the sun.'],"['Earth orbits the moon.', 'the sun orbits the Earth.', ""the Earth's moon orbits Mars.""]"
-OpenBookQA,OpenBookQA,An organism's requirements and its survival rate have what kind of relationship?,direct.,['direct.'],"['indirect.', 'inverse.', 'reverse.']"
-OpenBookQA,OpenBookQA,Pumpkin pie spice comes from?,plants.,['plants.'],"['animals.', 'rocks.', 'air.']"
-OpenBookQA,OpenBookQA,"Were the situation to be that all zebra were sterile,?",zebra would die out.,['zebra would die out.'],"['zebra would be endangered.', 'zebra would be overpopulated.', 'zebra would have babies.']"
-OpenBookQA,OpenBookQA,An example of a seasonal change that a furry animal might adopt could be similar to:?,humans pulling out their heavy outerwear.,['humans pulling out their heavy outerwear.'],"['A pumpkin growing seeds internally.', 'A store setting up their Christmas displays.', 'A man looking for breakfast after many hours without food.']"
-OpenBookQA,OpenBookQA,What could be used as an electrical conductor?,A penny.,['A penny.'],"['Shoe laces.', 'Wood.', 'A button.']"
-OpenBookQA,OpenBookQA,How does ice wedging cause rocks to crack?,growth in openings.,['growth in openings.'],"['releasing gas.', 'melting down.', 'being cold.']"
-OpenBookQA,OpenBookQA,Fossils are formed when what happens?,various types of dirt accumulate over something eventually.,['various types of dirt accumulate over something eventually.'],"['layers of leaves and pebbles form a pile.', 'layers of sand are washed up on a beach.', 'dirt builds up in the outdoors.']"
-OpenBookQA,OpenBookQA,"When going in the basement, it's better to have a laser than a?",radio.,['radio.'],"['flashlight.', 'light bulb.', 'TV.']"
-OpenBookQA,OpenBookQA,"Some areas are known for experiencing all four seasons, and winter is one of those seasons. During said season, one may partake in activities such as?",sledding.,['sledding.'],"['swimming.', 'leaf peeping.', 'surfing.']"
-OpenBookQA,OpenBookQA,What can show that loss of resources has a negative impact on the organisms in an area?,"when prey is overhunted, predators die.","['when prey is overhunted, predators die.']","['lakes dry up and fish species are less varied.', 'deer need plenty of space to live.', 'sharks need to eat a lot of fish in order to survive.']"
-OpenBookQA,OpenBookQA,What vehicle would you use to travel on the majority of the surface of the planet on which we live?,Boat.,['Boat.'],"['Bike.', 'Train.', 'Car.']"
-OpenBookQA,OpenBookQA,A bear's fur and duck's feathers both help the animal survive by?,providing warmth.,['providing warmth.'],"['providing water.', 'providing food.', 'providing oxygen.']"
-OpenBookQA,OpenBookQA,When would the sun set later?,Independence Day.,['Independence Day.'],"['Christmas.', 'Presidents day.', 'Halloween.']"
-OpenBookQA,OpenBookQA,If a species population increases in the birth rate has?,boomed.,['boomed.'],"['ceased.', 'stalled.', 'fallen.']"
-OpenBookQA,OpenBookQA,What's an example of the idea that if one mineral can scratch another mineral then that other mineral is softer than that one mineral?,diamond cuts into glass.,['diamond cuts into glass.'],"['diamonds can be smashed by rocks.', 'steel is harder than stone.', 'diamonds are harder than diamonds.']"
-OpenBookQA,OpenBookQA,What is a source of energy?,grease.,['grease.'],"['bricks.', 'cars.', 'dirt.']"
-OpenBookQA,OpenBookQA,"If a farmland up the hill gets rainfall, what could happen to lower lands?",all of these.,['all of these.'],"['they could get fertilizer washed to them.', 'they could experience unfavorable chemical change in their lands.', 'they could have their lands poisoned.']"
-OpenBookQA,OpenBookQA,"In order for a journal to be produced, it first requires?",matter which is typically written on.,['matter which is typically written on.'],"['an incredible amount of fame.', 'enough money to buy a house.', 'lucky text written on trees.']"
-OpenBookQA,OpenBookQA,What is an example of a raw material being something that comes directly from a source?,salt water from the ocean.,['salt water from the ocean.'],"['cats from a shelter.', 'birds from a nest.', 'manure from a field.']"
-OpenBookQA,OpenBookQA,A source of sugar in an ecosystem is?,tree.,['tree.'],"['air.', 'soil.', 'bird.']"
-OpenBookQA,OpenBookQA,A mark of adulthood common in most species is?,reproduction.,['reproduction.'],"['paying bills.', 'fighting.', 'death.']"
-OpenBookQA,OpenBookQA,Bill decided the wolf was a predator after he saw it eat the?,bunny.,['bunny.'],"['apple.', 'grass.', 'pie.']"
-OpenBookQA,OpenBookQA,Layers of the earth include all but?,center.,['center.'],"['mantle.', 'crust.', 'inner core.']"
-OpenBookQA,OpenBookQA,What core ingredient of red pasta sauce comes from a flower?,Tomato.,['Tomato.'],"['Bell Pepper.', 'Oregano.', 'Onion.']"
-OpenBookQA,OpenBookQA,"If something were to be melted, it would be heated above its melting point, like?",putting jello in warm water.,['putting jello in warm water.'],"['putting peas in a soup.', 'putting ice in the freezer.', 'cooking up cookie dough.']"
-OpenBookQA,OpenBookQA,carbon dioxide plays the same role in plants that oxygen plays in animals?,this is accurate.,['this is accurate.'],"['all of these.', 'maybe true.', 'this is untrue.']"
-OpenBookQA,OpenBookQA,"As far as plants go, considering their growth, it is unlikely that they would do well in?",a basement without windows.,['a basement without windows.'],"['a large patio setting.', 'a humid, open greenhouse.', 'a damp patch of earth.']"
-OpenBookQA,OpenBookQA,What is likely to be the most direct result of offshore oil leaking?,oil harms ocean life.,['oil harms ocean life.'],"['oil pollutes cities.', 'oil ruins farmland.', 'oil harms forests.']"
-OpenBookQA,OpenBookQA,An individual can conserve by?,recycling and using solar.,['recycling and using solar.'],"['recycling and using gasoline.', 'recycling and using natural gas.', 'recycling and using coal.']"
-OpenBookQA,OpenBookQA,Which is the slowest to move through water?,robin.,['robin.'],"['swan.', 'duck.', 'goose.']"
-OpenBookQA,OpenBookQA,"Bats have many quirks, with the exception of?",laying eggs.,['laying eggs.'],"['using echolocation.', 'hanging upside down.', 'eating bugs.']"
-OpenBookQA,OpenBookQA,Organic food is currently considered best for people because?,they avoid using bug killers when grown.,['they avoid using bug killers when grown.'],"['they have more vitamins.', 'they use pesticide when growing.', 'they are higher in fiber.']"
-OpenBookQA,OpenBookQA,"A horse eats some hay, an apple and a sugar cube, then peacefully roams a field after eating while digesting the meal. During this time?",the food is deconstructed.,['the food is deconstructed.'],"['the horse throws up.', 'the horse is hungry.', 'the food is poisoned.']"
-OpenBookQA,OpenBookQA,Who would be healthier?,a heavy sleeper.,['a heavy sleeper.'],"['a night owl.', 'an party animal.', 'a workaholic.']"
-OpenBookQA,OpenBookQA,"When you get farther from water, the water vapor in the air will ______.?",decrease.,['decrease.'],"['increase.', 'condense.', 'form clouds.']"
-OpenBookQA,OpenBookQA,What is a good example of camouflage?,when a creature adjusts the shape and color of its body to appear as something else.,['when a creature adjusts the shape and color of its body to appear as something else.'],"['when a rabbit hides in a patch of grass.', 'when a cat presses its body flat to the ground to hide.', 'when a fish swims with a large group of fish to hide itself.']"
-OpenBookQA,OpenBookQA,plants are the source of?,tomatoes.,['tomatoes.'],"['turkeys.', 'cows.', 'chickens.']"
-OpenBookQA,OpenBookQA,"As they are immobile, what is an example of how animal life helps the reproduction cycle of plants?",squirrels dropping seeds.,['squirrels dropping seeds.'],"['birds building nests.', 'human lumber industry.', 'bugs eating leaves.']"
-OpenBookQA,OpenBookQA,Living things can all?,create a progeny.,['create a progeny.'],"['reproduce asexually.', 'produce spores.', 'find mates.']"
-OpenBookQA,OpenBookQA,Stopped means lack of what?,velocity.,['velocity.'],"['warmth.', 'height.', 'plants.']"
-OpenBookQA,OpenBookQA,Where did Puppigerus live?,ocean.,['ocean.'],"['bog.', 'land.', 'marsh.']"
-OpenBookQA,OpenBookQA,The circulatory system brings oxygen to the body from where?,The chest.,['The chest.'],"['The brain.', 'The feet.', 'The stomach.']"
-OpenBookQA,OpenBookQA,A renewable resource is used to produce?,notebook paper.,['notebook paper.'],"['petroleum.', 'plastic rulers.', 'Styrofoam plates.']"
-OpenBookQA,OpenBookQA,Which relationship involves inheritance?,mother-daughter.,['mother-daughter.'],"['teacher-student.', 'grandmother-grandfather.', 'friends.']"
-OpenBookQA,OpenBookQA,A source of heat at the resort is the?,jacuzzi.,['jacuzzi.'],"['pool.', 'chair.', 'umbrella.']"
-OpenBookQA,OpenBookQA,A car engine usually uses combustion to convert this into a motion and heat.?,oil products.,['oil products.'],"['animal products.', 'plant materials.', 'solar energy.']"
-OpenBookQA,OpenBookQA,"When turned on, which product cannot convert electrical energy into light energy?",charger.,['charger.'],"['chandelier.', 'floor lamp.', 'Christmas tree lights.']"
-OpenBookQA,OpenBookQA,"A pelican is hungry, so decides to try to catch some fish. In order to do this, the pelican will?",use the front of its face.,['use the front of its face.'],"['use the back of its head.', 'use the bottom of its stomach.', 'use the back of its tail.']"
-OpenBookQA,OpenBookQA,A magnetic effect could pull two rocks together if they're?,both magnetic and at any distance.,['both magnetic and at any distance.'],"['lacking magnetic properties and far apart.', 'shaped similarly and touching.', 'lacking magnetic properties and touching.']"
-OpenBookQA,OpenBookQA,Refraction can easily be witnessed in?,fake diamonds.,['fake diamonds.'],"['concrete walls.', 'Christmas ornaments.', 'a tree.']"
-OpenBookQA,OpenBookQA,"A man is trying to describe a single vat of juice he has. He needs the best way to tell his friend about the object, so he says?",20 ounces of juice.,['20 ounces of juice.'],"['20 meters of juice.', '20 vats of juice.', '20 feet of juice.']"
-OpenBookQA,OpenBookQA,plant life is completely dependent on what?,creating self sustenance food.,['creating self sustenance food.'],"['buying some good food.', 'food given to it.', 'food at the store.']"
-OpenBookQA,OpenBookQA,To prevent illness?,properly heat hamburgers and steaks.,['properly heat hamburgers and steaks.'],"['thaw chicken on uncovered counter tops.', 'eat raw cookie dough.', 'hamburger meat should stay pink.']"
-OpenBookQA,OpenBookQA,An island can sprout up from seemingly suddenly because?,underwater volcanoes are hidden.,['underwater volcanoes are hidden.'],"['underwater volcanoes are invisible.', 'lava is hot enough to burn.', 'volcanoes have a lot of magma.']"
-OpenBookQA,OpenBookQA,"When water freezes, that water?",undergoes a change opposite to compressor.,['undergoes a change opposite to compressor.'],"['heats up by at least 10 degrees.', 'takes up less space.', 'breaks into little pieces.']"
-OpenBookQA,OpenBookQA,Where might you find the substance used to make the shiny metallic foil paper used in cooking?,Rocks.,['Rocks.'],"['Clouds.', 'Wood.', 'Leaves.']"
-OpenBookQA,OpenBookQA,What increases the number of pollinators a flower will attract?,The amount of of fragrance the flower has.,['The amount of of fragrance the flower has.'],"['The amount of petals.', 'The height of the stem.', 'The amount of leaves on the stem.']"
-OpenBookQA,OpenBookQA,You can get Vitamin D from?,greek yogurt.,['greek yogurt.'],"['vegetable oil.', 'gumdrops.', 'bottled water.']"
-OpenBookQA,OpenBookQA,Chloroplasts exist in plants and can be located by knowing where?,the greenest part of a plant is.,['the greenest part of a plant is.'],"['how many petals most plants have.', 'food is stored in plants.', 'if a plant has a thick stem.']"
-OpenBookQA,OpenBookQA,Sunlight transfers heat energy to?,the planet named after the Roman god of sea.,['the planet named after the Roman god of sea.'],"['the star from which scorpions get their name.', 'the largest star in the galaxy.', 'the hottest star in the galaxy.']"
-OpenBookQA,OpenBookQA,Humans swim in the liquid form of?,steam.,['steam.'],"['air.', 'oxygen.', 'carbon.']"
-OpenBookQA,OpenBookQA,What can keep you moisturized other than water?,cucumbers.,['cucumbers.'],"['Crackers.', 'Sour Cream.', 'Cheese.']"
-OpenBookQA,OpenBookQA,Which of these items can a human move by pedal power?,unicycle.,['unicycle.'],"['canoe.', 'car.', 'sled.']"
-OpenBookQA,OpenBookQA,It takes the Earth one year to go around the sun. It takes the moon how long to make one revolution around our planet?,30 days.,['30 days.'],"['2 months.', '2 years.', 'a decade.']"
-OpenBookQA,OpenBookQA,Birds with more angular beaks?,may chow down on different grub than birds with rounded beaks.,['may chow down on different grub than birds with rounded beaks.'],"['will hate any birds with rounded beaks.', 'will eat the exact same diet as all other birds.', 'may have more trouble eating than other birds.']"
-OpenBookQA,OpenBookQA,What might be the natural habitat of a small creature known for making a noise by scraping limbs together?,Among Birches.,['Among Birches.'],"['Amid the snow.', 'In a barn.', 'In the ocean.']"
-OpenBookQA,OpenBookQA,Human planet that is orbited by what?,moon.,['moon.'],"['stars.', 'the ocean.', 'sun.']"
-OpenBookQA,OpenBookQA,A change in the Earth is?,a wooded area appearing on land that was once part of the ocean.,['a wooded area appearing on land that was once part of the ocean.'],"[""a person's hair growing."", 'a wooded area existing next to an ocean.', 'the moon moving around the Earth.']"
-OpenBookQA,OpenBookQA,Some vapor is condensing now because it has less?,heat.,['heat.'],"['gas.', 'water.', 'steam.']"
-OpenBookQA,OpenBookQA,Herbivores contribute to the same type of plants they eat when:?,they die.,['they die.'],"['they drink.', 'they eat  animals.', 'they trample them.']"
-OpenBookQA,OpenBookQA,What converts electrical energy into light energy in a light bulb?,the metal filament.,['the metal filament.'],"['the light switch.', 'the glass bulb.', 'none.']"
-OpenBookQA,OpenBookQA,"A person wants to turn on their fan to cool down their room. In order to do this, they will have to?",plug it in.,['plug it in.'],"['spin a wire.', 'make some noise.', 'turn it off.']"
-OpenBookQA,OpenBookQA,A river can disappear over a period of time?,this is sure.,['this is sure.'],"['this is uncertain.', 'all of these.', 'maybe.']"
-OpenBookQA,OpenBookQA,"A temperature in the negatives during the night got slightly less negative during the day, which means it got more?",positive.,['positive.'],"['cold.', 'negative.', 'unpredictable.']"
-OpenBookQA,OpenBookQA,Corn is eaten by?,homo sapiens and deer.,['homo sapiens and deer.'],"['homo sapiens and frogs.', 'people and jungle monkeys.', 'deer and Bengal tigers.']"
-OpenBookQA,OpenBookQA,What is natural gas?,a way to gain some warmth by combustion.,['a way to gain some warmth by combustion.'],"['warming up by sunlight.', 'slowly heating to a boiling point.', 'burning a high fever.']"
-OpenBookQA,OpenBookQA,Decomposition?,can act as a fertilizer for wild flowers.,['can act as a fertilizer for wild flowers.'],"['can make dead organisms rise anew like a phoenix.', 'is a process completed by predators.', 'is extremely detrimental to the surrounding flora.']"
-OpenBookQA,OpenBookQA,Sunlight?,makes car steering wheels hard to handle in the summer.,['makes car steering wheels hard to handle in the summer.'],"['means your pets need sweaters when outdoors.', 'causes ice to refreeze.', 'cools down the water in local ponds.']"
-OpenBookQA,OpenBookQA,Science fact: a cavern is formed by carbonic acid in groundwater seeping through rock and dissolving?,"sedimentary rock which is  composed mainly of skeletal fragments of marine organisms such as coral, forams and molluscs,.","['sedimentary rock which is  composed mainly of skeletal fragments of marine organisms such as coral, forams and molluscs,.']","['metamorphic rocks that are formed under the surface of the earth from the metamorphosis,.', 'igneous rocks which are formed when magma  cools and hardens or.', 'artist who play the music genre called rock and roll.']"
-OpenBookQA,OpenBookQA,Deer entered the city?,less food in the wilderness.,['less food in the wilderness.'],"['to look for people.', 'because coyotes chased them.', 'they have become confused.']"
-OpenBookQA,OpenBookQA,the hourly totals of sunshine are directly connect to?,seasons.,['seasons.'],"['tides.', 'altitude.', 'weather.']"
-OpenBookQA,OpenBookQA,Remora fish?,act as a clean up crew for a shark's crumbs.,"[""act as a clean up crew for a shark's crumbs.""]","['attach themselves to boats like barnacles.', ""act as a support system during a shark's reproduction cycle."", 'are exclusively kelp and seaweed eaters.']"
-OpenBookQA,OpenBookQA,A plant root growing into rock cracks is an example of what?,abrasion.,['abrasion.'],"['boiling.', 'warm weather.', 'evaporation.']"
-OpenBookQA,OpenBookQA,What does the earth orbit that causes the seasons to change?,plasma star.,['plasma star.'],"['venus.', 'mercury.', 'pluto.']"
-OpenBookQA,OpenBookQA,There are metals which will always point north such as?,Fe.,['Fe.'],"['nickel.', 'gold.', 'silver.']"
-OpenBookQA,OpenBookQA,A white environment is likely to be found?,on a mountain.,['on a mountain.'],"['in a forest.', 'in a desert.', 'in the ocean.']"
-OpenBookQA,OpenBookQA,One step in creating an alternative fuel is?,growing crops of corn.,['growing crops of corn.'],"['coal miners looking for coal.', 'gold being sifted from dirt.', 'drilling for fossil fuels.']"
-OpenBookQA,OpenBookQA,"So many environments receive large amounts of rain, though an exception is?",the Sahara.,['the Sahara.'],"['the great plains.', 'the rain-forest.', 'Seattle.']"
-OpenBookQA,OpenBookQA,Taking a fingernail and pressing it to salt will show?,it is malleable.,['it is malleable.'],"['it is dry.', 'it is wet.', 'it is salty.']"
-OpenBookQA,OpenBookQA,why would a mouse run away from a cat?,to avoid becoming lunch.,['to avoid becoming lunch.'],"['to get the cat some milk.', 'to avoid paying its debt.', 'all of these.']"
-OpenBookQA,OpenBookQA,A golden eagle will hunt using its talons to collect?,groupers.,['groupers.'],"['berries.', 'bears.', 'humans.']"
-OpenBookQA,OpenBookQA,which of these would most likely reject a really nice burger?,a potted plant in the office.,['a potted plant in the office.'],"['a hungry student who loves burgers.', 'a woman visiting a fast food joint.', 'a teacher on his lunch break.']"
-OpenBookQA,OpenBookQA,The Grand Canyon was formed by the Colorado river by what?,the passage of time.,['the passage of time.'],"['horses pulling carts directing the water.', 'humans making great efforts.', 'the addition of dams.']"
-OpenBookQA,OpenBookQA,Earth rotating on its axis?,causes Orion to seemingly change position in the sky.,['causes Orion to seemingly change position in the sky.'],"['causes stars to die out.', 'causes the moon to loss gravitational pull.', 'causes the Sun to rotate.']"
-OpenBookQA,OpenBookQA,The next moon phase after a solar eclipse is?,first quarter.,['first quarter.'],"['full moon.', 'third quarter.', 'super moon.']"
-OpenBookQA,OpenBookQA,"If someone is dying of thirst, they can hydrate by?",catching rain.,['catching rain.'],"['drink acid.', 'visiting a valley.', 'find snow.']"
-OpenBookQA,OpenBookQA,Magnets may be attracted to?,roofing nails.,['roofing nails.'],"['clay pots.', 'paper plates.', 'plastic cutlery.']"
-OpenBookQA,OpenBookQA,"Of the following household items, which is recyclable?",soda can.,['soda can.'],"['cooking oil.', 'banana peel.', 'paint.']"
-OpenBookQA,OpenBookQA,"If a lot of people have forgotten about a product, the amount of money made by the person selling it will be?",lower than before.,['lower than before.'],"['much higher.', 'unchanged.', 'rising slowly.']"
-OpenBookQA,OpenBookQA,What can you find in a forest?,remedies.,['remedies.'],"['A car.', 'Hogwarts.', 'A unicorn.']"
-OpenBookQA,OpenBookQA,Animals without teeth sometimes eat?,seeds.,['seeds.'],"['bears.', 'humans.', 'whales.']"
-OpenBookQA,OpenBookQA,What creates a valley?,water.,['water.'],"['feet.', 'rock.', 'sand.']"
-OpenBookQA,OpenBookQA,What is the largest organ of the human body?,epidermis.,['epidermis.'],"['kidneys.', 'the heart.', 'liver.']"
-OpenBookQA,OpenBookQA,What eats other organisms?,ingestors.,['ingestors.'],"['trees.', 'blood.', 'water.']"
-OpenBookQA,OpenBookQA,What becomes smoother through weathering?,pumice.,['pumice.'],"['rainbow.', 'water.', 'cat.']"
-OpenBookQA,OpenBookQA,The element that heats toast is an example of:?,a thermal conductor.,['a thermal conductor.'],"['a semi-conductor?.', 'a thermal insulator.', 'a poor conductor.']"
-OpenBookQA,OpenBookQA,Ice can fall down as?,sleet and hail.,['sleet and hail.'],"['ice cubes.', 'rain.', 'glaciers.']"
-OpenBookQA,OpenBookQA,nest sitting is left up to the?,the embryo's creator.,"[""the embryo's creator.""]","['daddy.', 'strangers.', 'male siblings.']"
-OpenBookQA,OpenBookQA,The insect's cocoon being created occurs during the?,stage when wings first start to form.,['stage when wings first start to form.'],"['adult stage in a life cycle.', 'egg formation in a life cycle.', 'final stage in a life cycle.']"
-OpenBookQA,OpenBookQA,Rocks sometimes contain what?,element Al.,['element Al.'],"['books.', 'wind.', 'fire.']"
-OpenBookQA,OpenBookQA,What happens to a cat's fur in the summer?,It becomes less dense.,['It becomes less dense.'],"['The fur becomes darker.', 'The fur becomes more dense.', 'It stays the same density.']"
-OpenBookQA,OpenBookQA,After evaporation water becomes?,snow.,['snow.'],"['ocean.', 'groundwater.', 'ice caps.']"
-OpenBookQA,OpenBookQA,A magnet will stick to which of the following?,indium.,['indium.'],"['diamond.', 'wood.', 'hydrochloric acid.']"
-OpenBookQA,OpenBookQA,Hypothermia will set in under which conditions:?,while exposed to harsh winds in a polar region.,['while exposed to harsh winds in a polar region.'],"['while stranded deep in a swap.', 'while swimming in tropical seas.', 'while exposed to direct sunlight on a tropical island.']"
-OpenBookQA,OpenBookQA,"A black wall reflects little light, a pink wall reflects pink light a while wall?",bounces all light.,['bounces all light.'],"['bounces little light.', 'bounces blue light.', 'bounces red light.']"
-OpenBookQA,OpenBookQA,Rocks may be rounded by?,hydro-erosion.,['hydro-erosion.'],"['photosynthesis.', 'audio feedback.', 'Cloudy conditions.']"
-OpenBookQA,OpenBookQA,What do octopuses release to blind predators?,dark pigment.,['dark pigment.'],"['meat.', 'water.', 'plants.']"
-OpenBookQA,OpenBookQA,Which decreases visibility while driving?,spraying windshield fluid.,['spraying windshield fluid.'],"['opening the sunroof.', 'adjusting side mirrors.', 'turning on headlights.']"
-OpenBookQA,OpenBookQA,What contains moons?,space mass.,['space mass.'],"['ships.', 'people.', 'plants.']"
-OpenBookQA,OpenBookQA,What would be used to measure the substance which historically the Dutch and other farmers used to power the blades on the structure which moves water from low to highlands?,anemometer.,['anemometer.'],"['magnetometer.', 'manometer.', 'thermometer.']"
-OpenBookQA,OpenBookQA,What is it called when h20 falls from a fluffy object to land on the top of cloth suspended on a rod?,precipitation.,['precipitation.'],"['mechanization.', 'evaporation.', 'transpiration.']"
-OpenBookQA,OpenBookQA,What animal can live without oxygen?,Loriciferans.,['Loriciferans.'],"['shark.', 'platypus.', 'Turtle.']"
-OpenBookQA,OpenBookQA,An inherited characteristic present in a baby is?,number of ears.,['number of ears.'],"['birth date.', 'birth weight.', 'number of siblings.']"
-OpenBookQA,OpenBookQA,"if your shoe changes form at a certain heat level, what can that be described as?",the melting range of that item.,['the melting range of that item.'],"['none of these.', 'the liquid content of the shoe.', 'the visual design of the shoe.']"
-OpenBookQA,OpenBookQA,Which would be the product of a solid that was brought above its melting point?,glacier turning into water.,['glacier turning into water.'],"['water turning into ice.', 'iron turning to rust.', 'tadpoles turning into frogs.']"
-OpenBookQA,OpenBookQA,"A beaver is going to experience a long winter in the upcoming months. The beaver knows that the weather is changing, so it begins to eat more and more food, knowing that it can survive meager months by being?",overweight.,['overweight.'],"['weighted.', 'underweight.', 'starved.']"
-OpenBookQA,OpenBookQA,Lighting a candle will cause the candle to?,combust.,['combust.'],"['petrify.', 'float.', 'yell.']"
-OpenBookQA,OpenBookQA,Vaccines?,help prevent outbreaks of once dormant diseases.,['help prevent outbreaks of once dormant diseases.'],"['are only necessary for immuno-comprised people.', 'provide little protection against diseases.', 'are unimportant and under researched.']"
-OpenBookQA,OpenBookQA,Jim wanted baby chickens so he gathered eggs and used a?,lamp.,['lamp.'],"['ice cube.', 'refrigerator.', 'snow.']"
-OpenBookQA,OpenBookQA,Nerves are used to feel what on the skin?,coldness.,['coldness.'],"['creativity.', 'stares.', 'emotions.']"
-OpenBookQA,OpenBookQA,"Substances may be combined by the pouring of one into another, for example when?",adding grenadine to soda.,['adding grenadine to soda.'],"['filling up a tub.', 'putting a lemon in water.', 'putting food in a bowl.']"
-OpenBookQA,OpenBookQA,Viewing stars is made easier by?,technology that collects electromagnetic radiation.,['technology that collects electromagnetic radiation.'],"['technology that uses electromagnetic induction.', 'technology that picks up sound in space.', 'technology that transforms kinetic energy.']"
-OpenBookQA,OpenBookQA,Sugar may increase the sweetness of a dish such as in?,churros.,['churros.'],"['lasagna.', 'corn.', 'fettuccine.']"
-OpenBookQA,OpenBookQA,A person could get in trouble for doing what in a protected environment?,hunting.,['hunting.'],"['volunteering.', 'studying the environment.', 'working.']"
-OpenBookQA,OpenBookQA,"A winter storm is ravaging a city, so weather advisories are put out to the public. However, a man still need to get to work on time, so he takes his car on the highway. While driving, he discovers?",it is difficult to see.,['it is difficult to see.'],"['the roads are clear.', 'the car is very hot.', 'the streets are empty.']"
-OpenBookQA,OpenBookQA,"The southern and northern hemisphere's seasons are opposite each other, so when the northern hemisphere is having it's longest day, it's the southern hemisphere's?",winter solstice.,['winter solstice.'],"['fall equinox.', 'summer solstice.', 'spring equinox.']"
-OpenBookQA,OpenBookQA,What does photosynthesis require?,a daffodil to absorb rays of Sol.,['a daffodil to absorb rays of Sol.'],"['a torrential amount of rainfall.', 'a bee to pollinate the bud.', 'a tree to absorb argon.']"
-OpenBookQA,OpenBookQA,which of these would disturb a standing body of water?,A and B above.,['A and B above.'],"['a boat setting sail.', 'an insect flying hundred feet above.', 'a rock tossed in.']"
-OpenBookQA,OpenBookQA,There are twenty-four new seasons in?,six years.,['six years.'],"['four years.', 'five years.', 'two years.']"
-OpenBookQA,OpenBookQA,"We are trying to use air as sources of energy because there is an infinite amount of it, same with water. These are two examples of?",Renewable resources.,['Renewable resources.'],"['Coal sources.', 'Fossil Fuels.', 'Limited resources.']"
-OpenBookQA,OpenBookQA,Which is recyclable?,soda can.,['soda can.'],"['fiberglass.', 'Styrofoam food container.', 'motor oil.']"
-OpenBookQA,OpenBookQA,"If two blocks have unequal mass, which will speed up the most with a common force applied?",The lighter.,['The lighter.'],"['neither move.', 'The heavier.', 'equal.']"
-OpenBookQA,OpenBookQA,Sea turtles share space with?,sea weed.,['sea weed.'],"['geckos.', 'catfish.', 'river otters.']"
-OpenBookQA,OpenBookQA,More sunlight will be absorbed by?,"a peony with wide, smooth leaves.","['a peony with wide, smooth leaves.']","['a rose with tiny leaves.', 'a daisy with thin, short leaves.', 'a daffodil with curled leaves.']"
-OpenBookQA,OpenBookQA,"Some fish species, when hunting, will lurk in the shallowest portions of water and actually leave the water in order to capture prey. These fish are able to hunt in this fashion after years of?",adapting to their needs.,['adapting to their needs.'],"['training in a school.', 'adapting to new music.', 'wishing for it to work.']"
-OpenBookQA,OpenBookQA,"if a person had one of these, they could live permanently under water?",a gill for extracting gases.,['a gill for extracting gases.'],"['a very long nose.', 'two hands and two legs.', 'a very big mouth.']"
-OpenBookQA,OpenBookQA,Storms lead to?,an uptick in local ponds water level.,['an uptick in local ponds water level.'],"['an increase in water temperature.', 'an uptick in local ponds fish supply.', 'an increase in issues from drought conditions.']"
-OpenBookQA,OpenBookQA,What is the ultimate source of greeting cards?,forests.,['forests.'],"['deserts.', 'waterfalls.', 'canyons.']"
-OpenBookQA,OpenBookQA,Which animal is known to have many learned behaviors?,sea park dolphins.,['sea park dolphins.'],"['saltwater crocodiles.', 'aquarium fish.', 'plains buffaloes.']"
-OpenBookQA,OpenBookQA,The stars in the night sky make a yearly?,revolution.,['revolution.'],"['donation.', 'resolve.', 'restructuring.']"
-OpenBookQA,OpenBookQA,A predator such as a hawk may kill prey by?,clutching in its talons.,['clutching in its talons.'],"['batting with a paw.', 'using a strong wing.', ""eating a rat's claw.""]"
-OpenBookQA,OpenBookQA,"What is it called when a cell converts oxygen and carbohydrates into carbon dioxide, water, and energy?",catabolic reactions.,['catabolic reactions.'],"['adaptation.', 'breathing.', 'food transformation.']"
-OpenBookQA,OpenBookQA,A plant stem contains a system of tubes for transporting water and nutrients to?,itself.,['itself.'],"['the sun.', 'the hive mind.', 'its neighbors.']"
-OpenBookQA,OpenBookQA,What is an example of a change in the Earth?,an expanse of water turning to forested land.,['an expanse of water turning to forested land.'],"['a duck living in the woods.', 'a forest growing larger.', 'a river flowing strongly.']"
-OpenBookQA,OpenBookQA,"when it turns day and night on a planet, what cause this?","the world itself spins, causing it.","['the world itself spins, causing it.']","['the sun goes to take a rest in a different place.', 'the moon causes this to happen.', 'the planet puts off the lights.']"
-OpenBookQA,OpenBookQA,Environments which are forested are often green; what is an example of this?,a thriving jungle canopy.,['a thriving jungle canopy.'],"['a dry, sandy desert.', 'a snowy icy glacier.', 'a cold, empty mountaintop.']"
-OpenBookQA,OpenBookQA,Why might a person fall asleep after being lost in a forest on a freezing cold day?,energy levels decrease.,['energy levels decrease.'],"['energy levels increase.', 'They live there.', 'A big meal.']"
-OpenBookQA,OpenBookQA,What do city-dwellers eat?,crops.,['crops.'],"['dirt.', 'rocks.', 'Ohio State.']"
-OpenBookQA,OpenBookQA,What does a tuna have that causes it to swim faster than a seahorse?,Bigger fins.,['Bigger fins.'],"['Lower body temperature.', 'Bigger scales.', 'Thicker caudal fin.']"
-OpenBookQA,OpenBookQA,Pollinators are attracted to?,strong aromas.,['strong aromas.'],"['mild smells.', 'strong personalities.', 'weak scents.']"
-OpenBookQA,OpenBookQA,Leaves play an important role in photosynthesis by being?,a receptacle for solar energy.,['a receptacle for solar energy.'],"['a receptacle for oxygen.', 'a release point for carbon dioxide.', 'a go between for the exchange of information.']"
-OpenBookQA,OpenBookQA,"A man wants to create a room that he can light up with the flick of a switch. To do this, he sends some electricity into a completed electrical circuit, through a conductor, which allows?",his plan to succeed.,['his plan to succeed.'],"['light from the sun to shine.', 'lights to be burned out.', 'sunlight to shine through bulbs.']"
-OpenBookQA,OpenBookQA,The inventor of pasteurization also worked on?,vaccinations.,['vaccinations.'],"['telephones.', 'automobiles.', 'electricity.']"
-OpenBookQA,OpenBookQA,Lemonade tastes like?,citrus.,['citrus.'],"['bananas.', 'apples.', 'strawberries.']"
-OpenBookQA,OpenBookQA,"During seasonal changes, like from summer to fall, what is a common noted change?",the sun begins to set earlier.,['the sun begins to set earlier.'],"['evenings are much brighter.', 'new leaves begin to grow.', 'stars are seen more easily at night.']"
-OpenBookQA,OpenBookQA,A wasp will use it's stinger?,if a person grabs the wasp.,['if a person grabs the wasp.'],"['if the wasp is flying about unimpeded.', 'if a person ignores the wasp.', ""if a wasp is hanging out in it's nest.""]"
-OpenBookQA,OpenBookQA,The basic outside of our planet is comprised of?,types of stone.,['types of stone.'],"['frozen green grass.', 'solid ice balls.', 'molten hot lava.']"
-OpenBookQA,OpenBookQA,A bird would find nest making materials in a?,tree.,['tree.'],"['building.', 'pond.', 'cave.']"
-OpenBookQA,OpenBookQA,Canyons are rock formations with cliffs that?,take a long time to produce.,['take a long time to produce.'],"['have sharks in the water.', 'are very narrow and shallow.', 'are billions of years old.']"
-OpenBookQA,OpenBookQA,What is the best example of a live birth?,a koala delivering into her pouch.,['a koala delivering into her pouch.'],"['a fish laying a clutch.', 'a platypus warming an egg with its furry body until a baby is born.', 'a bird warming the eggs in her nest until they hatch.']"
-OpenBookQA,OpenBookQA,Which of these would need the fewest hydrocarbon chains containing eight carbon atoms?,electric car.,['electric car.'],"['turbocharged car.', 'gasoline car.', 'antique car.']"
-OpenBookQA,OpenBookQA,"Skunks are an animal which has a stink sack, which means that?",other creatures avoid it.,['other creatures avoid it.'],"['it is unable to smell.', 'it births live young.', 'it is a predator.']"
-OpenBookQA,OpenBookQA,Evaporation is the reason that?,a rain puddle is suddenly gone.,['a rain puddle is suddenly gone.'],"['crime is on the rise in the cities.', 'the polar ice caps are spreading.', 'the Earth is turning into a dirt ball.']"
-OpenBookQA,OpenBookQA,If farmers want larger chicken populations?,they should research methods that increase laying.,['they should research methods that increase laying.'],"['they should reduce the rooster population.', 'they should decrease the number of hens.', 'they should encourage predation.']"
-OpenBookQA,OpenBookQA,"A factory is producing various items. If the factory wants to produce something that will itself produce little pollution, it could create?",windmills.,['windmills.'],"['trucks.', 'ships.', 'cars.']"
-OpenBookQA,OpenBookQA,What source of power can be used up completely?,natural gas.,['natural gas.'],"['Water.', 'wind.', 'sunlight.']"
-OpenBookQA,OpenBookQA,What might Lassie do to beat the heat?,Pant.,['Pant.'],"['Drink tea.', 'Sleep.', 'Eat ice.']"
-OpenBookQA,OpenBookQA,"in science, what is a cause and effect guess called?",an academic hypothesis.,['an academic hypothesis.'],"['a final solution.', 'a wild guess.', 'a big problem.']"
-OpenBookQA,OpenBookQA,Cycles of freezing and thawing water?,causes fissures in rocks to enlarge.,['causes fissures in rocks to enlarge.'],"['causes healing of clefts in rocks.', 'smaller rocks to fill in large cracks.', 'makes rocks more secure.']"
-OpenBookQA,OpenBookQA,A device may locate the northern portion of a forest through?,Fe pulls.,['Fe pulls.'],"['series of attractions.', 'large robots.', 'metal conductors.']"
-OpenBookQA,OpenBookQA,A sound that is made by an animal with two legs is?,cluck.,['cluck.'],"['oink.', 'meow.', 'moo.']"
-OpenBookQA,OpenBookQA,do scars come naturally?,they are earned.,['they are earned.'],"['they just appear.', 'they are gifted.', 'they are bought.']"
-OpenBookQA,OpenBookQA,Life sustaining substances are required for?,zebras.,['zebras.'],"['air.', 'plastic.', 'the sun.']"
-OpenBookQA,OpenBookQA,"Creatures such as opossums and raccoons are scavengers, meaning that they get their food from various sources, wherever and however they can, even from trash cans. This can negatively impact the creature's health if?",the food is past its prime.,['the food is past its prime.'],"['the food is warm.', 'the food is yummy.', 'the food is fresh.']"
-OpenBookQA,OpenBookQA,A few weeks after the month of December in the heart of Australia is often referred to as?,summer.,['summer.'],"['winter.', 'springtime.', 'Halloween.']"
-OpenBookQA,OpenBookQA,What is an instance of carnivores only eating animals?,tyrannosaurus rex devouring a pterodactyl.,['tyrannosaurus rex devouring a pterodactyl.'],"['a mouse eating a cricket.', 'a dog devouring a piece of cheese.', 'a cat eating grass outdoors.']"
-OpenBookQA,OpenBookQA,An example of conservation would be?,going green.,['going green.'],"['burning.', 'sinking.', 'burying.']"
-OpenBookQA,OpenBookQA,What vitamins help heal bones?,vitamin D meals.,['vitamin D meals.'],"['vitamin k.', 'vitamin c.', 'human vitamins.']"
-OpenBookQA,OpenBookQA,An example of an electric insulator is?,a brick wall.,['a brick wall.'],"['a circuit board.', 'a light bulb.', 'a wire.']"
-OpenBookQA,OpenBookQA,Hitting the keys of a piano is like playing?,a lute.,['a lute.'],"['a broadcast.', 'a concert.', 'a recital.']"
-OpenBookQA,OpenBookQA,"Seeds can be dispersed through all sorts of creative ways, such as?",a dog sneezes in a field and disrupts the air around plants.,['a dog sneezes in a field and disrupts the air around plants.'],"['a person orders flowers from a florist.', 'a man looks at a bed of flowers.', 'a man asks his dog if it wants some flowers.']"
-OpenBookQA,OpenBookQA,At a meal one plate seems to be larger than the other plates.  That plate is?,the person sitting next to you's plate.,"[""the person sitting next to you's plate.""]","['plate in a kitchen cabinet.', 'plate on the kitchen counter.', ""a person at the other side of the table's plate.""]"
-OpenBookQA,OpenBookQA,This can be used to light up a light bulb?,biofuel.,['biofuel.'],"['grass.', 'dirt.', 'stones.']"
-OpenBookQA,OpenBookQA,When did the pond have less heat energy?,when people skated on it.,['when people skated on it.'],"['when people sat by it.', 'when people fished in it.', 'when people swam in it.']"
-OpenBookQA,OpenBookQA,"In the springtime, animals engage in ritual behavior such as?",creating bedding for young.,['creating bedding for young.'],"['picking flowers for mates.', 'hunting for new prey.', 'migrating to cold environments.']"
-OpenBookQA,OpenBookQA,"Recently, a lot of people, en masse, were told that they should take an opportunity to cast an image of an object through a pinhole onto a screen, in order to best enjoy an activity. This was because?",avoiding looking directly at an eclipse is important.,['avoiding looking directly at an eclipse is important.'],"['scientists are lacking fun.', 'eclipses are best to look at directly.', 'science tells us eclipses are scary.']"
-OpenBookQA,OpenBookQA,how can one alter plants without interacting directly with it?,change its current habitat.,['change its current habitat.'],"['do a rain dance.', 'all of these.', 'leave it as it is.']"
-OpenBookQA,OpenBookQA,Sleet is made of?,a substance used to keep drinks cold.,['a substance used to keep drinks cold.'],"['snow and manmade materials.', 'small crystals of salt.', 'phosphates and other chemicals.']"
-OpenBookQA,OpenBookQA,A thin beak is most useful to?,allow a bird to hunt for food in tight spaces.,['allow a bird to hunt for food in tight spaces.'],"['allow a bird to fly faster.', 'allow a bird to forage in trashcans for food.', 'allow a bird to hunt for food in wide spaces.']"
-OpenBookQA,OpenBookQA,Bacteria?,can be beneficial and detrimental to an organism's health.,"[""can be beneficial and detrimental to an organism's health.""]","['is lacking in any benefits to an organism.', 'is unable to infect any organisms.', 'is always harmful to an organism.']"
-OpenBookQA,OpenBookQA,in which of these environments would one ideally situate a farm?,over on the grassland.,['over on the grassland.'],"['in the middle of the desert.', 'none of these.', 'in the rocky mountains.']"
-OpenBookQA,OpenBookQA,Telephones will transfer acoustics using what energy?,electron flow.,['electron flow.'],"['gamma radiation.', 'heat transfer.', 'light pulses.']"
-OpenBookQA,OpenBookQA,An example of a flexible container?,Play dough.,['Play dough.'],"['Bricks.', 'Bones.', 'Carrots.']"
-OpenBookQA,OpenBookQA,which one of these methods can a potential prey use to escape attack?,making sounds like a known larger animal.,['making sounds like a known larger animal.'],"['presenting itself to its predator.', 'none of these.', 'salting itself to be more palatable.']"
-OpenBookQA,OpenBookQA,"okra has to have water, sun and what to grow?",Earth.,['Earth.'],"['planter.', 'music.', 'shade.']"
-OpenBookQA,OpenBookQA,"A lake, pond, or stream can all be used to?",collect fluid from.,['collect fluid from.'],"['make extra food.', 'rain water down.', 'create new houses.']"
-OpenBookQA,OpenBookQA,"On a particularly hot day, a young woman clicks on a fan in the room, and the blades of the fan begin to quietly rotate in a circular motion, which?",rustles the air around it.,['rustles the air around it.'],"['heats up the surrounding air.', 'pulls dust into a vacuum.', 'blasts cold air outdoors.']"
-OpenBookQA,OpenBookQA,Windy means what is going at high speeds?,gales.,['gales.'],"['water.', 'cars.', 'dirt.']"
-OpenBookQA,OpenBookQA,What is an example of weathering occurring over several years?,a stone becoming smoother.,['a stone becoming smoother.'],"['wood becoming rotten over time.', 'a cabin being shut down for the season.', 'a tree becoming taller.']"
-OpenBookQA,OpenBookQA,"As the amount of fragrance of a flower increases, the better chances it has at?",reproducing.,['reproducing.'],"['growing.', 'dying.', 'looking pretty.']"
-OpenBookQA,OpenBookQA,Food digestion in humans can be aided by?,microorganisms that have cell walls but lack organelles.,['microorganisms that have cell walls but lack organelles.'],"['hundreds of white blood cells.', 'amoebas in the blood supply.', 'carbon dioxide from the respiration process.']"
-OpenBookQA,OpenBookQA,Which would a scavenger most likely eat?,run over deer.,['run over deer.'],"['a swimming fish.', 'a nesting bird.', 'a skulking hyena.']"
-OpenBookQA,OpenBookQA,Efforts to preserve the ecosystem might lead national parks to?,ban fishing.,['ban fishing.'],"['encourage hunting.', 'promote logging.', 'encourage new species.']"
-OpenBookQA,OpenBookQA,The thermal production of a stove is generically used for?,warming food.,['warming food.'],"['heating homes.', 'producing food.', 'cooling pets.']"
-OpenBookQA,OpenBookQA,Which requires respiration to use energy?,skunk.,['skunk.'],"['solar collector.', 'car.', 'oil well.']"
-OpenBookQA,OpenBookQA,When a insect looks like another type of entity what is it called?,facade.,['facade.'],"['six legs.', 'spider eggs.', 'birds of prey.']"
-OpenBookQA,OpenBookQA,Nerves are used in order to sense which things?,the warmth and touch of a kiss on the cheek.,['the warmth and touch of a kiss on the cheek.'],"[""the sound and sadness of a baby's cry."", 'the smell of dirty trash.', 'the warming feeling of being told you are loved.']"
-OpenBookQA,OpenBookQA,The gravitational pull of the sun causes what phenomenon?,planetary revolution.,['planetary revolution.'],"['creation of moons.', 'creation of rings.', 'planetary cooling.']"
-OpenBookQA,OpenBookQA,We looked at the arrow on the compass and then turned around and walked in the opposite direction.  We were walking?,south.,['south.'],"['east.', 'west.', 'north.']"
-OpenBookQA,OpenBookQA,When blood passes thru the primary element of the respiratory system it's diffused with?,an element released by plants.,['an element released by plants.'],"['the first element on the periodic chart.', 'a compound released by the burning of fossil fuels.', 'a compound used by plants.']"
-OpenBookQA,OpenBookQA,"When Gia cooked her no-bake cookies too long, she discovered they had become hard, (though un-burnt). what is the most likely reason?",The sugar had undergone crystallization.,['The sugar had undergone crystallization.'],"['It was so cold in the room if froze.', 'she used too many oats.', 'She used old sugar.']"
-OpenBookQA,OpenBookQA,What happens when man moves into new environments?,native species loses home.,['native species loses home.'],"['native species go wild.', 'native species thrive more.', 'native species grow large.']"
-OpenBookQA,OpenBookQA,An example of heat changing the state of matter could be?,jello becoming liquid when placed in a hot pan.,['jello becoming liquid when placed in a hot pan.'],"['water becoming warm when heated.', 'a bath being more comfortable when it is hot.', 'a pool receiving more visitors when warmed.']"
-OpenBookQA,OpenBookQA,Animals require?,the environmental output of plants.,['the environmental output of plants.'],"['the help of people.', 'the same gas needed for photosynthesis.', 'a lack of natural resources.']"
-OpenBookQA,OpenBookQA,What is an example of the appearance of stars seeming to move in relation to the horizon at night?,constellations may appear higher or lower in the sky depending on the hour.,['constellations may appear higher or lower in the sky depending on the hour.'],"['constellations may appear to be upside down some nights.', 'depending on weather, constellations may be clearly visible at night.', 'some stars are unable to be seen on certain nights.']"
-OpenBookQA,OpenBookQA,What month is in the season after spring in the northern hemisphere?,june.,['june.'],"['november.', 'march.', 'december.']"
-OpenBookQA,OpenBookQA,A man wants to use a material in a project that will be nonrenewable. The man decides to use?,solo cups.,['solo cups.'],"['grass.', 'raindrops.', 'muddy water.']"
-OpenBookQA,OpenBookQA,The fish reproduction technique supplies?,roe.,['roe.'],"['coral reefs.', 'chunk tuna.', 'fish sticks.']"
-OpenBookQA,OpenBookQA,Water vapor cooling over night?,leaves behind wet foliage.,['leaves behind wet foliage.'],"['leaves dew on people.', 'forms black ice on bridges.', 'forms puddles on roads.']"
-OpenBookQA,OpenBookQA,What do bees convert nectar into?,sweet stuff sold in grocery stores.,['sweet stuff sold in grocery stores.'],"['different types of corn syrup.', 'rather large rock formations.', 'bees of different sizes.']"
-OpenBookQA,OpenBookQA,what happens when an animals' food intake increases?,the fat transfers into more pounds.,['the fat transfers into more pounds.'],"['it grows taller in size.', 'it jogs to burn energy.', 'it throws up the excess food.']"
-OpenBookQA,OpenBookQA,What would a rabbit most likely eat?,rhododendron.,['rhododendron.'],"['squirrel.', 'squid.', 'mouse.']"
-OpenBookQA,OpenBookQA,Decomposition occurs when a decomposer recycles nutrients from dead organisms back to the soil by eating them; what is an example of this?,worms devouring a corpse.,['worms devouring a corpse.'],"['flies laying eggs on a body.', 'wet leaves denigrating in a pile.', 'slugs digging through mulch.']"
-OpenBookQA,OpenBookQA,A full moon and a crescent moon occur normally?,every two fortnights.,['every two fortnights.'],"['every week.', 'yearly.', 'every evening.']"
-OpenBookQA,OpenBookQA,The moon's gravity?,determines when neap and ebb are on Earth.,['determines when neap and ebb are on Earth.'],"[""pulls stars into it's orbit."", 'keeps objects on Earth grounded.', 'forces the sun to orbit around it.']"
-OpenBookQA,OpenBookQA,The moon has?,raised portions.,['raised portions.'],"['water sources.', 'large diamonds.', 'rolling grassy hills.']"
-OpenBookQA,OpenBookQA,Chlorophyll allows plants to soak up?,solar rays.,['solar rays.'],"['acid rain.', 'pollen.', 'fertilizer.']"
-OpenBookQA,OpenBookQA,"If something living requires sustenance, it will likely?",seek out a form of nutrients.,['seek out a form of nutrients.'],"['feel like it could eat.', 'try to enjoy life.', 'gather nutrients for friends.']"
-OpenBookQA,OpenBookQA,Plants grow because they?,use what people breathe out to survive.,['use what people breathe out to survive.'],"['decide the time is right.', 'can breathe a lot of air.', 'take photos of other plants.']"
-OpenBookQA,OpenBookQA,Plant lights can be useful in order to?,recreate effects of the sun.,['recreate effects of the sun.'],"['dry up several plants.', 'lower energy costs at home.', 'give dogs good lighting.']"
-OpenBookQA,OpenBookQA,As a car drives off in the night?,the taillights recede into the dark.,['the taillights recede into the dark.'],"['only the bumper is visible.', 'the taillights get brighter the further they go.', 'the taillights are turned off.']"
-OpenBookQA,OpenBookQA,A large mill in the area has led to streams and rivers being filled with?,pollutants.,['pollutants.'],"['rapids.', 'boats.', 'fish.']"
-OpenBookQA,OpenBookQA,What action has a positive impact on the conservation of nonrenewable resources?,turn the nonrenewable into something newly usable.,['turn the nonrenewable into something newly usable.'],"['depositing the nonrenewable resources in a landfill.', 'waste as much of the resources as possible.', 'start a large bonfire with resources.']"
-OpenBookQA,OpenBookQA,in electricity ceramics are sometimes used to?,slow transfers.,['slow transfers.'],"['increase voltage.', 'decrease wattage.', 'multiply amperage.']"
-OpenBookQA,OpenBookQA,A rabbit has thicker fur in?,January.,['January.'],"['April.', 'July.', 'October.']"
-OpenBookQA,OpenBookQA,A tape measure aids in?,formulating the area of a room.,['formulating the area of a room.'],"['deciding what color to paint a room.', 'figuring the state of matter of an object.', 'determining mass of an object.']"
-OpenBookQA,OpenBookQA,What happens when someone on top of a bicycle starts pushing it's peddles in a circular motion?,the bike accelerates.,['the bike accelerates.'],"['the bike wheelies.', 'the bike turns.', 'the bike brakes.']"
-OpenBookQA,OpenBookQA,If a mosquito dies and is sucked into mud?,years later it can still be seen.,['years later it can still be seen.'],"['it will be eaten.', 'it will be disintegrated.', 'it will be decayed.']"
-OpenBookQA,OpenBookQA,trees have chlorophyll so they make their own?,nutrients.,['nutrients.'],"['root structure.', 'water.', 'scheduled.']"
-OpenBookQA,OpenBookQA,What kept the bat on course?,reflected sound waves.,['reflected sound waves.'],"['luck.', 'magic.', 'snow.']"
-OpenBookQA,OpenBookQA,Things people eat come from?,farms.,['farms.'],"['mountains.', 'canyons.', 'cities.']"
-OpenBookQA,OpenBookQA,What would you use in an apartment to keep your neighbor below from hearing you shuffle around a room?,carpet.,['carpet.'],"['yarn.', 'wood.', 'tile.']"
-OpenBookQA,OpenBookQA,"if an adult salmon goes back to where it was born, which of these is likely?",it wants to deposit its offspring.,['it wants to deposit its offspring.'],"['it is about to die.', 'it is looking for its friend.', 'it is searching for its mother.']"
-OpenBookQA,OpenBookQA,"If the north is cold and the midnorth is warm, there will be?",air motion.,['air motion.'],"['snow.', 'stars.', 'fires.']"
-OpenBookQA,OpenBookQA,"A guy wants to make dinner for his family, so he puts a pan on the stove, adds some meat, and turns on the stove so that heat is being added to the pan. As the meat is warmed through, beginning to sizzle, it is?",being seared.,['being seared.'],"['being juiced.', 'being frozen.', 'being smoked.']"
-OpenBookQA,OpenBookQA,What is needed to make an island?,volcano.,['volcano.'],"['boat.', 'coral.', 'tree.']"
-OpenBookQA,OpenBookQA,It would be harder to grow a palm tree in?,Idaho.,['Idaho.'],"['Texas.', 'Arizona.', 'South Carolina.']"
-OpenBookQA,OpenBookQA,A moth?,needs a chrysalis as part if its life cycle.,['needs a chrysalis as part if its life cycle.'],"['builds a cocoon as part of its death ritual.', 'undergoes complete metamorphosis in one day.', 'is born with wings.']"
-OpenBookQA,OpenBookQA,glucose is easily soluble in?,H2O.,['H2O.'],"['wood.', 'alcohol.', 'sand.']"
-OpenBookQA,OpenBookQA,What time of day does a solar panel work best?,1:45 pm.,['1:45 pm.'],"['9:15 pm.', '8 am.', '5:30 pm.']"
-OpenBookQA,OpenBookQA,Sediment built up around the shed due to:?,tornado.,['tornado.'],"['magic.', 'luck.', 'cars.']"
-OpenBookQA,OpenBookQA,Two gears grinding against each other will raise which of their properties?,temperature.,['temperature.'],"['phase.', 'taste.', 'mass.']"
-OpenBookQA,OpenBookQA,electrical current does what to a wire to cause it to heat up?,traverse it.,['traverse it.'],"['carry it.', 'merge with it.', 'run from it.']"
-OpenBookQA,OpenBookQA,"if the surface of our planet is different after a while, what could have happened?",all of these.,['all of these.'],"['the surface eroded on its own.', 'there were natural occurrences.', 'man has damaged the surface.']"
-OpenBookQA,OpenBookQA,Sunlight is a source of?,warmth.,['warmth.'],"['wind energy.', 'frigid temperatures.', 'moonlight.']"
-OpenBookQA,OpenBookQA,What contributes to prey animals being able to survive predators long enough to mate?,hiding in bushes.,['hiding in bushes.'],"['eating sweets.', ""how they're named."", 'listening to music.']"
-OpenBookQA,OpenBookQA,Peat is derived from?,compressing of deteriorating foliage.,['compressing of deteriorating foliage.'],"['saplings and flowering seedlings.', 'compaction of water and soil.', 'floating debris in swamp water.']"
-OpenBookQA,OpenBookQA,which of these scenarios would result in the ugliest TV screen?,a bowl of quartz is emptied on it.,['a bowl of quartz is emptied on it.'],"['a handkerchief drops on it.', 'a bowl of cotton is emptied on it.', 'a silk tie falls on it.']"
-OpenBookQA,OpenBookQA,Which of the following is true?,Liquid water will turn to water vapor when the temperature is more than its boiling point.,['Liquid water will turn to water vapor when the temperature is more than its boiling point.'],"['Ice will turn to water vapor when it stays under its boiling point.', 'Liquid water will turn to ice below its freezing point.', 'Ice will turn to liquid water below its freezing point.']"
-OpenBookQA,OpenBookQA,A bear hibernates through cold weather because?,resources are scarce in winter.,['resources are scarce in winter.'],"['bears get very tired.', 'it is gestating young.', 'winter is too cold.']"
-OpenBookQA,OpenBookQA,Which shows a way to preserve natural resources:?,run dishwasher full.,['run dishwasher full.'],"['using gasoline engines.', 'tossing lawn clippings.', 'throwing out aluminum.']"
-OpenBookQA,OpenBookQA,A canyon is created by a strong force such as?,rapids crashing.,['rapids crashing.'],"['water dripping.', 'thunder rusting.', 'lightening striking.']"
-OpenBookQA,OpenBookQA,A jellyfish's abilities exclude?,sense light.,['sense light.'],"['sting.', 'poison.', 'move.']"
-OpenBookQA,OpenBookQA,In order to grow a rosebush needs a specific?,climate.,['climate.'],"['gardener.', 'house.', 'fertilizer.']"
-OpenBookQA,OpenBookQA,From which distance will an object look the biggest?,4 feet.,['4 feet.'],"['30 feet.', '1 kilometer.', '1 mile.']"
-OpenBookQA,OpenBookQA,Which does not support living things and is not a home to living things?,carpet.,['carpet.'],"['field.', 'forest.', 'grassland.']"
-OpenBookQA,OpenBookQA,The Grand Canyon became so deep and large because?,rushing water eroded it.,['rushing water eroded it.'],"['water sources are there.', 'rivers are around it.', 'water is really strong.']"
-OpenBookQA,OpenBookQA,Heat can can cause matter to?,shift phases.,['shift phases.'],"['become intelligent.', 'multiply.', 'disappear.']"
-OpenBookQA,OpenBookQA,A chipmunk that gathers many different items can often store what for later usage and help with plant dispersal.?,uneaten pits.,['uneaten pits.'],"['hair balls.', 'water.', 'small leaves.']"
-OpenBookQA,OpenBookQA,A young boy decides that he likes dogs better than he likes cats. A reason for this may be that?,his parents only have dogs.,['his parents only have dogs.'],"['his dogs are cats.', 'his parents hate dogs.', 'his parents are cats.']"
-OpenBookQA,OpenBookQA,A girl is turning sixteen and is experiencing changes to her breasts and other areas as she matures. These changes as she enters adulthood signify?,procreative adjustments.,['procreative adjustments.'],"['cohesive ability.', 'coherent reduction.', 'reductive properties.']"
-OpenBookQA,OpenBookQA,"When you heat liquids, what happens to it's ability to break down solids?",it enhances it.,['it enhances it.'],"['nothing significant.', 'it lessens it.', 'it stops.']"
-OpenBookQA,OpenBookQA,If you wanted to be outside in the daylight for the longest period when would be worst?,January.,['January.'],"['June.', 'April.', 'August.']"
-OpenBookQA,OpenBookQA,A rock may be used as a shelter by a?,spider.,['spider.'],"['chicken.', 'giant squid.', 'deer.']"
-OpenBookQA,OpenBookQA,What season includes the last month of the year in the southern hemisphere?,summer.,['summer.'],"['winter.', 'spring.', 'fall.']"
-OpenBookQA,OpenBookQA,Absorbing sunlight?,makes the asphalt scorching to bare feet.,['makes the asphalt scorching to bare feet.'],"['leaves objects too frosty to handle.', 'makes car hoods cool to the touch.', 'leaves surfaces and objects unaffected.']"
-OpenBookQA,OpenBookQA,An anemometer would get a work out on a?,blustery day.,['blustery day.'],"['still afternoon.', 'cloudy day.', 'rainy day.']"
-OpenBookQA,OpenBookQA,What heavenly object is closer to the planet where the TV was invented?,Moon.,['Moon.'],"['Jupiter.', 'Sun.', 'Saturn.']"
-OpenBookQA,OpenBookQA,"A litter of healthy cubs are born to a lioness, and eventually one of the cubs has a cut on its paw. It is reasonable to assume?",the cut paw was acquired.,['the cut paw was acquired.'],"['the lioness has a cut paw.', 'the cut paw was inherited.', 'all cubs will have cut paws.']"
-OpenBookQA,OpenBookQA,careless handling of chemicals can lead to one of the following?,Chemical splashing accidents.,['Chemical splashing accidents.'],"['chemical composition making.', 'chemical modifications accidents.', 'chemical formation making.']"
-OpenBookQA,OpenBookQA,Which is a function of the skeletal system?,Chewing.,['Chewing.'],"['Digestion.', 'Breathing.', 'Thinking.']"
-OpenBookQA,OpenBookQA,What season is December in the southern hemisphere?,when the weather gets hot and dry.,['when the weather gets hot and dry.'],"['when snow starts to fall.', 'when the flowers start to bloom.', 'when the trees change colors.']"
-OpenBookQA,OpenBookQA,If someone is allergic to sunlight then the place they need to avoid is?,gazebo.,['gazebo.'],"['libraries.', 'buildings.', 'underwater.']"
-OpenBookQA,OpenBookQA,"After spring ends, the next time it will be spring is?",next year.,['next year.'],"['next month.', 'next decade.', 'next week.']"
-OpenBookQA,OpenBookQA,A scale is necessary to determine?,BMI.,['BMI.'],"['CNA.', 'DNA.', 'XFL.']"
-OpenBookQA,OpenBookQA,A plant's stem?,acts as the subway delivering it's water and nutrient passengers to the rest of the plant.,"[""acts as the subway delivering it's water and nutrient passengers to the rest of the plant.""]","['supplies only the roots with water and nutrients.', 'supplies carbon dioxide through the root system.', 'acts as the lungs for the plant.']"
-OpenBookQA,OpenBookQA,"In a bowl of water with the sun shining on it, what happens to the water after four hours?",there is less water.,['there is less water.'],"['the water is growing algae.', 'the water is dirty.', 'there is more water.']"
-OpenBookQA,OpenBookQA,A stone may experience the most weathering over?,a century.,['a century.'],"['a week.', 'a year.', 'a decade.']"
-OpenBookQA,OpenBookQA,Brackish water is often found where?,several large rivers meet.,['several large rivers meet.'],"['a sea is large.', 'the ocean is deep.', 'a river cuts through a canyon.']"
-OpenBookQA,OpenBookQA,A wooden floor will be easier to slide a chair over than a carpeted floor will be because a wooden floor?,has less roughness.,['has less roughness.'],"['has dry friction.', 'has enormous friction.', 'has more texture.']"
-OpenBookQA,OpenBookQA,The cell membrane keeps a cell from?,falling apart.,['falling apart.'],"['replicating.', 'getting lost.', 'running away.']"
-OpenBookQA,OpenBookQA,"A bear that ate a watermelon will also travel during the day to several areas of the surrounding forest, which can cause?",dispersal of seed.,['dispersal of seed.'],"['food for young.', 'bears.', 'seed production.']"
-OpenBookQA,OpenBookQA,White blood cells?,take action against agents of disease.,['take action against agents of disease.'],"['act as transporters of nutrients.', 'act as transporters of neurons.', 'defend the body from sunlight.']"
-OpenBookQA,OpenBookQA,"If a lawnmower runs over an anthill, the colony's population probably?",decreases.,['decreases.'],"['stagnates.', 'increases.', 'doubles.']"
-OpenBookQA,OpenBookQA,"Eating certain foods can add fiber into a diet which helps the body to stay regular, such as when eating?",broccoli.,['broccoli.'],"['multivitamins.', 'fish.', 'crackers.']"
-OpenBookQA,OpenBookQA,"Some creatures can bring in prey by providing a source of light, such as?",Lophiiformes.,['Lophiiformes.'],"['giant squid.', 'sharks.', 'crawfish.']"
-OpenBookQA,OpenBookQA,AIDS destroys the body by helping?,pathogens.,['pathogens.'],"['antigens.', 'organs.', 'bone.']"
-OpenBookQA,OpenBookQA,"A celestial body grows a few meters in size every year, and the mass increases as well. After a hundred years, the celestial body will?",have stronger gravity.,['have stronger gravity.'],"['repel the sun.', 'attract the sun.', 'have weaker gravity.']"
-OpenBookQA,OpenBookQA,A scale can?,let you know if the dog needs to lose a few pounds.,['let you know if the dog needs to lose a few pounds.'],"[""give an estimate of a dog's age."", 'measure how long a dog is.', ""make an educated guess about a dog's breed.""]"
-OpenBookQA,OpenBookQA,Knowing the formula for speed?,would aid in calculating road time needed to reach a destination.,['would aid in calculating road time needed to reach a destination.'],"['would aid in calculating weight of the car.', 'would aid in figuring out traffic congestion patterns.', 'would aid in using a map.']"
-OpenBookQA,OpenBookQA,The respiratory system allows the body to?,oxygenate blood from the air.,['oxygenate blood from the air.'],"['intake carbon dioxide into the blood from the air.', 'combine oxygen and carbon dioxide in the blood.', 'remove oxygen from the blood.']"
-OpenBookQA,OpenBookQA,All natural resources come from nature such as?,moisture coming from oceans.,['moisture coming from oceans.'],"['cats coming from shelters.', 'cake coming from bakers.', 'money coming from the government.']"
-OpenBookQA,OpenBookQA,"To burn away the darkness, even a tiny light will do, such as?",a dark wick being touched by a match.,['a dark wick being touched by a match.'],"['a small smile from a friend.', 'a little feeling of hope.', 'a small voice in the dark.']"
-OpenBookQA,OpenBookQA,"if a ball on the beach bursts, what would most likely escape?",the gaseous content in it.,['the gaseous content in it.'],"['the fishes on the shore.', 'none of these.', 'the sharks in it.']"
-OpenBookQA,OpenBookQA,Leaves play a role in the making of?,a life sustaining element humans need.,['a life sustaining element humans need.'],"['carbon dioxide for humans to breathe.', 'the chemicals needed to make table salt.', 'helium for party balloons.']"
-OpenBookQA,OpenBookQA,A stately red maple in a dense forest is supported by its?,trunk.,['trunk.'],"['pine needles.', 'leaves.', 'upward thrust.']"
-OpenBookQA,OpenBookQA,One source of pollution are?,trash heaps.,['trash heaps.'],"['recycling bins.', 'green ways.', 'natural streams.']"
-OpenBookQA,OpenBookQA,nonrenewable resources include all but?,sunlight.,['sunlight.'],"['coal.', 'oil.', 'natural gas.']"
-OpenBookQA,OpenBookQA,A full moon is caused by?,orbiting.,['orbiting.'],"['werewolves.', 'moonlight.', 'tides.']"
-OpenBookQA,OpenBookQA,"A man is teaching his daughter to ride a bike. He emphasizes the need for her feet to remain on the pedals, so that?",the bike propels forward.,['the bike propels forward.'],"['the bike is fun.', 'the bike hold still.', 'the bike is pink.']"
-OpenBookQA,OpenBookQA,Crop rotation?,allows loam to replenish its nutrient supply.,['allows loam to replenish its nutrient supply.'],"['hurts the overall crop reap.', 'allows farmers to take a break.', 'prevents fertilizer from working.']"
-OpenBookQA,OpenBookQA,"Someday, the ground under the pile of rotting grain in the field will be?",more fertile.,['more fertile.'],"['barren.', 'a hole.', 'less fertile.']"
-OpenBookQA,OpenBookQA,In what way do mice come into the world?,through a muscular canal.,['through a muscular canal.'],"['by surgical interference by veterinarians.', 'through a thick shell.', 'digging upwards through sand.']"
-OpenBookQA,OpenBookQA,Pouring lemon juice into water?,creates a beverage lemon flavored.,['creates a beverage lemon flavored.'],"['flavors milk with lemons.', 'is mostly water still.', 'uses only real lemons.']"
-OpenBookQA,OpenBookQA,"If a road is bumpy and another road is smooth, the bumpier road?",will be rough on tires.,['will be rough on tires.'],"['will be lower than the smooth road.', 'will be longer than the smooth road.', 'will have cars driving quickly.']"
-OpenBookQA,OpenBookQA,Shelter can protect humans from?,catastrophic natural events.,['catastrophic natural events.'],"['space.', 'aging.', 'time.']"
-OpenBookQA,OpenBookQA,Tree rings can?,tell you what year a tree was planted.,['tell you what year a tree was planted.'],"['indicate how often the tree needs pruning.', 'tell you how tall a tree is.', 'indicate the year the tree will die.']"
-OpenBookQA,OpenBookQA,what do animals need to protect them from bad weather?,housing.,['housing.'],"['food.', 'water.', 'clothing.']"
-OpenBookQA,OpenBookQA,Roses are propped up by?,green structures that rise from the ground.,['green structures that rise from the ground.'],"['green structures that grow from concrete.', 'green structures that grow from brick.', 'green structures that fall from the sky.']"
-OpenBookQA,OpenBookQA,resources other than manmade can only be found on?,our planet.,['our planet.'],"['a laboratory.', 'your home.', 'the moon.']"
-OpenBookQA,OpenBookQA,A way to tell if a rock could possibly hold Fe inside is to?,hover a magnet over it.,['hover a magnet over it.'],"['take the rock home.', 'ask someone at school.', 'look at it closely.']"
-OpenBookQA,OpenBookQA,The black bear in Alaska is known for hunting this type of feast?,fish.,['fish.'],"['moose.', 'sasquatch.', 'elk.']"
-OpenBookQA,OpenBookQA,Draining the rain with a rain gutter onto bare ground through a spout will?,make the ground underneath contain less soil.,['make the ground underneath contain less soil.'],"['attract more dirt to where the water is falling.', 'cause the ground to become very hard.', 'draw up more water from underground.']"
-OpenBookQA,OpenBookQA,on which of these does a ball fall faster from a height?,our world.,['our world.'],"['on the moon.', 'on pluto.', 'none of these.']"
-OpenBookQA,OpenBookQA,"A storm is coming and dark clouds are rolling in, which were formed after?",fluid was drawn from the air.,['fluid was drawn from the air.'],"['rain was drawn on a sheet.', 'water was wet in the future.', 'people drew rain storms.']"
-OpenBookQA,OpenBookQA,Animals of the Arctic thrive in?,Snow Environment.,['Snow Environment.'],"['Tropical Environment.', 'Warm Climates.', 'Water Environments.']"
-OpenBookQA,OpenBookQA,Keeping your fast food bags in the car until you get home instead of throwing them out the window is an example of protecting the?,environment.,['environment.'],"['Car.', 'Restaurant.', 'people.']"
-OpenBookQA,OpenBookQA,National parks?,take measures to protect their animal populations.,['take measures to protect their animal populations.'],"['allow unlimited hunting of endangered species.', 'are full of pollution.', 'get very few visitors on a yearly basis.']"
-OpenBookQA,OpenBookQA,"Using trash in the way it was used in the last scene of the 'Back to the Future' movie is, most ideally, an example of:?",an alternative fuel.,['an alternative fuel.'],"['creative filming.', 'wishful thinking.', 'cleaning the environment.']"
-OpenBookQA,OpenBookQA,Water boiling in a pot on a stove is an example of?,thermal conduction.,['thermal conduction.'],"['electrocution.', 'freezing.', 'hydroplaning.']"
-OpenBookQA,OpenBookQA,The ground moving when the atomic bombs landed is similar to?,earthquake.,['earthquake.'],"['world war.', 'geyser spout.', 'volcano.']"
-OpenBookQA,OpenBookQA,What do animals do if their habitat cannot support them?,abandon it.,['abandon it.'],"['fertilize the habitat.', 'fortify area.', 'stay in area.']"
-OpenBookQA,OpenBookQA,What offers a tree with stability and a way to distribute nutrients throughout the plant?,trunk.,['trunk.'],"['sap.', 'leaves.', 'fruit.']"
-OpenBookQA,OpenBookQA,For what does a stove generally generate heat?,heating nutrients to appropriate temperatures.,['heating nutrients to appropriate temperatures.'],"['warming the air in the area.', 'entertaining various visitors and guests.', 'to create electrical charges.']"
-OpenBookQA,OpenBookQA,A running car engine could?,leave the hood hot to the touch.,['leave the hood hot to the touch.'],"['cause the trunk to pop open.', 'leave the hood cold to the touch.', 'cause the car doors to spring open.']"
-OpenBookQA,OpenBookQA,Standing near a campfire?,will keep you toasty.,['will keep you toasty.'],"['will leave you shivering.', 'will make it difficult to see in the dark.', 'will cool you down.']"
-OpenBookQA,OpenBookQA,Each of the moon's phases usually occurs once per?,30 days.,['30 days.'],"['week.', 'day.', 'year.']"
-OpenBookQA,OpenBookQA,What is an example of an animal needing warmth for survival?,a deer nestled into long grass.,['a deer nestled into long grass.'],"['a rabbit hopping through the snow.', 'a bat catching a mosquito.', 'a dog eating from a dish.']"
-OpenBookQA,OpenBookQA,"As an herbivore, deers will eat?",A bush.,['A bush.'],"['Meat.', 'Chicken.', 'Tires.']"
-OpenBookQA,OpenBookQA,How many minutes are in a 24 hour day?,1440.,['1440.'],"['24.', '2400.', '240.']"
-OpenBookQA,OpenBookQA,The moon is what to the earth?,the closest body in in space.,['the closest body in in space.'],"['the largest star in the sky.', 'the brightest celestial object.', 'the biggest thing in the universe.']"
-OpenBookQA,OpenBookQA,which of these would lead to a rise in speed and acceleration?,a person running behind and kicking a balloon.,['a person running behind and kicking a balloon.'],"['a person sitting still.', 'a person standing in place.', 'a person stopping an oncoming ball.']"
-OpenBookQA,OpenBookQA,Weathering is?,a dandelion growing thru a line in asphalt.,['a dandelion growing thru a line in asphalt.'],"['wheat growing in a field.', 'peat moss growing on river rocks.', 'air plants growing in a shell.']"
-OpenBookQA,OpenBookQA,which of these people will have the best sight while driving to work?,a person in the spring morning.,['a person in the spring morning.'],"['a person driving in the blizzard.', 'a person driving in the night.', 'a person driving in the rain.']"
-OpenBookQA,OpenBookQA,A drop off in predator population?,can indicate a nutrient insufficient environment.,['can indicate a nutrient insufficient environment.'],"['indicates a boom in animal reproduction.', 'can indicate a drop off in frigid temperatures.', 'indicates plentiful amounts of water.']"
-OpenBookQA,OpenBookQA,"Some plants are easy for hummingbirds to sip nectar from. While the hummingbirds are taking nectar, the plants also gain something, which is?",a pollinator.,['a pollinator.'],"['bird friends.', 'more nectar.', 'extra food.']"
-OpenBookQA,OpenBookQA,Protect the environment by?,using less hairspray.,['using less hairspray.'],"['using more water.', 'using more packaging.', 'using less renewables.']"
-OpenBookQA,OpenBookQA,A flashlight works because the batteries inside of it produce chemical energy that?,is transferred to another type.,['is transferred to another type.'],"['makes the lights bright.', 'burn into the plastic.', 'lights up a room.']"
-OpenBookQA,OpenBookQA,If I wanted to gain energy I could?,Consume an apple.,['Consume an apple.'],"['Brush my hair.', 'Wash my face.', 'Go running.']"
-OpenBookQA,OpenBookQA,If it is dark outside it is hard to see an object because it there is no?,light.,['light.'],"['objects.', 'sight.', 'movement.']"
-OpenBookQA,OpenBookQA,"Electricity can flow as long as it has a conductor to help it along, such as?",nickel earrings.,['nickel earrings.'],"['cardboard paperclips.', 'wooden bowls.', 'rubber soles.']"
-OpenBookQA,OpenBookQA,Which animal has the best camouflage in the Sahara?,a horned viper.,['a horned viper.'],"['a koala bear.', 'Gyrfalcon.', 'a sloth.']"
-OpenBookQA,OpenBookQA,Magnetism can cause?,Radiation isotope creation.,['Radiation isotope creation.'],"['How to Swim.', 'Head to Rotate.', 'Clouds to Move.']"
-OpenBookQA,OpenBookQA,panting is the equivalent to humans?,expelling water from their dermis.,['expelling water from their dermis.'],"['begging for water constantly.', 'crying for hours on end.', 'drowning in a small puddle.']"
-OpenBookQA,OpenBookQA,The sun appears to move because of the rotation of a?,planet.,['planet.'],"['star.', 'moon.', 'sun.']"
-OpenBookQA,OpenBookQA,I need what to calculate the length from my big toe to my little toe?,Tape Measure.,['Tape Measure.'],"['Calculator.', 'A Graph.', 'A Microscope.']"
-OpenBookQA,OpenBookQA,A leaf falling from a tree means?,I should wear a coat.,['I should wear a coat.'],"['I should wear a tank top.', 'I should wear sandals.', 'I should go to the beach.']"
-OpenBookQA,OpenBookQA,A material that can be burned to produce electricity can be made from?,algae.,['algae.'],"['water.', 'air.', 'electronics.']"
-OpenBookQA,OpenBookQA,Sowing plants native to an ecosystem?,is a worthwhile action.,['is a worthwhile action.'],"['is a useless action.', 'is a harmful action.', 'is a neutral action.']"
-OpenBookQA,OpenBookQA,"The world changes over time, and an example of this could be?",cities buried under lava rock.,['cities buried under lava rock.'],"['sand covering a beach front.', 'a lake hosting hundreds of fish.', 'seas having saltwater in them.']"
-OpenBookQA,OpenBookQA,"A swordbill is able to drink from long, narrow flowers where other birds are unable to because of?",genetic advantage of swordbills.,['genetic advantage of swordbills.'],"['the flower pushes them away.', ""the swordbill's skill at drinking."", 'lack of experience in pollinating.']"
-OpenBookQA,OpenBookQA,If you had a telescope what is something meant to be viewed by it?,Alcor.,['Alcor.'],"['Greater Pewee.', 'Vibrio.', 'Heisenberg.']"
-OpenBookQA,OpenBookQA,An electron microscope can?,recreate an entire image.,['recreate an entire image.'],"['move small magnets around.', 'create completed replicas of animals.', 'burn plastic with ease.']"
-OpenBookQA,OpenBookQA,This is a rarely used way to produce electricity.?,tidal energy.,['tidal energy.'],"['wind energy.', 'solar power.', 'hydroelectric power.']"
-OpenBookQA,OpenBookQA,A substance people use for writing also helps an animal deal with?,predators.,['predators.'],"['food.', 'human activity.', 'climate change.']"
-OpenBookQA,OpenBookQA,Where might you find a gecko?,Ecuador.,['Ecuador.'],"['South Pole.', 'Antartica.', 'Ross Ice Shelf.']"
-OpenBookQA,OpenBookQA,by congregating together a collection of organisms chances of survival?,raises.,['raises.'],"['decreases.', 'stops.', 'stays the same.']"
-OpenBookQA,OpenBookQA,Insects are eaten by?,lizard-like amphibians.,['lizard-like amphibians.'],"['dogs.', 'flies.', 'cats.']"
-OpenBookQA,OpenBookQA,Rabbits consume?,verdant organisms that grow from the ground.,['verdant organisms that grow from the ground.'],"['verdant fish that swim through the sea.', 'verdant monkeys that swing from the trees.', 'verdant animals that fly from the sky.']"
-OpenBookQA,OpenBookQA,Beaches are harmed?,when beach goers leave behind detritus on the sand.,['when beach goers leave behind detritus on the sand.'],"['when turtles lay their eggs.', 'when children play in the ocean.', 'when seagulls nest in dunes.']"
-OpenBookQA,OpenBookQA,which of these could lead to the introduction of new plant species to a place?,all the mentioned options.,['all the mentioned options.'],"['a botanist introducing them.', 'a dog traveling through a field.', 'a farmer introducing them.']"
-OpenBookQA,OpenBookQA,"A man is building a cabin in a forested area that receives a lot of snow in the winter. The man would like the cabin to retain heat in the winter so that the cabin stays warm and that it is inexpensive to heat. In order to facilitate this desire, the man lines the walls of his cabin with?",thermal insulator.,['thermal insulator.'],"['glass.', 'thermal gravity.', 'hard plastic.']"
-OpenBookQA,OpenBookQA,To travel in an environmentally friendly way?,use a two wheel human-powered vehicle.,['use a two wheel human-powered vehicle.'],"['drive a gas guzzling truck.', 'take a coal powered train.', 'drive a car with a leaky gas tank.']"
-OpenBookQA,OpenBookQA,Chemical changes can occur when?,Na is added to Cl.,['Na is added to Cl.'],"['plastic is used for eating utensils.', 'oxygen circulates in a vacuum chamber.', 'H2O is exposed to air.']"
-OpenBookQA,OpenBookQA,What is an example of friction occurring?,there is more resistance driving on gravel than on concrete.,['there is more resistance driving on gravel than on concrete.'],"['a person thinks a thought.', 'an apple falls to the ground from a tree.', 'a spring bounces back and forth.']"
-OpenBookQA,OpenBookQA,What animal will have the least pressure on it?,a falcon flying above a peak.,['a falcon flying above a peak.'],"['a fish at the bottom of the ocean.', 'a salmon swimming just under the surface of river.', 'a cat running down a street.']"
-OpenBookQA,OpenBookQA,Deer often live near?,log cabins.,['log cabins.'],"['lions.', 'crocodiles.', 'polar bears.']"
-OpenBookQA,OpenBookQA,What is formed by water evaporating from a solution of water and minerals?,shale.,['shale.'],"['pants.', 'food.', 'glass.']"
-OpenBookQA,OpenBookQA,Volume can indicate?,whether an object is expansive.,['whether an object is expansive.'],"['how an object reacts to heat.', 'how an object smells.', 'the state of matter of an object.']"
-OpenBookQA,OpenBookQA,What does tearing do to a whole?,it takes it apart.,['it takes it apart.'],"['it neutralizes the whole.', 'it enlarges the whole.', 'it puts it together.']"
-OpenBookQA,OpenBookQA,"humans can taste flavors, and so can?",marsupials.,['marsupials.'],"['insects.', 'trees.', 'cockroaches.']"
-OpenBookQA,OpenBookQA,"A man grows flowers in the winter using his greenhouse. The flowers blossom there, despite the cold, freezing weather and lack of sunshine, because?",they are carefully protected.,['they are carefully protected.'],"['they are regularly chilled.', 'they are given salt.', 'they are told to.']"
-OpenBookQA,OpenBookQA,Coral can be found in?,tepid waters of the Atlantic.,['tepid waters of the Atlantic.'],"['ponds in local communities.', 'the rivers in mid-America.', 'streams in the Arctic.']"
-OpenBookQA,OpenBookQA,"Switching on a light can complete an electrical circuit, which may?",brighten a room.,['brighten a room.'],"['turn off fans.', 'close a door.', 'use a flashlight.']"
-OpenBookQA,OpenBookQA,Large fins?,allows for brisker movements.,['allows for brisker movements.'],"['speeds up eating time.', 'slows down swimming pace.', 'improve appearance of fish.']"
-OpenBookQA,OpenBookQA,Which of these is a solution?,coke.,['coke.'],"['milk.', 'water.', 'clouds.']"
-OpenBookQA,OpenBookQA,why must a cell delegate its essential functionalities?,to maximize work distribution.,['to maximize work distribution.'],"['all of these.', 'to avoid extra work.', 'to catch its prey.']"
-OpenBookQA,OpenBookQA,On the moon people are pulled down?,less.,['less.'],"['the same.', 'more.', 'unpredictably.']"
-OpenBookQA,OpenBookQA,It is possible to renew?,sunflowers.,['sunflowers.'],"['oil.', 'steel.', 'stones.']"
-OpenBookQA,OpenBookQA,Grey clouds often appear before?,hail.,['hail.'],"['heat.', 'wind.', 'humidity.']"
-OpenBookQA,OpenBookQA,A refraction of light that splits into all different colors often occurs after?,rain.,['rain.'],"['clouds.', 'heat.', 'earthquakes.']"
-OpenBookQA,OpenBookQA,Acid rain may effect things in ways such as?,marine life becomes inedible.,['marine life becomes inedible.'],"['causing grass to grow greener.', 'creating craters in mountains.', 'turning city streets to slush.']"
-OpenBookQA,OpenBookQA,"When hurricanes move over land, the hurricane does what?",loses capacity to withstand great force or pressure.,['loses capacity to withstand great force or pressure.'],"['speeds up a considerate amount.', 'stops almost at once.', 'gains a lot of strength.']"
-OpenBookQA,OpenBookQA,"If you add heat to something, a chemical reaction may take place, like when?",mixed ingredients become a cupcake.,['mixed ingredients become a cupcake.'],"['ingredients are mixed in a bowl.', 'coffee is warmed in a microwave.', 'pasta is warmed on a stove.']"
-OpenBookQA,OpenBookQA,What does a skunk produce?,sulfur-containing analog of an alcohol.,['sulfur-containing analog of an alcohol.'],"['carbonated water with bubbles.', 'x-rays made from radiation.', 'ammonia containing some liquid.']"
-OpenBookQA,OpenBookQA,In which situation would an animal shed fur?,It is hot.,['It is hot.'],"['It is angry.', 'It is cold.', 'It is happy.']"
-OpenBookQA,OpenBookQA,If seeds stick to the coat of an animal they can be?,transported.,['transported.'],"['stored.', 'eaten.', 'germinated.']"
-OpenBookQA,OpenBookQA,White blood cells?,obliterate pathogens.,['obliterate pathogens.'],"['encourage pathogen growth.', 'increase pathogen production.', 'join with pathogens.']"
-OpenBookQA,OpenBookQA,A thermal conductor may conduct energy from?,sunshine.,['sunshine.'],"['ice.', 'stone.', 'fabric.']"
-OpenBookQA,OpenBookQA,Pulse accelerates?,when running pace increases.,['when running pace increases.'],"['when cooling down after a work out.', 'when running pace slows.', 'when entering into a sleep state.']"
-OpenBookQA,OpenBookQA,Bicycle riding is nearly unique to certain species such as?,human beings.,['human beings.'],"['dolphins.', 'dogs.', 'small squirrels.']"
-OpenBookQA,OpenBookQA,A species that has only 1 living member?,is on the verge of extinction.,['is on the verge of extinction.'],"['has already become extinct.', 'can reproduce through asexual reproduction.', 'should be preserved in a museum.']"
-OpenBookQA,OpenBookQA,Springtime with animals can mean:?,more hair on the furniture.,['more hair on the furniture.'],"['thicker fur on the animal.', 'less hair on the furniture.', 'lighter colored fur on the animal.']"
-OpenBookQA,OpenBookQA,migration is when animals travel from the northern most state to Texas during what segment of time?,winter.,['winter.'],"['birds.', 'spring.', 'lake fronts.']"
-OpenBookQA,OpenBookQA,Transpiration can contribute to?,rain.,['rain.'],"['animals.', 'wind.', 'flowers.']"
-OpenBookQA,OpenBookQA,Smoothing will occur?,if two pebbles rub together over long periods of time.,['if two pebbles rub together over long periods of time.'],"['if an abrasive is rubbed against cement.', 'if flint is struck against stone.', 'if bricks are thrown at each other.']"
-OpenBookQA,OpenBookQA,Which shows a change from potential energy to kinetic energy?,an orange dropping from a tree.,['an orange dropping from a tree.'],"['a tree growing fruit.', 'a rock sitting still.', 'a person climbing a mountain.']"
-OpenBookQA,OpenBookQA,The type of climate change known as anthropogenic is caused by this:?,humanity.,['humanity.'],"['volcanic activity.', 'increased sunlight.', 'forest fires.']"
-OpenBookQA,OpenBookQA,What is one thing cloud precipitation can be?,unfavorable weather outlook.,['unfavorable weather outlook.'],"['a thunder boom.', 'a liquid fire.', 'none of these.']"
-OpenBookQA,OpenBookQA,Clouds are?,Quiet heavy.,['Quiet heavy.'],"['Grass.', 'The color green.', 'Bricks.']"
-OpenBookQA,OpenBookQA,Birds reproduce using?,eggs.,['eggs.'],"['live birth.', 'cloning.', 'mitosis.']"
-OpenBookQA,OpenBookQA,which of these is more similar to electric particles behavior?,cars traveling on a highway.,['cars traveling on a highway.'],"['both of the above.', 'cars parked in a parking lot.', 'cars in a garage.']"
-OpenBookQA,OpenBookQA,What comes directly from the source?,Lumber.,['Lumber.'],"['Plastic.', 'Denim.', 'White sugar.']"
-OpenBookQA,OpenBookQA,deserts are known for having what type of climates?,scorching.,['scorching.'],"['comfortable.', 'moderate.', 'freezing.']"
-OpenBookQA,OpenBookQA,To experience evaporation you can?,Put plastic over a plant.,['Put plastic over a plant.'],"['Pour water into a lake.', 'Run water in a facet.', 'Watch the rain fall.']"
-OpenBookQA,OpenBookQA,A flashlight emits?,particles.,['particles.'],"['water.', 'bugs.', 'sound.']"
-OpenBookQA,OpenBookQA,When the Earth's Northern axis is tilted away from the Sun the amount of daylight is?,shortened.,['shortened.'],"['brighter.', 'lengthened.', 'turned back.']"
-OpenBookQA,OpenBookQA,Where is the sun located at 12:00 PM?,overhead.,['overhead.'],"['the south.', 'below.', 'the north.']"
-OpenBookQA,OpenBookQA,We made sure to use the hose on the begonia daily so it would?,survive.,['survive.'],"['melt.', 'die.', 'freeze.']"
-OpenBookQA,OpenBookQA,Squirrels are seed dispersers because?,they bury their food.,['they bury their food.'],"['they prefer to eat acorns.', 'squirrels live in trees.', 'they eat lots of nuts.']"
-OpenBookQA,OpenBookQA,What type of human diet would be most comparable to a cow?,Vegan.,['Vegan.'],"['Pescaterian.', 'Atkins Diet.', 'Omnivore.']"
-OpenBookQA,OpenBookQA,which of these individuals would be more healthy?,a teacher who sleeps eight hours a day.,['a teacher who sleeps eight hours a day.'],"['a student who sleeps two hours daily.', 'a woman who sleeps three hours a day.', 'a man who practices sleep deprivation.']"
-OpenBookQA,OpenBookQA,pushing against a rolling boulder will decrease its?,impetus.,['impetus.'],"['size.', 'height.', 'ambitions.']"
-OpenBookQA,OpenBookQA,In a desert area plants grow?,farther apart.,['farther apart.'],"['underwater.', 'closer together.', 'in lines.']"
-OpenBookQA,OpenBookQA,what is one use for a radio?,transferring signals.,['transferring signals.'],"['sending light signals.', 'sending goods.', 'none of these.']"
-OpenBookQA,OpenBookQA,"If something good is increased, survival of organisms needing it increase, such as when?",amoeba get nutrients.,['amoeba get nutrients.'],"['cars get food.', 'kittens get yarn.', 'babies get toys.']"
-OpenBookQA,OpenBookQA,Turning beef from red to brown requires energy from?,heat.,['heat.'],"['sound.', 'color.', 'light.']"
-OpenBookQA,OpenBookQA,"A person is travelling and needs to know how much further to go, so for the remainder of the trip, he is?",noting in meters.,['noting in meters.'],"['distance in millimeters.', 'using square feet.', 'measuring with inches.']"
-OpenBookQA,OpenBookQA,What is the earth's surface made of?,Aggregate minerals.,['Aggregate minerals.'],"['Grass.', 'Asphalt.', 'Water.']"
-OpenBookQA,OpenBookQA,A plant can germinate in another place when a person rubs against its?,flowers.,['flowers.'],"['roots.', 'leaves.', 'stems.']"
-OpenBookQA,OpenBookQA,"A frog reproduces with some other frogs, then watches over the potential offspring which are?",resting in sacs on leaves.,['resting in sacs on leaves.'],"['born life and moving.', 'floating in outer space.', 'melted in the rain.']"
-OpenBookQA,OpenBookQA,What room in a house would signify the excretory system?,bathroom.,['bathroom.'],"['dining room.', 'living room.', 'kitchen.']"
-OpenBookQA,OpenBookQA,"If a tree burns down, it can be made right by?",placing seed in dirt.,['placing seed in dirt.'],"['buying a plastic tree.', 'visiting a rain forest.', 'reading about it in the paper.']"
-OpenBookQA,OpenBookQA,What role does the first step in the food chain have?,producer.,['producer.'],"['secondary consumer.', 'decomposer.', 'consumer.']"
-OpenBookQA,OpenBookQA,Water at 50 degree  C is?,equally distant from the melting and boiling points.,['equally distant from the melting and boiling points.'],"['closer to the boiling point of water.', 'closer to the melting point of ice.', 'below the melting point of ice.']"
-OpenBookQA,OpenBookQA,A phase change is?,Jello's transformation.,"[""Jello's transformation.""]","['Growing a plant.', 'Building a car.', 'Water changing temperatures.']"
-OpenBookQA,OpenBookQA,Owls spend their nights?,scanning their territory for field mice.,['scanning their territory for field mice.'],"['tending to their homes.', 'sleeping in hollow logs.', 'hanging out with other owls.']"
+OpenBookQA,OpenBookQA,"Frilled sharks and angler fish live far beneath the surface of the ocean, which is why they are known as?",Deep sea animals.,Deep sea animals.,fish.; Long Sea Fish.; Far Sea Animals.
+OpenBookQA,OpenBookQA,"Gas can fill any container it is given, and liquid?",uses what it needs.,uses what it needs.,is standard weight and size.; is the opposite of variable.; only needs a few.
+OpenBookQA,OpenBookQA,"When birds migrate south for the winter, they do it because?",they are genetically called to.,they are genetically called to.,their children ask for them to.; it is important to their happiness.; they decide to each year.
+OpenBookQA,OpenBookQA,If a person walks in the opposite direction of a compass arrow they are walking?,south.,south.,west.; north.; east.
+OpenBookQA,OpenBookQA,An example of lots kinetic energy would be?,An aircraft taking a trip.,An aircraft taking a trip.,Drinking a cold glass of water.; A snail moving across the sidewalk.; sitting without moving anywhere.
+OpenBookQA,OpenBookQA,Which organism cannot specialize?,protozoa.,protozoa.,mammal.; plant.; fish.
+OpenBookQA,OpenBookQA,A person can grow cabbage in January with the help of what product?,Green house.,Green house.,Parliment.; Congress.; White house.
+OpenBookQA,OpenBookQA,"A frog, in winter, will burrow itself into soft mud, until it freezes, then in the spring?","it unfreezes, because it is cold-blooded.","it unfreezes, because it is cold-blooded.","it melts, because it is warm-blooded.; it remains frozen until it dies.; it dies, because it is warm-blooded."
+OpenBookQA,OpenBookQA,Which describes the size of an object?,It holds 500 mL of water.,It holds 500 mL of water.,It attracts all metals.; It is a sphere.; It is red and purple.
+OpenBookQA,OpenBookQA,A body may find its temperature to be lowered after?,fluid spreads from pores.,fluid spreads from pores.,water is heated up.; the air becomes arid.; the sky stays bright.
+OpenBookQA,OpenBookQA,"If a person enjoys long, sunny days their favorite month would be?",July.,July.,October.; April.; March.
+OpenBookQA,OpenBookQA,An example of data collection is?,speaking with a witness.,speaking with a witness.,Deleting case files on the computer.; Touching evidence without gloves.; Throwing documents in the trash.
+OpenBookQA,OpenBookQA,An animal can hunt by cracking open a?,shell.,shell.,claw.; house.; bone.
+OpenBookQA,OpenBookQA,Oil is a nonrenewable resource which tells us that when?,"the final barrel is gone, there supply is finished.","the final barrel is gone, there supply is finished.",it can be remade.; it can be found in other places.; there is an endless supply.
+OpenBookQA,OpenBookQA,Magma contains?,particles of iron.,particles of iron.,Loads of leaves.; Soda.; Silly Putty.
+OpenBookQA,OpenBookQA,Dew is formed when what condenses?,H2O haze.,H2O haze.,carbon dioxide.; warm air.; oxygen.
+OpenBookQA,OpenBookQA,The Earth revolving around the sun can cause?,constellations to appear in one place in spring and another in fall.,constellations to appear in one place in spring and another in fall.,the stars to rotate diagonally in the sky.; earth's axis to be widened.; stars to fade as winter approaches.
+OpenBookQA,OpenBookQA,Plants need light for?,glucose.,glucose.,love.; reading.; driving.
+OpenBookQA,OpenBookQA,Tunnels?,lead to less impacted soil.,lead to less impacted soil.,pact down soil to make it denser.; firm up the ground.; help prevent the effects of erosion.
+OpenBookQA,OpenBookQA,"A fire starts in a wide, open field and catches onto a forest. The fire started even though people were far away from the woods. A potential cause for the start of it could have been?",storms.,storms.,wind.; sand.; stones.
+OpenBookQA,OpenBookQA,To have a positive impact of the environment?,salvage plastic bottles instead of throwing them away.,salvage plastic bottles instead of throwing them away.,use Styrofoam plates and bowls.; use more paper towels.; drive a car that guzzles gas.
+OpenBookQA,OpenBookQA,Taking shorter showers leads to?,less energy used by the water heater.,less energy used by the water heater.,water shortages for the local environment.; increased energy consumption by the water heater.; an empty water heater.
+OpenBookQA,OpenBookQA,Roads present danger to animals because?,people driving cars might be unaware the animal is close by.,people driving cars might be unaware the animal is close by.,only chickens can cross the road.; road signs are hard to read.; cops will stop them for speeding.
+OpenBookQA,OpenBookQA,plant requires what for photosynthesis?,light from our closest star.,light from our closest star.,light that changes color.; the reflection of something shiny.; light reflected from our orbiting rock.
+OpenBookQA,OpenBookQA,Winter solstice occurs on a day when?,the darkness is greatest.,the darkness is greatest.,the sun is brightest.; the sun is eclipsed.; the moon is full.
+OpenBookQA,OpenBookQA,What boils at the boiling point?,Kool-Aid.,Kool-Aid.,Cotton.; Paper towel.; Hair.
+OpenBookQA,OpenBookQA,When vapor condenses overnight it often ends up on?,rosebuds.,rosebuds.,bees.; clothing.; people.
+OpenBookQA,OpenBookQA,Which is a good source of nutrients for a mushroom?,a cut peony.,a cut peony.,a trotting horse.; a roaring lion.; a flying eagle.
+OpenBookQA,OpenBookQA,which of these animal's habitat is peat likely to be found?,an alligator's habitat.,an alligator's habitat.,a dog's habitat.; a cat's habitat.; a human's habitat.
+OpenBookQA,OpenBookQA,A strawberry is in zero way a true berry because it?,"has seeds outside the flesh, unlike the blueberry.","has seeds outside the flesh, unlike the blueberry.",is unable to spread its seed.; is a different color than other berries.; is too wet inside.
+OpenBookQA,OpenBookQA,The epidermis is part of?,is the largest organ and also the body's first defense against germs.,is the largest organ and also the body's first defense against germs.,is used the second largest organ and used for breathing by humans.; soaks in toxins in the air.; repels sunlight and UV rays.
+OpenBookQA,OpenBookQA,Alligators?,eat gar.,eat gar.,eat only foliage.; have live births.; are warm-blooded.
+OpenBookQA,OpenBookQA,What might occur during an experiment?,solution overflowing from a beaker.,solution overflowing from a beaker.,severe oxygen depletion in the atmosphere.; layers of the ozone disintegrating.; midterm exams for math class.
+OpenBookQA,OpenBookQA,"Frogs are unable to give live birth, and their eggs are soft, unlike other eggs, in fact?",frog eggs are transparent.,frog eggs are transparent.,frog eggs are sour.; frog eggs are yellow.; frog eggs are hollow.
+OpenBookQA,OpenBookQA,"A woman wants to figure out what renewable resources she can use in order to be more environmentally friendly and sufficient. She decides to use all of these resources that are renewable, with the exception of the one nonrenewable, which is?",aluminium.,aluminium.,sunlight.; wood.; water.
+OpenBookQA,OpenBookQA,Cocoon creation occurs?,after the caterpillar stage.,after the caterpillar stage.,after the chrysalis stage.; after the eggs are laid.; after the cocoon emerging stage.
+OpenBookQA,OpenBookQA,Where would animals shiver the most?,Arctic Circle.,Arctic Circle.,Sumatra.; Java.; tropical rainforest.
+OpenBookQA,OpenBookQA,In the desert it was harder to find a?,stream.,stream.,cactus.; dry bed.; canyon.
+OpenBookQA,OpenBookQA,Why can an Owl retain it's body temperature during the winter?,It's warm blooded.,It's warm blooded.,It's neither.; It's both.; It's cold blooded.
+OpenBookQA,OpenBookQA,What is the source of energy for physical cycles on Earth?,a medium-sized star which our planet orbits.,a medium-sized star which our planet orbits.,clouds that are heavy with rain.; a thinner ozone layer.; heat from stars at night.
+OpenBookQA,OpenBookQA,Pasteurization reduces the amount of bacteria in?,cheddar cheese.,cheddar cheese.,green tea.; orange juice.; almond milk.
+OpenBookQA,OpenBookQA,A person is trapped in a cabin while it storms outside. The person knows it is storming because of?,the precipitation.,the precipitation.,the sun.; the sea.; the stars.
+OpenBookQA,OpenBookQA,Which would best store new whale offspring?,large aquarium.,large aquarium.,large egg carton.; bag.; mud hole.
+OpenBookQA,OpenBookQA,All the deer in one area moved away. This could be because?,all the trees had died from disease and fell down.,all the trees had died from disease and fell down.,They wanted to go to Disneyland.; The deer went for a walk and got lost.; They wanted to live where there were move wolves to keep them company.
+OpenBookQA,OpenBookQA,An herbivore like a giraffe will only consume?,green matter.,green matter.,sticks.; algae.; cheese.
+OpenBookQA,OpenBookQA,Climate change has sped up dramatically because?,CO2 production has accelerated.,CO2 production has accelerated.,a rapid decline the production of carbon dioxide.; oxygen levels have spiked.; Fe has been present in an overabundance.
+OpenBookQA,OpenBookQA,What is most necessary for a  bitcoin operation?,metal.,metal.,abacus.; plastic.; wood.
+OpenBookQA,OpenBookQA,If something is outside during the day what will it receive?,sunbeams.,sunbeams.,food.; energy.; water.
+OpenBookQA,OpenBookQA,"A turtle may lay six eggs, and a sea turtle may lay a hundred eggs, and?",sea turtles will hatch more.,sea turtles will hatch more.,turtles will hatch more.; animals can lay eggs.; turtles are warm blooded.
+OpenBookQA,OpenBookQA,Squirrels store acorns?,to have nourishment thru the cold months.,to have nourishment thru the cold months.,they build their homes from them.; they use them to keep warm.; because they like the aesthetic.
+OpenBookQA,OpenBookQA,Plant growth may be positively affected by?,extra rainfall.,extra rainfall.,freezing temperatures.; increase in pests.; long droughts.
+OpenBookQA,OpenBookQA,An electric car uses less gasoline than a regular car because?,power is prioritized over gas.,power is prioritized over gas.,parts of the engine are flawed.; gas is unable to be used.; electricity is more expensive.
+OpenBookQA,OpenBookQA,Revolution happens when?,Mars orbits the sun.,Mars orbits the sun.,Earth orbits the moon.; the sun orbits the Earth.; the Earth's moon orbits Mars.
+OpenBookQA,OpenBookQA,An organism's requirements and its survival rate have what kind of relationship?,direct.,direct.,indirect.; inverse.; reverse.
+OpenBookQA,OpenBookQA,Pumpkin pie spice comes from?,plants.,plants.,animals.; rocks.; air.
+OpenBookQA,OpenBookQA,"Were the situation to be that all zebra were sterile,?",zebra would die out.,zebra would die out.,zebra would be endangered.; zebra would be overpopulated.; zebra would have babies.
+OpenBookQA,OpenBookQA,An example of a seasonal change that a furry animal might adopt could be similar to:?,humans pulling out their heavy outerwear.,humans pulling out their heavy outerwear.,A pumpkin growing seeds internally.; A store setting up their Christmas displays.; A man looking for breakfast after many hours without food.
+OpenBookQA,OpenBookQA,What could be used as an electrical conductor?,A penny.,A penny.,Shoe laces.; Wood.; A button.
+OpenBookQA,OpenBookQA,How does ice wedging cause rocks to crack?,growth in openings.,growth in openings.,releasing gas.; melting down.; being cold.
+OpenBookQA,OpenBookQA,Fossils are formed when what happens?,various types of dirt accumulate over something eventually.,various types of dirt accumulate over something eventually.,layers of leaves and pebbles form a pile.; layers of sand are washed up on a beach.; dirt builds up in the outdoors.
+OpenBookQA,OpenBookQA,"When going in the basement, it's better to have a laser than a?",radio.,radio.,flashlight.; light bulb.; TV.
+OpenBookQA,OpenBookQA,"Some areas are known for experiencing all four seasons, and winter is one of those seasons. During said season, one may partake in activities such as?",sledding.,sledding.,swimming.; leaf peeping.; surfing.
+OpenBookQA,OpenBookQA,What can show that loss of resources has a negative impact on the organisms in an area?,"when prey is overhunted, predators die.","when prey is overhunted, predators die.",lakes dry up and fish species are less varied.; deer need plenty of space to live.; sharks need to eat a lot of fish in order to survive.
+OpenBookQA,OpenBookQA,What vehicle would you use to travel on the majority of the surface of the planet on which we live?,Boat.,Boat.,Bike.; Train.; Car.
+OpenBookQA,OpenBookQA,A bear's fur and duck's feathers both help the animal survive by?,providing warmth.,providing warmth.,providing water.; providing food.; providing oxygen.
+OpenBookQA,OpenBookQA,When would the sun set later?,Independence Day.,Independence Day.,Christmas.; Presidents day.; Halloween.
+OpenBookQA,OpenBookQA,If a species population increases in the birth rate has?,boomed.,boomed.,ceased.; stalled.; fallen.
+OpenBookQA,OpenBookQA,What's an example of the idea that if one mineral can scratch another mineral then that other mineral is softer than that one mineral?,diamond cuts into glass.,diamond cuts into glass.,diamonds can be smashed by rocks.; steel is harder than stone.; diamonds are harder than diamonds.
+OpenBookQA,OpenBookQA,What is a source of energy?,grease.,grease.,bricks.; cars.; dirt.
+OpenBookQA,OpenBookQA,"If a farmland up the hill gets rainfall, what could happen to lower lands?",all of these.,all of these.,they could get fertilizer washed to them.; they could experience unfavorable chemical change in their lands.; they could have their lands poisoned.
+OpenBookQA,OpenBookQA,"In order for a journal to be produced, it first requires?",matter which is typically written on.,matter which is typically written on.,an incredible amount of fame.; enough money to buy a house.; lucky text written on trees.
+OpenBookQA,OpenBookQA,What is an example of a raw material being something that comes directly from a source?,salt water from the ocean.,salt water from the ocean.,cats from a shelter.; birds from a nest.; manure from a field.
+OpenBookQA,OpenBookQA,A source of sugar in an ecosystem is?,tree.,tree.,air.; soil.; bird.
+OpenBookQA,OpenBookQA,A mark of adulthood common in most species is?,reproduction.,reproduction.,paying bills.; fighting.; death.
+OpenBookQA,OpenBookQA,Bill decided the wolf was a predator after he saw it eat the?,bunny.,bunny.,apple.; grass.; pie.
+OpenBookQA,OpenBookQA,Layers of the earth include all but?,center.,center.,mantle.; crust.; inner core.
+OpenBookQA,OpenBookQA,What core ingredient of red pasta sauce comes from a flower?,Tomato.,Tomato.,Bell Pepper.; Oregano.; Onion.
+OpenBookQA,OpenBookQA,"If something were to be melted, it would be heated above its melting point, like?",putting jello in warm water.,putting jello in warm water.,putting peas in a soup.; putting ice in the freezer.; cooking up cookie dough.
+OpenBookQA,OpenBookQA,carbon dioxide plays the same role in plants that oxygen plays in animals?,this is accurate.,this is accurate.,all of these.; maybe true.; this is untrue.
+OpenBookQA,OpenBookQA,"As far as plants go, considering their growth, it is unlikely that they would do well in?",a basement without windows.,a basement without windows.,"a large patio setting.; a humid, open greenhouse.; a damp patch of earth."
+OpenBookQA,OpenBookQA,What is likely to be the most direct result of offshore oil leaking?,oil harms ocean life.,oil harms ocean life.,oil pollutes cities.; oil ruins farmland.; oil harms forests.
+OpenBookQA,OpenBookQA,An individual can conserve by?,recycling and using solar.,recycling and using solar.,recycling and using gasoline.; recycling and using natural gas.; recycling and using coal.
+OpenBookQA,OpenBookQA,Which is the slowest to move through water?,robin.,robin.,swan.; duck.; goose.
+OpenBookQA,OpenBookQA,"Bats have many quirks, with the exception of?",laying eggs.,laying eggs.,using echolocation.; hanging upside down.; eating bugs.
+OpenBookQA,OpenBookQA,Organic food is currently considered best for people because?,they avoid using bug killers when grown.,they avoid using bug killers when grown.,they have more vitamins.; they use pesticide when growing.; they are higher in fiber.
+OpenBookQA,OpenBookQA,"A horse eats some hay, an apple and a sugar cube, then peacefully roams a field after eating while digesting the meal. During this time?",the food is deconstructed.,the food is deconstructed.,the horse throws up.; the horse is hungry.; the food is poisoned.
+OpenBookQA,OpenBookQA,Who would be healthier?,a heavy sleeper.,a heavy sleeper.,a night owl.; an party animal.; a workaholic.
+OpenBookQA,OpenBookQA,"When you get farther from water, the water vapor in the air will ______.?",decrease.,decrease.,increase.; condense.; form clouds.
+OpenBookQA,OpenBookQA,What is a good example of camouflage?,when a creature adjusts the shape and color of its body to appear as something else.,when a creature adjusts the shape and color of its body to appear as something else.,when a rabbit hides in a patch of grass.; when a cat presses its body flat to the ground to hide.; when a fish swims with a large group of fish to hide itself.
+OpenBookQA,OpenBookQA,plants are the source of?,tomatoes.,tomatoes.,turkeys.; cows.; chickens.
+OpenBookQA,OpenBookQA,"As they are immobile, what is an example of how animal life helps the reproduction cycle of plants?",squirrels dropping seeds.,squirrels dropping seeds.,birds building nests.; human lumber industry.; bugs eating leaves.
+OpenBookQA,OpenBookQA,Living things can all?,create a progeny.,create a progeny.,reproduce asexually.; produce spores.; find mates.
+OpenBookQA,OpenBookQA,Stopped means lack of what?,velocity.,velocity.,warmth.; height.; plants.
+OpenBookQA,OpenBookQA,Where did Puppigerus live?,ocean.,ocean.,bog.; land.; marsh.
+OpenBookQA,OpenBookQA,The circulatory system brings oxygen to the body from where?,The chest.,The chest.,The brain.; The feet.; The stomach.
+OpenBookQA,OpenBookQA,A renewable resource is used to produce?,notebook paper.,notebook paper.,petroleum.; plastic rulers.; Styrofoam plates.
+OpenBookQA,OpenBookQA,Which relationship involves inheritance?,mother-daughter.,mother-daughter.,teacher-student.; grandmother-grandfather.; friends.
+OpenBookQA,OpenBookQA,A source of heat at the resort is the?,jacuzzi.,jacuzzi.,pool.; chair.; umbrella.
+OpenBookQA,OpenBookQA,A car engine usually uses combustion to convert this into a motion and heat.?,oil products.,oil products.,animal products.; plant materials.; solar energy.
+OpenBookQA,OpenBookQA,"When turned on, which product cannot convert electrical energy into light energy?",charger.,charger.,chandelier.; floor lamp.; Christmas tree lights.
+OpenBookQA,OpenBookQA,"A pelican is hungry, so decides to try to catch some fish. In order to do this, the pelican will?",use the front of its face.,use the front of its face.,use the back of its head.; use the bottom of its stomach.; use the back of its tail.
+OpenBookQA,OpenBookQA,A magnetic effect could pull two rocks together if they're?,both magnetic and at any distance.,both magnetic and at any distance.,lacking magnetic properties and far apart.; shaped similarly and touching.; lacking magnetic properties and touching.
+OpenBookQA,OpenBookQA,Refraction can easily be witnessed in?,fake diamonds.,fake diamonds.,concrete walls.; Christmas ornaments.; a tree.
+OpenBookQA,OpenBookQA,"A man is trying to describe a single vat of juice he has. He needs the best way to tell his friend about the object, so he says?",20 ounces of juice.,20 ounces of juice.,20 meters of juice.; 20 vats of juice.; 20 feet of juice.
+OpenBookQA,OpenBookQA,plant life is completely dependent on what?,creating self sustenance food.,creating self sustenance food.,buying some good food.; food given to it.; food at the store.
+OpenBookQA,OpenBookQA,To prevent illness?,properly heat hamburgers and steaks.,properly heat hamburgers and steaks.,thaw chicken on uncovered counter tops.; eat raw cookie dough.; hamburger meat should stay pink.
+OpenBookQA,OpenBookQA,An island can sprout up from seemingly suddenly because?,underwater volcanoes are hidden.,underwater volcanoes are hidden.,underwater volcanoes are invisible.; lava is hot enough to burn.; volcanoes have a lot of magma.
+OpenBookQA,OpenBookQA,"When water freezes, that water?",undergoes a change opposite to compressor.,undergoes a change opposite to compressor.,heats up by at least 10 degrees.; takes up less space.; breaks into little pieces.
+OpenBookQA,OpenBookQA,Where might you find the substance used to make the shiny metallic foil paper used in cooking?,Rocks.,Rocks.,Clouds.; Wood.; Leaves.
+OpenBookQA,OpenBookQA,What increases the number of pollinators a flower will attract?,The amount of of fragrance the flower has.,The amount of of fragrance the flower has.,The amount of petals.; The height of the stem.; The amount of leaves on the stem.
+OpenBookQA,OpenBookQA,You can get Vitamin D from?,greek yogurt.,greek yogurt.,vegetable oil.; gumdrops.; bottled water.
+OpenBookQA,OpenBookQA,Chloroplasts exist in plants and can be located by knowing where?,the greenest part of a plant is.,the greenest part of a plant is.,how many petals most plants have.; food is stored in plants.; if a plant has a thick stem.
+OpenBookQA,OpenBookQA,Sunlight transfers heat energy to?,the planet named after the Roman god of sea.,the planet named after the Roman god of sea.,the star from which scorpions get their name.; the largest star in the galaxy.; the hottest star in the galaxy.
+OpenBookQA,OpenBookQA,Humans swim in the liquid form of?,steam.,steam.,air.; oxygen.; carbon.
+OpenBookQA,OpenBookQA,What can keep you moisturized other than water?,cucumbers.,cucumbers.,Crackers.; Sour Cream.; Cheese.
+OpenBookQA,OpenBookQA,Which of these items can a human move by pedal power?,unicycle.,unicycle.,canoe.; car.; sled.
+OpenBookQA,OpenBookQA,It takes the Earth one year to go around the sun. It takes the moon how long to make one revolution around our planet?,30 days.,30 days.,2 months.; 2 years.; a decade.
+OpenBookQA,OpenBookQA,Birds with more angular beaks?,may chow down on different grub than birds with rounded beaks.,may chow down on different grub than birds with rounded beaks.,will hate any birds with rounded beaks.; will eat the exact same diet as all other birds.; may have more trouble eating than other birds.
+OpenBookQA,OpenBookQA,What might be the natural habitat of a small creature known for making a noise by scraping limbs together?,Among Birches.,Among Birches.,Amid the snow.; In a barn.; In the ocean.
+OpenBookQA,OpenBookQA,Human planet that is orbited by what?,moon.,moon.,stars.; the ocean.; sun.
+OpenBookQA,OpenBookQA,A change in the Earth is?,a wooded area appearing on land that was once part of the ocean.,a wooded area appearing on land that was once part of the ocean.,a person's hair growing.; a wooded area existing next to an ocean.; the moon moving around the Earth.
+OpenBookQA,OpenBookQA,Some vapor is condensing now because it has less?,heat.,heat.,gas.; water.; steam.
+OpenBookQA,OpenBookQA,Herbivores contribute to the same type of plants they eat when:?,they die.,they die.,they drink.; they eat  animals.; they trample them.
+OpenBookQA,OpenBookQA,What converts electrical energy into light energy in a light bulb?,the metal filament.,the metal filament.,the light switch.; the glass bulb.; none.
+OpenBookQA,OpenBookQA,"A person wants to turn on their fan to cool down their room. In order to do this, they will have to?",plug it in.,plug it in.,spin a wire.; make some noise.; turn it off.
+OpenBookQA,OpenBookQA,A river can disappear over a period of time?,this is sure.,this is sure.,this is uncertain.; all of these.; maybe.
+OpenBookQA,OpenBookQA,"A temperature in the negatives during the night got slightly less negative during the day, which means it got more?",positive.,positive.,cold.; negative.; unpredictable.
+OpenBookQA,OpenBookQA,Corn is eaten by?,homo sapiens and deer.,homo sapiens and deer.,homo sapiens and frogs.; people and jungle monkeys.; deer and Bengal tigers.
+OpenBookQA,OpenBookQA,What is natural gas?,a way to gain some warmth by combustion.,a way to gain some warmth by combustion.,warming up by sunlight.; slowly heating to a boiling point.; burning a high fever.
+OpenBookQA,OpenBookQA,Decomposition?,can act as a fertilizer for wild flowers.,can act as a fertilizer for wild flowers.,can make dead organisms rise anew like a phoenix.; is a process completed by predators.; is extremely detrimental to the surrounding flora.
+OpenBookQA,OpenBookQA,Sunlight?,makes car steering wheels hard to handle in the summer.,makes car steering wheels hard to handle in the summer.,means your pets need sweaters when outdoors.; causes ice to refreeze.; cools down the water in local ponds.
+OpenBookQA,OpenBookQA,Science fact: a cavern is formed by carbonic acid in groundwater seeping through rock and dissolving?,"sedimentary rock which is  composed mainly of skeletal fragments of marine organisms such as coral, forams and molluscs,.","sedimentary rock which is  composed mainly of skeletal fragments of marine organisms such as coral, forams and molluscs,.","metamorphic rocks that are formed under the surface of the earth from the metamorphosis,.; igneous rocks which are formed when magma  cools and hardens or.; artist who play the music genre called rock and roll."
+OpenBookQA,OpenBookQA,Deer entered the city?,less food in the wilderness.,less food in the wilderness.,to look for people.; because coyotes chased them.; they have become confused.
+OpenBookQA,OpenBookQA,the hourly totals of sunshine are directly connect to?,seasons.,seasons.,tides.; altitude.; weather.
+OpenBookQA,OpenBookQA,Remora fish?,act as a clean up crew for a shark's crumbs.,act as a clean up crew for a shark's crumbs.,attach themselves to boats like barnacles.; act as a support system during a shark's reproduction cycle.; are exclusively kelp and seaweed eaters.
+OpenBookQA,OpenBookQA,A plant root growing into rock cracks is an example of what?,abrasion.,abrasion.,boiling.; warm weather.; evaporation.
+OpenBookQA,OpenBookQA,What does the earth orbit that causes the seasons to change?,plasma star.,plasma star.,venus.; mercury.; pluto.
+OpenBookQA,OpenBookQA,There are metals which will always point north such as?,Fe.,Fe.,nickel.; gold.; silver.
+OpenBookQA,OpenBookQA,A white environment is likely to be found?,on a mountain.,on a mountain.,in a forest.; in a desert.; in the ocean.
+OpenBookQA,OpenBookQA,One step in creating an alternative fuel is?,growing crops of corn.,growing crops of corn.,coal miners looking for coal.; gold being sifted from dirt.; drilling for fossil fuels.
+OpenBookQA,OpenBookQA,"So many environments receive large amounts of rain, though an exception is?",the Sahara.,the Sahara.,the great plains.; the rain-forest.; Seattle.
+OpenBookQA,OpenBookQA,Taking a fingernail and pressing it to salt will show?,it is malleable.,it is malleable.,it is dry.; it is wet.; it is salty.
+OpenBookQA,OpenBookQA,why would a mouse run away from a cat?,to avoid becoming lunch.,to avoid becoming lunch.,to get the cat some milk.; to avoid paying its debt.; all of these.
+OpenBookQA,OpenBookQA,A golden eagle will hunt using its talons to collect?,groupers.,groupers.,berries.; bears.; humans.
+OpenBookQA,OpenBookQA,which of these would most likely reject a really nice burger?,a potted plant in the office.,a potted plant in the office.,a hungry student who loves burgers.; a woman visiting a fast food joint.; a teacher on his lunch break.
+OpenBookQA,OpenBookQA,The Grand Canyon was formed by the Colorado river by what?,the passage of time.,the passage of time.,horses pulling carts directing the water.; humans making great efforts.; the addition of dams.
+OpenBookQA,OpenBookQA,Earth rotating on its axis?,causes Orion to seemingly change position in the sky.,causes Orion to seemingly change position in the sky.,causes stars to die out.; causes the moon to loss gravitational pull.; causes the Sun to rotate.
+OpenBookQA,OpenBookQA,The next moon phase after a solar eclipse is?,first quarter.,first quarter.,full moon.; third quarter.; super moon.
+OpenBookQA,OpenBookQA,"If someone is dying of thirst, they can hydrate by?",catching rain.,catching rain.,drink acid.; visiting a valley.; find snow.
+OpenBookQA,OpenBookQA,Magnets may be attracted to?,roofing nails.,roofing nails.,clay pots.; paper plates.; plastic cutlery.
+OpenBookQA,OpenBookQA,"Of the following household items, which is recyclable?",soda can.,soda can.,cooking oil.; banana peel.; paint.
+OpenBookQA,OpenBookQA,"If a lot of people have forgotten about a product, the amount of money made by the person selling it will be?",lower than before.,lower than before.,much higher.; unchanged.; rising slowly.
+OpenBookQA,OpenBookQA,What can you find in a forest?,remedies.,remedies.,A car.; Hogwarts.; A unicorn.
+OpenBookQA,OpenBookQA,Animals without teeth sometimes eat?,seeds.,seeds.,bears.; humans.; whales.
+OpenBookQA,OpenBookQA,What creates a valley?,water.,water.,feet.; rock.; sand.
+OpenBookQA,OpenBookQA,What is the largest organ of the human body?,epidermis.,epidermis.,kidneys.; the heart.; liver.
+OpenBookQA,OpenBookQA,What eats other organisms?,ingestors.,ingestors.,trees.; blood.; water.
+OpenBookQA,OpenBookQA,What becomes smoother through weathering?,pumice.,pumice.,rainbow.; water.; cat.
+OpenBookQA,OpenBookQA,The element that heats toast is an example of:?,a thermal conductor.,a thermal conductor.,a semi-conductor?.; a thermal insulator.; a poor conductor.
+OpenBookQA,OpenBookQA,Ice can fall down as?,sleet and hail.,sleet and hail.,ice cubes.; rain.; glaciers.
+OpenBookQA,OpenBookQA,nest sitting is left up to the?,the embryo's creator.,the embryo's creator.,daddy.; strangers.; male siblings.
+OpenBookQA,OpenBookQA,The insect's cocoon being created occurs during the?,stage when wings first start to form.,stage when wings first start to form.,adult stage in a life cycle.; egg formation in a life cycle.; final stage in a life cycle.
+OpenBookQA,OpenBookQA,Rocks sometimes contain what?,element Al.,element Al.,books.; wind.; fire.
+OpenBookQA,OpenBookQA,What happens to a cat's fur in the summer?,It becomes less dense.,It becomes less dense.,The fur becomes darker.; The fur becomes more dense.; It stays the same density.
+OpenBookQA,OpenBookQA,After evaporation water becomes?,snow.,snow.,ocean.; groundwater.; ice caps.
+OpenBookQA,OpenBookQA,A magnet will stick to which of the following?,indium.,indium.,diamond.; wood.; hydrochloric acid.
+OpenBookQA,OpenBookQA,Hypothermia will set in under which conditions:?,while exposed to harsh winds in a polar region.,while exposed to harsh winds in a polar region.,while stranded deep in a swap.; while swimming in tropical seas.; while exposed to direct sunlight on a tropical island.
+OpenBookQA,OpenBookQA,"A black wall reflects little light, a pink wall reflects pink light a while wall?",bounces all light.,bounces all light.,bounces little light.; bounces blue light.; bounces red light.
+OpenBookQA,OpenBookQA,Rocks may be rounded by?,hydro-erosion.,hydro-erosion.,photosynthesis.; audio feedback.; Cloudy conditions.
+OpenBookQA,OpenBookQA,What do octopuses release to blind predators?,dark pigment.,dark pigment.,meat.; water.; plants.
+OpenBookQA,OpenBookQA,Which decreases visibility while driving?,spraying windshield fluid.,spraying windshield fluid.,opening the sunroof.; adjusting side mirrors.; turning on headlights.
+OpenBookQA,OpenBookQA,What contains moons?,space mass.,space mass.,ships.; people.; plants.
+OpenBookQA,OpenBookQA,What would be used to measure the substance which historically the Dutch and other farmers used to power the blades on the structure which moves water from low to highlands?,anemometer.,anemometer.,magnetometer.; manometer.; thermometer.
+OpenBookQA,OpenBookQA,What is it called when h20 falls from a fluffy object to land on the top of cloth suspended on a rod?,precipitation.,precipitation.,mechanization.; evaporation.; transpiration.
+OpenBookQA,OpenBookQA,What animal can live without oxygen?,Loriciferans.,Loriciferans.,shark.; platypus.; Turtle.
+OpenBookQA,OpenBookQA,An inherited characteristic present in a baby is?,number of ears.,number of ears.,birth date.; birth weight.; number of siblings.
+OpenBookQA,OpenBookQA,"if your shoe changes form at a certain heat level, what can that be described as?",the melting range of that item.,the melting range of that item.,none of these.; the liquid content of the shoe.; the visual design of the shoe.
+OpenBookQA,OpenBookQA,Which would be the product of a solid that was brought above its melting point?,glacier turning into water.,glacier turning into water.,water turning into ice.; iron turning to rust.; tadpoles turning into frogs.
+OpenBookQA,OpenBookQA,"A beaver is going to experience a long winter in the upcoming months. The beaver knows that the weather is changing, so it begins to eat more and more food, knowing that it can survive meager months by being?",overweight.,overweight.,weighted.; underweight.; starved.
+OpenBookQA,OpenBookQA,Lighting a candle will cause the candle to?,combust.,combust.,petrify.; float.; yell.
+OpenBookQA,OpenBookQA,Vaccines?,help prevent outbreaks of once dormant diseases.,help prevent outbreaks of once dormant diseases.,are only necessary for immuno-comprised people.; provide little protection against diseases.; are unimportant and under researched.
+OpenBookQA,OpenBookQA,Jim wanted baby chickens so he gathered eggs and used a?,lamp.,lamp.,ice cube.; refrigerator.; snow.
+OpenBookQA,OpenBookQA,Nerves are used to feel what on the skin?,coldness.,coldness.,creativity.; stares.; emotions.
+OpenBookQA,OpenBookQA,"Substances may be combined by the pouring of one into another, for example when?",adding grenadine to soda.,adding grenadine to soda.,filling up a tub.; putting a lemon in water.; putting food in a bowl.
+OpenBookQA,OpenBookQA,Viewing stars is made easier by?,technology that collects electromagnetic radiation.,technology that collects electromagnetic radiation.,technology that uses electromagnetic induction.; technology that picks up sound in space.; technology that transforms kinetic energy.
+OpenBookQA,OpenBookQA,Sugar may increase the sweetness of a dish such as in?,churros.,churros.,lasagna.; corn.; fettuccine.
+OpenBookQA,OpenBookQA,A person could get in trouble for doing what in a protected environment?,hunting.,hunting.,volunteering.; studying the environment.; working.
+OpenBookQA,OpenBookQA,"A winter storm is ravaging a city, so weather advisories are put out to the public. However, a man still need to get to work on time, so he takes his car on the highway. While driving, he discovers?",it is difficult to see.,it is difficult to see.,the roads are clear.; the car is very hot.; the streets are empty.
+OpenBookQA,OpenBookQA,"The southern and northern hemisphere's seasons are opposite each other, so when the northern hemisphere is having it's longest day, it's the southern hemisphere's?",winter solstice.,winter solstice.,fall equinox.; summer solstice.; spring equinox.
+OpenBookQA,OpenBookQA,What does photosynthesis require?,a daffodil to absorb rays of Sol.,a daffodil to absorb rays of Sol.,a torrential amount of rainfall.; a bee to pollinate the bud.; a tree to absorb argon.
+OpenBookQA,OpenBookQA,which of these would disturb a standing body of water?,A and B above.,A and B above.,a boat setting sail.; an insect flying hundred feet above.; a rock tossed in.
+OpenBookQA,OpenBookQA,There are twenty-four new seasons in?,six years.,six years.,four years.; five years.; two years.
+OpenBookQA,OpenBookQA,"We are trying to use air as sources of energy because there is an infinite amount of it, same with water. These are two examples of?",Renewable resources.,Renewable resources.,Coal sources.; Fossil Fuels.; Limited resources.
+OpenBookQA,OpenBookQA,Which is recyclable?,soda can.,soda can.,fiberglass.; Styrofoam food container.; motor oil.
+OpenBookQA,OpenBookQA,"If two blocks have unequal mass, which will speed up the most with a common force applied?",The lighter.,The lighter.,neither move.; The heavier.; equal.
+OpenBookQA,OpenBookQA,Sea turtles share space with?,sea weed.,sea weed.,geckos.; catfish.; river otters.
+OpenBookQA,OpenBookQA,More sunlight will be absorbed by?,"a peony with wide, smooth leaves.","a peony with wide, smooth leaves.","a rose with tiny leaves.; a daisy with thin, short leaves.; a daffodil with curled leaves."
+OpenBookQA,OpenBookQA,"Some fish species, when hunting, will lurk in the shallowest portions of water and actually leave the water in order to capture prey. These fish are able to hunt in this fashion after years of?",adapting to their needs.,adapting to their needs.,training in a school.; adapting to new music.; wishing for it to work.
+OpenBookQA,OpenBookQA,"if a person had one of these, they could live permanently under water?",a gill for extracting gases.,a gill for extracting gases.,a very long nose.; two hands and two legs.; a very big mouth.
+OpenBookQA,OpenBookQA,Storms lead to?,an uptick in local ponds water level.,an uptick in local ponds water level.,an increase in water temperature.; an uptick in local ponds fish supply.; an increase in issues from drought conditions.
+OpenBookQA,OpenBookQA,What is the ultimate source of greeting cards?,forests.,forests.,deserts.; waterfalls.; canyons.
+OpenBookQA,OpenBookQA,Which animal is known to have many learned behaviors?,sea park dolphins.,sea park dolphins.,saltwater crocodiles.; aquarium fish.; plains buffaloes.
+OpenBookQA,OpenBookQA,The stars in the night sky make a yearly?,revolution.,revolution.,donation.; resolve.; restructuring.
+OpenBookQA,OpenBookQA,A predator such as a hawk may kill prey by?,clutching in its talons.,clutching in its talons.,batting with a paw.; using a strong wing.; eating a rat's claw.
+OpenBookQA,OpenBookQA,"What is it called when a cell converts oxygen and carbohydrates into carbon dioxide, water, and energy?",catabolic reactions.,catabolic reactions.,adaptation.; breathing.; food transformation.
+OpenBookQA,OpenBookQA,A plant stem contains a system of tubes for transporting water and nutrients to?,itself.,itself.,the sun.; the hive mind.; its neighbors.
+OpenBookQA,OpenBookQA,What is an example of a change in the Earth?,an expanse of water turning to forested land.,an expanse of water turning to forested land.,a duck living in the woods.; a forest growing larger.; a river flowing strongly.
+OpenBookQA,OpenBookQA,"when it turns day and night on a planet, what cause this?","the world itself spins, causing it.","the world itself spins, causing it.",the sun goes to take a rest in a different place.; the moon causes this to happen.; the planet puts off the lights.
+OpenBookQA,OpenBookQA,Environments which are forested are often green; what is an example of this?,a thriving jungle canopy.,a thriving jungle canopy.,"a dry, sandy desert.; a snowy icy glacier.; a cold, empty mountaintop."
+OpenBookQA,OpenBookQA,Why might a person fall asleep after being lost in a forest on a freezing cold day?,energy levels decrease.,energy levels decrease.,energy levels increase.; They live there.; A big meal.
+OpenBookQA,OpenBookQA,What do city-dwellers eat?,crops.,crops.,dirt.; rocks.; Ohio State.
+OpenBookQA,OpenBookQA,What does a tuna have that causes it to swim faster than a seahorse?,Bigger fins.,Bigger fins.,Lower body temperature.; Bigger scales.; Thicker caudal fin.
+OpenBookQA,OpenBookQA,Pollinators are attracted to?,strong aromas.,strong aromas.,mild smells.; strong personalities.; weak scents.
+OpenBookQA,OpenBookQA,Leaves play an important role in photosynthesis by being?,a receptacle for solar energy.,a receptacle for solar energy.,a receptacle for oxygen.; a release point for carbon dioxide.; a go between for the exchange of information.
+OpenBookQA,OpenBookQA,"A man wants to create a room that he can light up with the flick of a switch. To do this, he sends some electricity into a completed electrical circuit, through a conductor, which allows?",his plan to succeed.,his plan to succeed.,light from the sun to shine.; lights to be burned out.; sunlight to shine through bulbs.
+OpenBookQA,OpenBookQA,The inventor of pasteurization also worked on?,vaccinations.,vaccinations.,telephones.; automobiles.; electricity.
+OpenBookQA,OpenBookQA,Lemonade tastes like?,citrus.,citrus.,bananas.; apples.; strawberries.
+OpenBookQA,OpenBookQA,"During seasonal changes, like from summer to fall, what is a common noted change?",the sun begins to set earlier.,the sun begins to set earlier.,evenings are much brighter.; new leaves begin to grow.; stars are seen more easily at night.
+OpenBookQA,OpenBookQA,A wasp will use it's stinger?,if a person grabs the wasp.,if a person grabs the wasp.,if the wasp is flying about unimpeded.; if a person ignores the wasp.; if a wasp is hanging out in it's nest.
+OpenBookQA,OpenBookQA,The basic outside of our planet is comprised of?,types of stone.,types of stone.,frozen green grass.; solid ice balls.; molten hot lava.
+OpenBookQA,OpenBookQA,A bird would find nest making materials in a?,tree.,tree.,building.; pond.; cave.
+OpenBookQA,OpenBookQA,Canyons are rock formations with cliffs that?,take a long time to produce.,take a long time to produce.,have sharks in the water.; are very narrow and shallow.; are billions of years old.
+OpenBookQA,OpenBookQA,What is the best example of a live birth?,a koala delivering into her pouch.,a koala delivering into her pouch.,a fish laying a clutch.; a platypus warming an egg with its furry body until a baby is born.; a bird warming the eggs in her nest until they hatch.
+OpenBookQA,OpenBookQA,Which of these would need the fewest hydrocarbon chains containing eight carbon atoms?,electric car.,electric car.,turbocharged car.; gasoline car.; antique car.
+OpenBookQA,OpenBookQA,"Skunks are an animal which has a stink sack, which means that?",other creatures avoid it.,other creatures avoid it.,it is unable to smell.; it births live young.; it is a predator.
+OpenBookQA,OpenBookQA,Evaporation is the reason that?,a rain puddle is suddenly gone.,a rain puddle is suddenly gone.,crime is on the rise in the cities.; the polar ice caps are spreading.; the Earth is turning into a dirt ball.
+OpenBookQA,OpenBookQA,If farmers want larger chicken populations?,they should research methods that increase laying.,they should research methods that increase laying.,they should reduce the rooster population.; they should decrease the number of hens.; they should encourage predation.
+OpenBookQA,OpenBookQA,"A factory is producing various items. If the factory wants to produce something that will itself produce little pollution, it could create?",windmills.,windmills.,trucks.; ships.; cars.
+OpenBookQA,OpenBookQA,What source of power can be used up completely?,natural gas.,natural gas.,Water.; wind.; sunlight.
+OpenBookQA,OpenBookQA,What might Lassie do to beat the heat?,Pant.,Pant.,Drink tea.; Sleep.; Eat ice.
+OpenBookQA,OpenBookQA,"in science, what is a cause and effect guess called?",an academic hypothesis.,an academic hypothesis.,a final solution.; a wild guess.; a big problem.
+OpenBookQA,OpenBookQA,Cycles of freezing and thawing water?,causes fissures in rocks to enlarge.,causes fissures in rocks to enlarge.,causes healing of clefts in rocks.; smaller rocks to fill in large cracks.; makes rocks more secure.
+OpenBookQA,OpenBookQA,A device may locate the northern portion of a forest through?,Fe pulls.,Fe pulls.,series of attractions.; large robots.; metal conductors.
+OpenBookQA,OpenBookQA,A sound that is made by an animal with two legs is?,cluck.,cluck.,oink.; meow.; moo.
+OpenBookQA,OpenBookQA,do scars come naturally?,they are earned.,they are earned.,they just appear.; they are gifted.; they are bought.
+OpenBookQA,OpenBookQA,Life sustaining substances are required for?,zebras.,zebras.,air.; plastic.; the sun.
+OpenBookQA,OpenBookQA,"Creatures such as opossums and raccoons are scavengers, meaning that they get their food from various sources, wherever and however they can, even from trash cans. This can negatively impact the creature's health if?",the food is past its prime.,the food is past its prime.,the food is warm.; the food is yummy.; the food is fresh.
+OpenBookQA,OpenBookQA,A few weeks after the month of December in the heart of Australia is often referred to as?,summer.,summer.,winter.; springtime.; Halloween.
+OpenBookQA,OpenBookQA,What is an instance of carnivores only eating animals?,tyrannosaurus rex devouring a pterodactyl.,tyrannosaurus rex devouring a pterodactyl.,a mouse eating a cricket.; a dog devouring a piece of cheese.; a cat eating grass outdoors.
+OpenBookQA,OpenBookQA,An example of conservation would be?,going green.,going green.,burning.; sinking.; burying.
+OpenBookQA,OpenBookQA,What vitamins help heal bones?,vitamin D meals.,vitamin D meals.,vitamin k.; vitamin c.; human vitamins.
+OpenBookQA,OpenBookQA,An example of an electric insulator is?,a brick wall.,a brick wall.,a circuit board.; a light bulb.; a wire.
+OpenBookQA,OpenBookQA,Hitting the keys of a piano is like playing?,a lute.,a lute.,a broadcast.; a concert.; a recital.
+OpenBookQA,OpenBookQA,"Seeds can be dispersed through all sorts of creative ways, such as?",a dog sneezes in a field and disrupts the air around plants.,a dog sneezes in a field and disrupts the air around plants.,a person orders flowers from a florist.; a man looks at a bed of flowers.; a man asks his dog if it wants some flowers.
+OpenBookQA,OpenBookQA,At a meal one plate seems to be larger than the other plates.  That plate is?,the person sitting next to you's plate.,the person sitting next to you's plate.,plate in a kitchen cabinet.; plate on the kitchen counter.; a person at the other side of the table's plate.
+OpenBookQA,OpenBookQA,This can be used to light up a light bulb?,biofuel.,biofuel.,grass.; dirt.; stones.
+OpenBookQA,OpenBookQA,When did the pond have less heat energy?,when people skated on it.,when people skated on it.,when people sat by it.; when people fished in it.; when people swam in it.
+OpenBookQA,OpenBookQA,"In the springtime, animals engage in ritual behavior such as?",creating bedding for young.,creating bedding for young.,picking flowers for mates.; hunting for new prey.; migrating to cold environments.
+OpenBookQA,OpenBookQA,"Recently, a lot of people, en masse, were told that they should take an opportunity to cast an image of an object through a pinhole onto a screen, in order to best enjoy an activity. This was because?",avoiding looking directly at an eclipse is important.,avoiding looking directly at an eclipse is important.,scientists are lacking fun.; eclipses are best to look at directly.; science tells us eclipses are scary.
+OpenBookQA,OpenBookQA,how can one alter plants without interacting directly with it?,change its current habitat.,change its current habitat.,do a rain dance.; all of these.; leave it as it is.
+OpenBookQA,OpenBookQA,Sleet is made of?,a substance used to keep drinks cold.,a substance used to keep drinks cold.,snow and manmade materials.; small crystals of salt.; phosphates and other chemicals.
+OpenBookQA,OpenBookQA,A thin beak is most useful to?,allow a bird to hunt for food in tight spaces.,allow a bird to hunt for food in tight spaces.,allow a bird to fly faster.; allow a bird to forage in trashcans for food.; allow a bird to hunt for food in wide spaces.
+OpenBookQA,OpenBookQA,Bacteria?,can be beneficial and detrimental to an organism's health.,can be beneficial and detrimental to an organism's health.,is lacking in any benefits to an organism.; is unable to infect any organisms.; is always harmful to an organism.
+OpenBookQA,OpenBookQA,in which of these environments would one ideally situate a farm?,over on the grassland.,over on the grassland.,in the middle of the desert.; none of these.; in the rocky mountains.
+OpenBookQA,OpenBookQA,Telephones will transfer acoustics using what energy?,electron flow.,electron flow.,gamma radiation.; heat transfer.; light pulses.
+OpenBookQA,OpenBookQA,An example of a flexible container?,Play dough.,Play dough.,Bricks.; Bones.; Carrots.
+OpenBookQA,OpenBookQA,which one of these methods can a potential prey use to escape attack?,making sounds like a known larger animal.,making sounds like a known larger animal.,presenting itself to its predator.; none of these.; salting itself to be more palatable.
+OpenBookQA,OpenBookQA,"okra has to have water, sun and what to grow?",Earth.,Earth.,planter.; music.; shade.
+OpenBookQA,OpenBookQA,"A lake, pond, or stream can all be used to?",collect fluid from.,collect fluid from.,make extra food.; rain water down.; create new houses.
+OpenBookQA,OpenBookQA,"On a particularly hot day, a young woman clicks on a fan in the room, and the blades of the fan begin to quietly rotate in a circular motion, which?",rustles the air around it.,rustles the air around it.,heats up the surrounding air.; pulls dust into a vacuum.; blasts cold air outdoors.
+OpenBookQA,OpenBookQA,Windy means what is going at high speeds?,gales.,gales.,water.; cars.; dirt.
+OpenBookQA,OpenBookQA,What is an example of weathering occurring over several years?,a stone becoming smoother.,a stone becoming smoother.,wood becoming rotten over time.; a cabin being shut down for the season.; a tree becoming taller.
+OpenBookQA,OpenBookQA,"As the amount of fragrance of a flower increases, the better chances it has at?",reproducing.,reproducing.,growing.; dying.; looking pretty.
+OpenBookQA,OpenBookQA,Food digestion in humans can be aided by?,microorganisms that have cell walls but lack organelles.,microorganisms that have cell walls but lack organelles.,hundreds of white blood cells.; amoebas in the blood supply.; carbon dioxide from the respiration process.
+OpenBookQA,OpenBookQA,Which would a scavenger most likely eat?,run over deer.,run over deer.,a swimming fish.; a nesting bird.; a skulking hyena.
+OpenBookQA,OpenBookQA,Efforts to preserve the ecosystem might lead national parks to?,ban fishing.,ban fishing.,encourage hunting.; promote logging.; encourage new species.
+OpenBookQA,OpenBookQA,The thermal production of a stove is generically used for?,warming food.,warming food.,heating homes.; producing food.; cooling pets.
+OpenBookQA,OpenBookQA,Which requires respiration to use energy?,skunk.,skunk.,solar collector.; car.; oil well.
+OpenBookQA,OpenBookQA,When a insect looks like another type of entity what is it called?,facade.,facade.,six legs.; spider eggs.; birds of prey.
+OpenBookQA,OpenBookQA,Nerves are used in order to sense which things?,the warmth and touch of a kiss on the cheek.,the warmth and touch of a kiss on the cheek.,the sound and sadness of a baby's cry.; the smell of dirty trash.; the warming feeling of being told you are loved.
+OpenBookQA,OpenBookQA,The gravitational pull of the sun causes what phenomenon?,planetary revolution.,planetary revolution.,creation of moons.; creation of rings.; planetary cooling.
+OpenBookQA,OpenBookQA,We looked at the arrow on the compass and then turned around and walked in the opposite direction.  We were walking?,south.,south.,east.; west.; north.
+OpenBookQA,OpenBookQA,When blood passes thru the primary element of the respiratory system it's diffused with?,an element released by plants.,an element released by plants.,the first element on the periodic chart.; a compound released by the burning of fossil fuels.; a compound used by plants.
+OpenBookQA,OpenBookQA,"When Gia cooked her no-bake cookies too long, she discovered they had become hard, (though un-burnt). what is the most likely reason?",The sugar had undergone crystallization.,The sugar had undergone crystallization.,It was so cold in the room if froze.; she used too many oats.; She used old sugar.
+OpenBookQA,OpenBookQA,What happens when man moves into new environments?,native species loses home.,native species loses home.,native species go wild.; native species thrive more.; native species grow large.
+OpenBookQA,OpenBookQA,An example of heat changing the state of matter could be?,jello becoming liquid when placed in a hot pan.,jello becoming liquid when placed in a hot pan.,water becoming warm when heated.; a bath being more comfortable when it is hot.; a pool receiving more visitors when warmed.
+OpenBookQA,OpenBookQA,Animals require?,the environmental output of plants.,the environmental output of plants.,the help of people.; the same gas needed for photosynthesis.; a lack of natural resources.
+OpenBookQA,OpenBookQA,What is an example of the appearance of stars seeming to move in relation to the horizon at night?,constellations may appear higher or lower in the sky depending on the hour.,constellations may appear higher or lower in the sky depending on the hour.,"constellations may appear to be upside down some nights.; depending on weather, constellations may be clearly visible at night.; some stars are unable to be seen on certain nights."
+OpenBookQA,OpenBookQA,What month is in the season after spring in the northern hemisphere?,june.,june.,november.; march.; december.
+OpenBookQA,OpenBookQA,A man wants to use a material in a project that will be nonrenewable. The man decides to use?,solo cups.,solo cups.,grass.; raindrops.; muddy water.
+OpenBookQA,OpenBookQA,The fish reproduction technique supplies?,roe.,roe.,coral reefs.; chunk tuna.; fish sticks.
+OpenBookQA,OpenBookQA,Water vapor cooling over night?,leaves behind wet foliage.,leaves behind wet foliage.,leaves dew on people.; forms black ice on bridges.; forms puddles on roads.
+OpenBookQA,OpenBookQA,What do bees convert nectar into?,sweet stuff sold in grocery stores.,sweet stuff sold in grocery stores.,different types of corn syrup.; rather large rock formations.; bees of different sizes.
+OpenBookQA,OpenBookQA,what happens when an animals' food intake increases?,the fat transfers into more pounds.,the fat transfers into more pounds.,it grows taller in size.; it jogs to burn energy.; it throws up the excess food.
+OpenBookQA,OpenBookQA,What would a rabbit most likely eat?,rhododendron.,rhododendron.,squirrel.; squid.; mouse.
+OpenBookQA,OpenBookQA,Decomposition occurs when a decomposer recycles nutrients from dead organisms back to the soil by eating them; what is an example of this?,worms devouring a corpse.,worms devouring a corpse.,flies laying eggs on a body.; wet leaves denigrating in a pile.; slugs digging through mulch.
+OpenBookQA,OpenBookQA,A full moon and a crescent moon occur normally?,every two fortnights.,every two fortnights.,every week.; yearly.; every evening.
+OpenBookQA,OpenBookQA,The moon's gravity?,determines when neap and ebb are on Earth.,determines when neap and ebb are on Earth.,pulls stars into it's orbit.; keeps objects on Earth grounded.; forces the sun to orbit around it.
+OpenBookQA,OpenBookQA,The moon has?,raised portions.,raised portions.,water sources.; large diamonds.; rolling grassy hills.
+OpenBookQA,OpenBookQA,Chlorophyll allows plants to soak up?,solar rays.,solar rays.,acid rain.; pollen.; fertilizer.
+OpenBookQA,OpenBookQA,"If something living requires sustenance, it will likely?",seek out a form of nutrients.,seek out a form of nutrients.,feel like it could eat.; try to enjoy life.; gather nutrients for friends.
+OpenBookQA,OpenBookQA,Plants grow because they?,use what people breathe out to survive.,use what people breathe out to survive.,decide the time is right.; can breathe a lot of air.; take photos of other plants.
+OpenBookQA,OpenBookQA,Plant lights can be useful in order to?,recreate effects of the sun.,recreate effects of the sun.,dry up several plants.; lower energy costs at home.; give dogs good lighting.
+OpenBookQA,OpenBookQA,As a car drives off in the night?,the taillights recede into the dark.,the taillights recede into the dark.,only the bumper is visible.; the taillights get brighter the further they go.; the taillights are turned off.
+OpenBookQA,OpenBookQA,A large mill in the area has led to streams and rivers being filled with?,pollutants.,pollutants.,rapids.; boats.; fish.
+OpenBookQA,OpenBookQA,What action has a positive impact on the conservation of nonrenewable resources?,turn the nonrenewable into something newly usable.,turn the nonrenewable into something newly usable.,depositing the nonrenewable resources in a landfill.; waste as much of the resources as possible.; start a large bonfire with resources.
+OpenBookQA,OpenBookQA,in electricity ceramics are sometimes used to?,slow transfers.,slow transfers.,increase voltage.; decrease wattage.; multiply amperage.
+OpenBookQA,OpenBookQA,A rabbit has thicker fur in?,January.,January.,April.; July.; October.
+OpenBookQA,OpenBookQA,A tape measure aids in?,formulating the area of a room.,formulating the area of a room.,deciding what color to paint a room.; figuring the state of matter of an object.; determining mass of an object.
+OpenBookQA,OpenBookQA,What happens when someone on top of a bicycle starts pushing it's peddles in a circular motion?,the bike accelerates.,the bike accelerates.,the bike wheelies.; the bike turns.; the bike brakes.
+OpenBookQA,OpenBookQA,If a mosquito dies and is sucked into mud?,years later it can still be seen.,years later it can still be seen.,it will be eaten.; it will be disintegrated.; it will be decayed.
+OpenBookQA,OpenBookQA,trees have chlorophyll so they make their own?,nutrients.,nutrients.,root structure.; water.; scheduled.
+OpenBookQA,OpenBookQA,What kept the bat on course?,reflected sound waves.,reflected sound waves.,luck.; magic.; snow.
+OpenBookQA,OpenBookQA,Things people eat come from?,farms.,farms.,mountains.; canyons.; cities.
+OpenBookQA,OpenBookQA,What would you use in an apartment to keep your neighbor below from hearing you shuffle around a room?,carpet.,carpet.,yarn.; wood.; tile.
+OpenBookQA,OpenBookQA,"if an adult salmon goes back to where it was born, which of these is likely?",it wants to deposit its offspring.,it wants to deposit its offspring.,it is about to die.; it is looking for its friend.; it is searching for its mother.
+OpenBookQA,OpenBookQA,"If the north is cold and the midnorth is warm, there will be?",air motion.,air motion.,snow.; stars.; fires.
+OpenBookQA,OpenBookQA,"A guy wants to make dinner for his family, so he puts a pan on the stove, adds some meat, and turns on the stove so that heat is being added to the pan. As the meat is warmed through, beginning to sizzle, it is?",being seared.,being seared.,being juiced.; being frozen.; being smoked.
+OpenBookQA,OpenBookQA,What is needed to make an island?,volcano.,volcano.,boat.; coral.; tree.
+OpenBookQA,OpenBookQA,It would be harder to grow a palm tree in?,Idaho.,Idaho.,Texas.; Arizona.; South Carolina.
+OpenBookQA,OpenBookQA,A moth?,needs a chrysalis as part if its life cycle.,needs a chrysalis as part if its life cycle.,builds a cocoon as part of its death ritual.; undergoes complete metamorphosis in one day.; is born with wings.
+OpenBookQA,OpenBookQA,glucose is easily soluble in?,H2O.,H2O.,wood.; alcohol.; sand.
+OpenBookQA,OpenBookQA,What time of day does a solar panel work best?,1:45 pm.,1:45 pm.,9:15 pm.; 8 am.; 5:30 pm.
+OpenBookQA,OpenBookQA,Sediment built up around the shed due to:?,tornado.,tornado.,magic.; luck.; cars.
+OpenBookQA,OpenBookQA,Two gears grinding against each other will raise which of their properties?,temperature.,temperature.,phase.; taste.; mass.
+OpenBookQA,OpenBookQA,electrical current does what to a wire to cause it to heat up?,traverse it.,traverse it.,carry it.; merge with it.; run from it.
+OpenBookQA,OpenBookQA,"if the surface of our planet is different after a while, what could have happened?",all of these.,all of these.,the surface eroded on its own.; there were natural occurrences.; man has damaged the surface.
+OpenBookQA,OpenBookQA,Sunlight is a source of?,warmth.,warmth.,wind energy.; frigid temperatures.; moonlight.
+OpenBookQA,OpenBookQA,What contributes to prey animals being able to survive predators long enough to mate?,hiding in bushes.,hiding in bushes.,eating sweets.; how they're named.; listening to music.
+OpenBookQA,OpenBookQA,Peat is derived from?,compressing of deteriorating foliage.,compressing of deteriorating foliage.,saplings and flowering seedlings.; compaction of water and soil.; floating debris in swamp water.
+OpenBookQA,OpenBookQA,which of these scenarios would result in the ugliest TV screen?,a bowl of quartz is emptied on it.,a bowl of quartz is emptied on it.,a handkerchief drops on it.; a bowl of cotton is emptied on it.; a silk tie falls on it.
+OpenBookQA,OpenBookQA,Which of the following is true?,Liquid water will turn to water vapor when the temperature is more than its boiling point.,Liquid water will turn to water vapor when the temperature is more than its boiling point.,Ice will turn to water vapor when it stays under its boiling point.; Liquid water will turn to ice below its freezing point.; Ice will turn to liquid water below its freezing point.
+OpenBookQA,OpenBookQA,A bear hibernates through cold weather because?,resources are scarce in winter.,resources are scarce in winter.,bears get very tired.; it is gestating young.; winter is too cold.
+OpenBookQA,OpenBookQA,Which shows a way to preserve natural resources:?,run dishwasher full.,run dishwasher full.,using gasoline engines.; tossing lawn clippings.; throwing out aluminum.
+OpenBookQA,OpenBookQA,A canyon is created by a strong force such as?,rapids crashing.,rapids crashing.,water dripping.; thunder rusting.; lightening striking.
+OpenBookQA,OpenBookQA,A jellyfish's abilities exclude?,sense light.,sense light.,sting.; poison.; move.
+OpenBookQA,OpenBookQA,In order to grow a rosebush needs a specific?,climate.,climate.,gardener.; house.; fertilizer.
+OpenBookQA,OpenBookQA,From which distance will an object look the biggest?,4 feet.,4 feet.,30 feet.; 1 kilometer.; 1 mile.
+OpenBookQA,OpenBookQA,Which does not support living things and is not a home to living things?,carpet.,carpet.,field.; forest.; grassland.
+OpenBookQA,OpenBookQA,The Grand Canyon became so deep and large because?,rushing water eroded it.,rushing water eroded it.,water sources are there.; rivers are around it.; water is really strong.
+OpenBookQA,OpenBookQA,Heat can can cause matter to?,shift phases.,shift phases.,become intelligent.; multiply.; disappear.
+OpenBookQA,OpenBookQA,A chipmunk that gathers many different items can often store what for later usage and help with plant dispersal.?,uneaten pits.,uneaten pits.,hair balls.; water.; small leaves.
+OpenBookQA,OpenBookQA,A young boy decides that he likes dogs better than he likes cats. A reason for this may be that?,his parents only have dogs.,his parents only have dogs.,his dogs are cats.; his parents hate dogs.; his parents are cats.
+OpenBookQA,OpenBookQA,A girl is turning sixteen and is experiencing changes to her breasts and other areas as she matures. These changes as she enters adulthood signify?,procreative adjustments.,procreative adjustments.,cohesive ability.; coherent reduction.; reductive properties.
+OpenBookQA,OpenBookQA,"When you heat liquids, what happens to it's ability to break down solids?",it enhances it.,it enhances it.,nothing significant.; it lessens it.; it stops.
+OpenBookQA,OpenBookQA,If you wanted to be outside in the daylight for the longest period when would be worst?,January.,January.,June.; April.; August.
+OpenBookQA,OpenBookQA,A rock may be used as a shelter by a?,spider.,spider.,chicken.; giant squid.; deer.
+OpenBookQA,OpenBookQA,What season includes the last month of the year in the southern hemisphere?,summer.,summer.,winter.; spring.; fall.
+OpenBookQA,OpenBookQA,Absorbing sunlight?,makes the asphalt scorching to bare feet.,makes the asphalt scorching to bare feet.,leaves objects too frosty to handle.; makes car hoods cool to the touch.; leaves surfaces and objects unaffected.
+OpenBookQA,OpenBookQA,An anemometer would get a work out on a?,blustery day.,blustery day.,still afternoon.; cloudy day.; rainy day.
+OpenBookQA,OpenBookQA,What heavenly object is closer to the planet where the TV was invented?,Moon.,Moon.,Jupiter.; Sun.; Saturn.
+OpenBookQA,OpenBookQA,"A litter of healthy cubs are born to a lioness, and eventually one of the cubs has a cut on its paw. It is reasonable to assume?",the cut paw was acquired.,the cut paw was acquired.,the lioness has a cut paw.; the cut paw was inherited.; all cubs will have cut paws.
+OpenBookQA,OpenBookQA,careless handling of chemicals can lead to one of the following?,Chemical splashing accidents.,Chemical splashing accidents.,chemical composition making.; chemical modifications accidents.; chemical formation making.
+OpenBookQA,OpenBookQA,Which is a function of the skeletal system?,Chewing.,Chewing.,Digestion.; Breathing.; Thinking.
+OpenBookQA,OpenBookQA,What season is December in the southern hemisphere?,when the weather gets hot and dry.,when the weather gets hot and dry.,when snow starts to fall.; when the flowers start to bloom.; when the trees change colors.
+OpenBookQA,OpenBookQA,If someone is allergic to sunlight then the place they need to avoid is?,gazebo.,gazebo.,libraries.; buildings.; underwater.
+OpenBookQA,OpenBookQA,"After spring ends, the next time it will be spring is?",next year.,next year.,next month.; next decade.; next week.
+OpenBookQA,OpenBookQA,A scale is necessary to determine?,BMI.,BMI.,CNA.; DNA.; XFL.
+OpenBookQA,OpenBookQA,A plant's stem?,acts as the subway delivering it's water and nutrient passengers to the rest of the plant.,acts as the subway delivering it's water and nutrient passengers to the rest of the plant.,supplies only the roots with water and nutrients.; supplies carbon dioxide through the root system.; acts as the lungs for the plant.
+OpenBookQA,OpenBookQA,"In a bowl of water with the sun shining on it, what happens to the water after four hours?",there is less water.,there is less water.,the water is growing algae.; the water is dirty.; there is more water.
+OpenBookQA,OpenBookQA,A stone may experience the most weathering over?,a century.,a century.,a week.; a year.; a decade.
+OpenBookQA,OpenBookQA,Brackish water is often found where?,several large rivers meet.,several large rivers meet.,a sea is large.; the ocean is deep.; a river cuts through a canyon.
+OpenBookQA,OpenBookQA,A wooden floor will be easier to slide a chair over than a carpeted floor will be because a wooden floor?,has less roughness.,has less roughness.,has dry friction.; has enormous friction.; has more texture.
+OpenBookQA,OpenBookQA,The cell membrane keeps a cell from?,falling apart.,falling apart.,replicating.; getting lost.; running away.
+OpenBookQA,OpenBookQA,"A bear that ate a watermelon will also travel during the day to several areas of the surrounding forest, which can cause?",dispersal of seed.,dispersal of seed.,food for young.; bears.; seed production.
+OpenBookQA,OpenBookQA,White blood cells?,take action against agents of disease.,take action against agents of disease.,act as transporters of nutrients.; act as transporters of neurons.; defend the body from sunlight.
+OpenBookQA,OpenBookQA,"If a lawnmower runs over an anthill, the colony's population probably?",decreases.,decreases.,stagnates.; increases.; doubles.
+OpenBookQA,OpenBookQA,"Eating certain foods can add fiber into a diet which helps the body to stay regular, such as when eating?",broccoli.,broccoli.,multivitamins.; fish.; crackers.
+OpenBookQA,OpenBookQA,"Some creatures can bring in prey by providing a source of light, such as?",Lophiiformes.,Lophiiformes.,giant squid.; sharks.; crawfish.
+OpenBookQA,OpenBookQA,AIDS destroys the body by helping?,pathogens.,pathogens.,antigens.; organs.; bone.
+OpenBookQA,OpenBookQA,"A celestial body grows a few meters in size every year, and the mass increases as well. After a hundred years, the celestial body will?",have stronger gravity.,have stronger gravity.,repel the sun.; attract the sun.; have weaker gravity.
+OpenBookQA,OpenBookQA,A scale can?,let you know if the dog needs to lose a few pounds.,let you know if the dog needs to lose a few pounds.,give an estimate of a dog's age.; measure how long a dog is.; make an educated guess about a dog's breed.
+OpenBookQA,OpenBookQA,Knowing the formula for speed?,would aid in calculating road time needed to reach a destination.,would aid in calculating road time needed to reach a destination.,would aid in calculating weight of the car.; would aid in figuring out traffic congestion patterns.; would aid in using a map.
+OpenBookQA,OpenBookQA,The respiratory system allows the body to?,oxygenate blood from the air.,oxygenate blood from the air.,intake carbon dioxide into the blood from the air.; combine oxygen and carbon dioxide in the blood.; remove oxygen from the blood.
+OpenBookQA,OpenBookQA,All natural resources come from nature such as?,moisture coming from oceans.,moisture coming from oceans.,cats coming from shelters.; cake coming from bakers.; money coming from the government.
+OpenBookQA,OpenBookQA,"To burn away the darkness, even a tiny light will do, such as?",a dark wick being touched by a match.,a dark wick being touched by a match.,a small smile from a friend.; a little feeling of hope.; a small voice in the dark.
+OpenBookQA,OpenBookQA,"if a ball on the beach bursts, what would most likely escape?",the gaseous content in it.,the gaseous content in it.,the fishes on the shore.; none of these.; the sharks in it.
+OpenBookQA,OpenBookQA,Leaves play a role in the making of?,a life sustaining element humans need.,a life sustaining element humans need.,carbon dioxide for humans to breathe.; the chemicals needed to make table salt.; helium for party balloons.
+OpenBookQA,OpenBookQA,A stately red maple in a dense forest is supported by its?,trunk.,trunk.,pine needles.; leaves.; upward thrust.
+OpenBookQA,OpenBookQA,One source of pollution are?,trash heaps.,trash heaps.,recycling bins.; green ways.; natural streams.
+OpenBookQA,OpenBookQA,nonrenewable resources include all but?,sunlight.,sunlight.,coal.; oil.; natural gas.
+OpenBookQA,OpenBookQA,A full moon is caused by?,orbiting.,orbiting.,werewolves.; moonlight.; tides.
+OpenBookQA,OpenBookQA,"A man is teaching his daughter to ride a bike. He emphasizes the need for her feet to remain on the pedals, so that?",the bike propels forward.,the bike propels forward.,the bike is fun.; the bike hold still.; the bike is pink.
+OpenBookQA,OpenBookQA,Crop rotation?,allows loam to replenish its nutrient supply.,allows loam to replenish its nutrient supply.,hurts the overall crop reap.; allows farmers to take a break.; prevents fertilizer from working.
+OpenBookQA,OpenBookQA,"Someday, the ground under the pile of rotting grain in the field will be?",more fertile.,more fertile.,barren.; a hole.; less fertile.
+OpenBookQA,OpenBookQA,In what way do mice come into the world?,through a muscular canal.,through a muscular canal.,by surgical interference by veterinarians.; through a thick shell.; digging upwards through sand.
+OpenBookQA,OpenBookQA,Pouring lemon juice into water?,creates a beverage lemon flavored.,creates a beverage lemon flavored.,flavors milk with lemons.; is mostly water still.; uses only real lemons.
+OpenBookQA,OpenBookQA,"If a road is bumpy and another road is smooth, the bumpier road?",will be rough on tires.,will be rough on tires.,will be lower than the smooth road.; will be longer than the smooth road.; will have cars driving quickly.
+OpenBookQA,OpenBookQA,Shelter can protect humans from?,catastrophic natural events.,catastrophic natural events.,space.; aging.; time.
+OpenBookQA,OpenBookQA,Tree rings can?,tell you what year a tree was planted.,tell you what year a tree was planted.,indicate how often the tree needs pruning.; tell you how tall a tree is.; indicate the year the tree will die.
+OpenBookQA,OpenBookQA,what do animals need to protect them from bad weather?,housing.,housing.,food.; water.; clothing.
+OpenBookQA,OpenBookQA,Roses are propped up by?,green structures that rise from the ground.,green structures that rise from the ground.,green structures that grow from concrete.; green structures that grow from brick.; green structures that fall from the sky.
+OpenBookQA,OpenBookQA,resources other than manmade can only be found on?,our planet.,our planet.,a laboratory.; your home.; the moon.
+OpenBookQA,OpenBookQA,A way to tell if a rock could possibly hold Fe inside is to?,hover a magnet over it.,hover a magnet over it.,take the rock home.; ask someone at school.; look at it closely.
+OpenBookQA,OpenBookQA,The black bear in Alaska is known for hunting this type of feast?,fish.,fish.,moose.; sasquatch.; elk.
+OpenBookQA,OpenBookQA,Draining the rain with a rain gutter onto bare ground through a spout will?,make the ground underneath contain less soil.,make the ground underneath contain less soil.,attract more dirt to where the water is falling.; cause the ground to become very hard.; draw up more water from underground.
+OpenBookQA,OpenBookQA,on which of these does a ball fall faster from a height?,our world.,our world.,on the moon.; on pluto.; none of these.
+OpenBookQA,OpenBookQA,"A storm is coming and dark clouds are rolling in, which were formed after?",fluid was drawn from the air.,fluid was drawn from the air.,rain was drawn on a sheet.; water was wet in the future.; people drew rain storms.
+OpenBookQA,OpenBookQA,Animals of the Arctic thrive in?,Snow Environment.,Snow Environment.,Tropical Environment.; Warm Climates.; Water Environments.
+OpenBookQA,OpenBookQA,Keeping your fast food bags in the car until you get home instead of throwing them out the window is an example of protecting the?,environment.,environment.,Car.; Restaurant.; people.
+OpenBookQA,OpenBookQA,National parks?,take measures to protect their animal populations.,take measures to protect their animal populations.,allow unlimited hunting of endangered species.; are full of pollution.; get very few visitors on a yearly basis.
+OpenBookQA,OpenBookQA,"Using trash in the way it was used in the last scene of the 'Back to the Future' movie is, most ideally, an example of:?",an alternative fuel.,an alternative fuel.,creative filming.; wishful thinking.; cleaning the environment.
+OpenBookQA,OpenBookQA,Water boiling in a pot on a stove is an example of?,thermal conduction.,thermal conduction.,electrocution.; freezing.; hydroplaning.
+OpenBookQA,OpenBookQA,The ground moving when the atomic bombs landed is similar to?,earthquake.,earthquake.,world war.; geyser spout.; volcano.
+OpenBookQA,OpenBookQA,What do animals do if their habitat cannot support them?,abandon it.,abandon it.,fertilize the habitat.; fortify area.; stay in area.
+OpenBookQA,OpenBookQA,What offers a tree with stability and a way to distribute nutrients throughout the plant?,trunk.,trunk.,sap.; leaves.; fruit.
+OpenBookQA,OpenBookQA,For what does a stove generally generate heat?,heating nutrients to appropriate temperatures.,heating nutrients to appropriate temperatures.,warming the air in the area.; entertaining various visitors and guests.; to create electrical charges.
+OpenBookQA,OpenBookQA,A running car engine could?,leave the hood hot to the touch.,leave the hood hot to the touch.,cause the trunk to pop open.; leave the hood cold to the touch.; cause the car doors to spring open.
+OpenBookQA,OpenBookQA,Standing near a campfire?,will keep you toasty.,will keep you toasty.,will leave you shivering.; will make it difficult to see in the dark.; will cool you down.
+OpenBookQA,OpenBookQA,Each of the moon's phases usually occurs once per?,30 days.,30 days.,week.; day.; year.
+OpenBookQA,OpenBookQA,What is an example of an animal needing warmth for survival?,a deer nestled into long grass.,a deer nestled into long grass.,a rabbit hopping through the snow.; a bat catching a mosquito.; a dog eating from a dish.
+OpenBookQA,OpenBookQA,"As an herbivore, deers will eat?",A bush.,A bush.,Meat.; Chicken.; Tires.
+OpenBookQA,OpenBookQA,How many minutes are in a 24 hour day?,1440.,1440.,24.; 2400.; 240.
+OpenBookQA,OpenBookQA,The moon is what to the earth?,the closest body in in space.,the closest body in in space.,the largest star in the sky.; the brightest celestial object.; the biggest thing in the universe.
+OpenBookQA,OpenBookQA,which of these would lead to a rise in speed and acceleration?,a person running behind and kicking a balloon.,a person running behind and kicking a balloon.,a person sitting still.; a person standing in place.; a person stopping an oncoming ball.
+OpenBookQA,OpenBookQA,Weathering is?,a dandelion growing thru a line in asphalt.,a dandelion growing thru a line in asphalt.,wheat growing in a field.; peat moss growing on river rocks.; air plants growing in a shell.
+OpenBookQA,OpenBookQA,which of these people will have the best sight while driving to work?,a person in the spring morning.,a person in the spring morning.,a person driving in the blizzard.; a person driving in the night.; a person driving in the rain.
+OpenBookQA,OpenBookQA,A drop off in predator population?,can indicate a nutrient insufficient environment.,can indicate a nutrient insufficient environment.,indicates a boom in animal reproduction.; can indicate a drop off in frigid temperatures.; indicates plentiful amounts of water.
+OpenBookQA,OpenBookQA,"Some plants are easy for hummingbirds to sip nectar from. While the hummingbirds are taking nectar, the plants also gain something, which is?",a pollinator.,a pollinator.,bird friends.; more nectar.; extra food.
+OpenBookQA,OpenBookQA,Protect the environment by?,using less hairspray.,using less hairspray.,using more water.; using more packaging.; using less renewables.
+OpenBookQA,OpenBookQA,A flashlight works because the batteries inside of it produce chemical energy that?,is transferred to another type.,is transferred to another type.,makes the lights bright.; burn into the plastic.; lights up a room.
+OpenBookQA,OpenBookQA,If I wanted to gain energy I could?,Consume an apple.,Consume an apple.,Brush my hair.; Wash my face.; Go running.
+OpenBookQA,OpenBookQA,If it is dark outside it is hard to see an object because it there is no?,light.,light.,objects.; sight.; movement.
+OpenBookQA,OpenBookQA,"Electricity can flow as long as it has a conductor to help it along, such as?",nickel earrings.,nickel earrings.,cardboard paperclips.; wooden bowls.; rubber soles.
+OpenBookQA,OpenBookQA,Which animal has the best camouflage in the Sahara?,a horned viper.,a horned viper.,a koala bear.; Gyrfalcon.; a sloth.
+OpenBookQA,OpenBookQA,Magnetism can cause?,Radiation isotope creation.,Radiation isotope creation.,How to Swim.; Head to Rotate.; Clouds to Move.
+OpenBookQA,OpenBookQA,panting is the equivalent to humans?,expelling water from their dermis.,expelling water from their dermis.,begging for water constantly.; crying for hours on end.; drowning in a small puddle.
+OpenBookQA,OpenBookQA,The sun appears to move because of the rotation of a?,planet.,planet.,star.; moon.; sun.
+OpenBookQA,OpenBookQA,I need what to calculate the length from my big toe to my little toe?,Tape Measure.,Tape Measure.,Calculator.; A Graph.; A Microscope.
+OpenBookQA,OpenBookQA,A leaf falling from a tree means?,I should wear a coat.,I should wear a coat.,I should wear a tank top.; I should wear sandals.; I should go to the beach.
+OpenBookQA,OpenBookQA,A material that can be burned to produce electricity can be made from?,algae.,algae.,water.; air.; electronics.
+OpenBookQA,OpenBookQA,Sowing plants native to an ecosystem?,is a worthwhile action.,is a worthwhile action.,is a useless action.; is a harmful action.; is a neutral action.
+OpenBookQA,OpenBookQA,"The world changes over time, and an example of this could be?",cities buried under lava rock.,cities buried under lava rock.,sand covering a beach front.; a lake hosting hundreds of fish.; seas having saltwater in them.
+OpenBookQA,OpenBookQA,"A swordbill is able to drink from long, narrow flowers where other birds are unable to because of?",genetic advantage of swordbills.,genetic advantage of swordbills.,the flower pushes them away.; the swordbill's skill at drinking.; lack of experience in pollinating.
+OpenBookQA,OpenBookQA,If you had a telescope what is something meant to be viewed by it?,Alcor.,Alcor.,Greater Pewee.; Vibrio.; Heisenberg.
+OpenBookQA,OpenBookQA,An electron microscope can?,recreate an entire image.,recreate an entire image.,move small magnets around.; create completed replicas of animals.; burn plastic with ease.
+OpenBookQA,OpenBookQA,This is a rarely used way to produce electricity.?,tidal energy.,tidal energy.,wind energy.; solar power.; hydroelectric power.
+OpenBookQA,OpenBookQA,A substance people use for writing also helps an animal deal with?,predators.,predators.,food.; human activity.; climate change.
+OpenBookQA,OpenBookQA,Where might you find a gecko?,Ecuador.,Ecuador.,South Pole.; Antartica.; Ross Ice Shelf.
+OpenBookQA,OpenBookQA,by congregating together a collection of organisms chances of survival?,raises.,raises.,decreases.; stops.; stays the same.
+OpenBookQA,OpenBookQA,Insects are eaten by?,lizard-like amphibians.,lizard-like amphibians.,dogs.; flies.; cats.
+OpenBookQA,OpenBookQA,Rabbits consume?,verdant organisms that grow from the ground.,verdant organisms that grow from the ground.,verdant fish that swim through the sea.; verdant monkeys that swing from the trees.; verdant animals that fly from the sky.
+OpenBookQA,OpenBookQA,Beaches are harmed?,when beach goers leave behind detritus on the sand.,when beach goers leave behind detritus on the sand.,when turtles lay their eggs.; when children play in the ocean.; when seagulls nest in dunes.
+OpenBookQA,OpenBookQA,which of these could lead to the introduction of new plant species to a place?,all the mentioned options.,all the mentioned options.,a botanist introducing them.; a dog traveling through a field.; a farmer introducing them.
+OpenBookQA,OpenBookQA,"A man is building a cabin in a forested area that receives a lot of snow in the winter. The man would like the cabin to retain heat in the winter so that the cabin stays warm and that it is inexpensive to heat. In order to facilitate this desire, the man lines the walls of his cabin with?",thermal insulator.,thermal insulator.,glass.; thermal gravity.; hard plastic.
+OpenBookQA,OpenBookQA,To travel in an environmentally friendly way?,use a two wheel human-powered vehicle.,use a two wheel human-powered vehicle.,drive a gas guzzling truck.; take a coal powered train.; drive a car with a leaky gas tank.
+OpenBookQA,OpenBookQA,Chemical changes can occur when?,Na is added to Cl.,Na is added to Cl.,plastic is used for eating utensils.; oxygen circulates in a vacuum chamber.; H2O is exposed to air.
+OpenBookQA,OpenBookQA,What is an example of friction occurring?,there is more resistance driving on gravel than on concrete.,there is more resistance driving on gravel than on concrete.,a person thinks a thought.; an apple falls to the ground from a tree.; a spring bounces back and forth.
+OpenBookQA,OpenBookQA,What animal will have the least pressure on it?,a falcon flying above a peak.,a falcon flying above a peak.,a fish at the bottom of the ocean.; a salmon swimming just under the surface of river.; a cat running down a street.
+OpenBookQA,OpenBookQA,Deer often live near?,log cabins.,log cabins.,lions.; crocodiles.; polar bears.
+OpenBookQA,OpenBookQA,What is formed by water evaporating from a solution of water and minerals?,shale.,shale.,pants.; food.; glass.
+OpenBookQA,OpenBookQA,Volume can indicate?,whether an object is expansive.,whether an object is expansive.,how an object reacts to heat.; how an object smells.; the state of matter of an object.
+OpenBookQA,OpenBookQA,What does tearing do to a whole?,it takes it apart.,it takes it apart.,it neutralizes the whole.; it enlarges the whole.; it puts it together.
+OpenBookQA,OpenBookQA,"humans can taste flavors, and so can?",marsupials.,marsupials.,insects.; trees.; cockroaches.
+OpenBookQA,OpenBookQA,"A man grows flowers in the winter using his greenhouse. The flowers blossom there, despite the cold, freezing weather and lack of sunshine, because?",they are carefully protected.,they are carefully protected.,they are regularly chilled.; they are given salt.; they are told to.
+OpenBookQA,OpenBookQA,Coral can be found in?,tepid waters of the Atlantic.,tepid waters of the Atlantic.,ponds in local communities.; the rivers in mid-America.; streams in the Arctic.
+OpenBookQA,OpenBookQA,"Switching on a light can complete an electrical circuit, which may?",brighten a room.,brighten a room.,turn off fans.; close a door.; use a flashlight.
+OpenBookQA,OpenBookQA,Large fins?,allows for brisker movements.,allows for brisker movements.,speeds up eating time.; slows down swimming pace.; improve appearance of fish.
+OpenBookQA,OpenBookQA,Which of these is a solution?,coke.,coke.,milk.; water.; clouds.
+OpenBookQA,OpenBookQA,why must a cell delegate its essential functionalities?,to maximize work distribution.,to maximize work distribution.,all of these.; to avoid extra work.; to catch its prey.
+OpenBookQA,OpenBookQA,On the moon people are pulled down?,less.,less.,the same.; more.; unpredictably.
+OpenBookQA,OpenBookQA,It is possible to renew?,sunflowers.,sunflowers.,oil.; steel.; stones.
+OpenBookQA,OpenBookQA,Grey clouds often appear before?,hail.,hail.,heat.; wind.; humidity.
+OpenBookQA,OpenBookQA,A refraction of light that splits into all different colors often occurs after?,rain.,rain.,clouds.; heat.; earthquakes.
+OpenBookQA,OpenBookQA,Acid rain may effect things in ways such as?,marine life becomes inedible.,marine life becomes inedible.,causing grass to grow greener.; creating craters in mountains.; turning city streets to slush.
+OpenBookQA,OpenBookQA,"When hurricanes move over land, the hurricane does what?",loses capacity to withstand great force or pressure.,loses capacity to withstand great force or pressure.,speeds up a considerate amount.; stops almost at once.; gains a lot of strength.
+OpenBookQA,OpenBookQA,"If you add heat to something, a chemical reaction may take place, like when?",mixed ingredients become a cupcake.,mixed ingredients become a cupcake.,ingredients are mixed in a bowl.; coffee is warmed in a microwave.; pasta is warmed on a stove.
+OpenBookQA,OpenBookQA,What does a skunk produce?,sulfur-containing analog of an alcohol.,sulfur-containing analog of an alcohol.,carbonated water with bubbles.; x-rays made from radiation.; ammonia containing some liquid.
+OpenBookQA,OpenBookQA,In which situation would an animal shed fur?,It is hot.,It is hot.,It is angry.; It is cold.; It is happy.
+OpenBookQA,OpenBookQA,If seeds stick to the coat of an animal they can be?,transported.,transported.,stored.; eaten.; germinated.
+OpenBookQA,OpenBookQA,White blood cells?,obliterate pathogens.,obliterate pathogens.,encourage pathogen growth.; increase pathogen production.; join with pathogens.
+OpenBookQA,OpenBookQA,A thermal conductor may conduct energy from?,sunshine.,sunshine.,ice.; stone.; fabric.
+OpenBookQA,OpenBookQA,Pulse accelerates?,when running pace increases.,when running pace increases.,when cooling down after a work out.; when running pace slows.; when entering into a sleep state.
+OpenBookQA,OpenBookQA,Bicycle riding is nearly unique to certain species such as?,human beings.,human beings.,dolphins.; dogs.; small squirrels.
+OpenBookQA,OpenBookQA,A species that has only 1 living member?,is on the verge of extinction.,is on the verge of extinction.,has already become extinct.; can reproduce through asexual reproduction.; should be preserved in a museum.
+OpenBookQA,OpenBookQA,Springtime with animals can mean:?,more hair on the furniture.,more hair on the furniture.,thicker fur on the animal.; less hair on the furniture.; lighter colored fur on the animal.
+OpenBookQA,OpenBookQA,migration is when animals travel from the northern most state to Texas during what segment of time?,winter.,winter.,birds.; spring.; lake fronts.
+OpenBookQA,OpenBookQA,Transpiration can contribute to?,rain.,rain.,animals.; wind.; flowers.
+OpenBookQA,OpenBookQA,Smoothing will occur?,if two pebbles rub together over long periods of time.,if two pebbles rub together over long periods of time.,if an abrasive is rubbed against cement.; if flint is struck against stone.; if bricks are thrown at each other.
+OpenBookQA,OpenBookQA,Which shows a change from potential energy to kinetic energy?,an orange dropping from a tree.,an orange dropping from a tree.,a tree growing fruit.; a rock sitting still.; a person climbing a mountain.
+OpenBookQA,OpenBookQA,The type of climate change known as anthropogenic is caused by this:?,humanity.,humanity.,volcanic activity.; increased sunlight.; forest fires.
+OpenBookQA,OpenBookQA,What is one thing cloud precipitation can be?,unfavorable weather outlook.,unfavorable weather outlook.,a thunder boom.; a liquid fire.; none of these.
+OpenBookQA,OpenBookQA,Clouds are?,Quiet heavy.,Quiet heavy.,Grass.; The color green.; Bricks.
+OpenBookQA,OpenBookQA,Birds reproduce using?,eggs.,eggs.,live birth.; cloning.; mitosis.
+OpenBookQA,OpenBookQA,which of these is more similar to electric particles behavior?,cars traveling on a highway.,cars traveling on a highway.,both of the above.; cars parked in a parking lot.; cars in a garage.
+OpenBookQA,OpenBookQA,What comes directly from the source?,Lumber.,Lumber.,Plastic.; Denim.; White sugar.
+OpenBookQA,OpenBookQA,deserts are known for having what type of climates?,scorching.,scorching.,comfortable.; moderate.; freezing.
+OpenBookQA,OpenBookQA,To experience evaporation you can?,Put plastic over a plant.,Put plastic over a plant.,Pour water into a lake.; Run water in a facet.; Watch the rain fall.
+OpenBookQA,OpenBookQA,A flashlight emits?,particles.,particles.,water.; bugs.; sound.
+OpenBookQA,OpenBookQA,When the Earth's Northern axis is tilted away from the Sun the amount of daylight is?,shortened.,shortened.,brighter.; lengthened.; turned back.
+OpenBookQA,OpenBookQA,Where is the sun located at 12:00 PM?,overhead.,overhead.,the south.; below.; the north.
+OpenBookQA,OpenBookQA,We made sure to use the hose on the begonia daily so it would?,survive.,survive.,melt.; die.; freeze.
+OpenBookQA,OpenBookQA,Squirrels are seed dispersers because?,they bury their food.,they bury their food.,they prefer to eat acorns.; squirrels live in trees.; they eat lots of nuts.
+OpenBookQA,OpenBookQA,What type of human diet would be most comparable to a cow?,Vegan.,Vegan.,Pescaterian.; Atkins Diet.; Omnivore.
+OpenBookQA,OpenBookQA,which of these individuals would be more healthy?,a teacher who sleeps eight hours a day.,a teacher who sleeps eight hours a day.,a student who sleeps two hours daily.; a woman who sleeps three hours a day.; a man who practices sleep deprivation.
+OpenBookQA,OpenBookQA,pushing against a rolling boulder will decrease its?,impetus.,impetus.,size.; height.; ambitions.
+OpenBookQA,OpenBookQA,In a desert area plants grow?,farther apart.,farther apart.,underwater.; closer together.; in lines.
+OpenBookQA,OpenBookQA,what is one use for a radio?,transferring signals.,transferring signals.,sending light signals.; sending goods.; none of these.
+OpenBookQA,OpenBookQA,"If something good is increased, survival of organisms needing it increase, such as when?",amoeba get nutrients.,amoeba get nutrients.,cars get food.; kittens get yarn.; babies get toys.
+OpenBookQA,OpenBookQA,Turning beef from red to brown requires energy from?,heat.,heat.,sound.; color.; light.
+OpenBookQA,OpenBookQA,"A person is travelling and needs to know how much further to go, so for the remainder of the trip, he is?",noting in meters.,noting in meters.,distance in millimeters.; using square feet.; measuring with inches.
+OpenBookQA,OpenBookQA,What is the earth's surface made of?,Aggregate minerals.,Aggregate minerals.,Grass.; Asphalt.; Water.
+OpenBookQA,OpenBookQA,A plant can germinate in another place when a person rubs against its?,flowers.,flowers.,roots.; leaves.; stems.
+OpenBookQA,OpenBookQA,"A frog reproduces with some other frogs, then watches over the potential offspring which are?",resting in sacs on leaves.,resting in sacs on leaves.,born life and moving.; floating in outer space.; melted in the rain.
+OpenBookQA,OpenBookQA,What room in a house would signify the excretory system?,bathroom.,bathroom.,dining room.; living room.; kitchen.
+OpenBookQA,OpenBookQA,"If a tree burns down, it can be made right by?",placing seed in dirt.,placing seed in dirt.,buying a plastic tree.; visiting a rain forest.; reading about it in the paper.
+OpenBookQA,OpenBookQA,What role does the first step in the food chain have?,producer.,producer.,secondary consumer.; decomposer.; consumer.
+OpenBookQA,OpenBookQA,Water at 50 degree  C is?,equally distant from the melting and boiling points.,equally distant from the melting and boiling points.,closer to the boiling point of water.; closer to the melting point of ice.; below the melting point of ice.
+OpenBookQA,OpenBookQA,A phase change is?,Jello's transformation.,Jello's transformation.,Growing a plant.; Building a car.; Water changing temperatures.
+OpenBookQA,OpenBookQA,Owls spend their nights?,scanning their territory for field mice.,scanning their territory for field mice.,tending to their homes.; sleeping in hollow logs.; hanging out with other owls.
