@@ -74,6 +74,8 @@ def main():
         assert list(dataset['question']) == list(df["Question"])
     elif args.dataset_name == 'openbookqa_mc2':
         df = pd.read_csv('../OpenBookQA.csv')
+    elif args.dataset_name == 'mmlu_mc2':
+        df = pd.read_csv('../MMLU.csv')
 
     
     # get two folds using numpy

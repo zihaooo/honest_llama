@@ -5,7 +5,7 @@ import numpy as np
 import sys
 sys.path.append('../')
 from utils.utils import get_llama_activations_bau
-from utils.dataset import tokenized_tqa, tokenized_tqa_gen_end_q, tokenized_openbookqa, tokenized_openbookqa_gen_end_q
+from utils.dataset import tokenized_tqa, tokenized_tqa_gen_end_q, tokenized_openbookqa, tokenized_openbookqa_gen_end_q, tokenized_mmlu, tokenized_mmlu_gen_end_q
 import pickle
 import argparse
 from transformers import AutoTokenizer, AutoModelForCausalLM
@@ -56,7 +56,13 @@ def main():
     elif args.dataset_name == "openbookqa_gen_end_q":
         dataset = load_dataset("allenai/openbookqa", "main")['validation']
         formatter = tokenized_openbookqa_gen_end_q
-    else: 
+    elif args.dataset_name == "mmlu_mc2":
+        dataset = load_dataset("cais/mmlu", "all")['validation']
+        formatter = tokenized_mmlu
+    elif args.dataset_name == "mmlu_gen_end_q":
+        dataset = load_dataset("cais/mmlu", "all")['validation']
+        formatter = tokenized_mmlu_gen_end_q
+    else:
         raise ValueError("Invalid dataset name")
 
     print("Tokenizing prompts")
