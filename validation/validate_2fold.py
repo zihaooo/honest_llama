@@ -73,9 +73,7 @@ def main():
         df = pd.read_csv('../TruthfulQA.csv')
         assert list(dataset['question']) == list(df["Question"])
     elif args.dataset_name == 'openbookqa_mc2':
-        dataset = load_dataset('allenai/openbookqa', 'main')['validation']
         df = pd.read_csv('../OpenBookQA.csv')
-        assert list(dataset['question']) == list(df["Question"])
 
     
     # get two folds using numpy
@@ -100,7 +98,7 @@ def main():
     tuning_activations = rearrange(tuning_activations, 'b l (h d) -> b l h d', h = num_heads)
     tuning_labels = np.load(f"../features/{args.model_name}_{activations_dataset}_labels.npy")
 
-    separated_head_wise_activations, separated_labels, idxs_to_split_at = get_separated_activations(labels, head_wise_activations)
+    separated_head_wise_activations, separated_labels, idxs_to_split_at = get_separated_activations(labels, head_wise_activations, dataset_name=args.dataset_name)
     # run k-fold cross validation
     results = []
     for i in range(args.num_fold):
@@ -221,7 +219,7 @@ def main():
                                 
         curr_fold_results = alt_tqa_evaluate(
             models={args.model_name: model},
-            metric_names=['judge', 'info', 'mc'],
+            metric_names=['mc'],
             input_path=f'splits/fold_{i}_test_seed_{args.seed}.csv',
             output_path=f'results_dump/answer_dump/{filename}.csv',
             summary_path=f'results_dump/summary_dump/{filename}.csv',

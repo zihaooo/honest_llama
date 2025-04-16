@@ -60,7 +60,7 @@ def main():
         raise ValueError("Invalid dataset name")
 
     print("Tokenizing prompts")
-    if args.dataset_name == "tqa_gen_end_q":
+    if args.dataset_name.endswith('gen_end_q'):
         prompts, labels, categories = formatter(dataset, tokenizer)
         with open(f'../features/{args.model_name}_{args.dataset_name}_categories.pkl', 'wb') as f:
             pickle.dump(categories, f)

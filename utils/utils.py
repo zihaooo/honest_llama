@@ -670,15 +670,25 @@ def get_interventions_dict(top_heads, probes, tuning_activations, num_heads, use
         interventions[f"model.layers.{layer}.self_attn.o_proj"] = sorted(interventions[f"model.layers.{layer}.self_attn.o_proj"], key = lambda x: x[0])
     return interventions
 
-def get_separated_activations(labels, head_wise_activations): 
+def get_separated_activations(labels, head_wise_activations, dataset_name='tqa_mc'):
 
     # separate activations by question
-    dataset=load_dataset('truthful_qa', 'multiple_choice')['validation']
-    actual_labels = []
-    for i in range(len(dataset)):
-        actual_labels.append(dataset[i]['mc2_targets']['labels'])
+    if dataset_name == 'tqa_mc2':
+        dataset=load_dataset('truthful_qa', 'multiple_choice')['validation']
+        actual_labels = []
+        for i in range(len(dataset)):
+            actual_labels.append(dataset[i]['mc2_targets']['labels'])
 
-    idxs_to_split_at = np.cumsum([len(x) for x in actual_labels])        
+    elif dataset_name == 'openbookqa_mc2':
+        dataset = load_dataset('allenai/openbookqa', 'main')['validation']
+        actual_labels = []
+        for i in range(len(dataset)):
+            actual_labels.append(dataset[i]['choices']['label'])
+    else:
+        raise ValueError(f"Unknown dataset name: {dataset_name}")
+
+
+    idxs_to_split_at = np.cumsum([len(x) for x in actual_labels])
 
     labels = list(labels)
     separated_labels = []
