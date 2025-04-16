@@ -1,16 +1,14 @@
-import os
 import torch
 from datasets import load_dataset
 from tqdm import tqdm
 import numpy as np
-import pickle
 import sys
 sys.path.append('../')
-from utils import get_llama_activations_bau, tokenized_tqa, tokenized_tqa_gen, tokenized_tqa_gen_end_q
-import llama
+from utils.utils import get_llama_activations_bau
+from utils.dataset import tokenized_tqa, tokenized_tqa_gen_end_q, tokenized_openbookqa, tokenized_openbookqa_gen_end_q
 import pickle
 import argparse
-from transformers import AutoTokenizer, AutoModel, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
 HF_NAMES = {
     # 'llama_7B': 'baffo32/decapoda-research-llama-7B-hf',
@@ -49,17 +47,20 @@ def main():
     if args.dataset_name == "tqa_mc2": 
         dataset = load_dataset("truthfulqa/truthful_qa", "multiple_choice")['validation']
         formatter = tokenized_tqa
-    elif args.dataset_name == "tqa_gen": 
-        dataset = load_dataset("truthfulqa/truthful_qa", 'generation')['validation']
-        formatter = tokenized_tqa_gen
     elif args.dataset_name == 'tqa_gen_end_q': 
         dataset = load_dataset("truthfulqa/truthful_qa", 'generation')['validation']
         formatter = tokenized_tqa_gen_end_q
+    elif args.dataset_name == "openbookqa_mc2":
+        dataset = load_dataset("allenai/openbookqa", "main")['validation']
+        formatter = tokenized_openbookqa
+    elif args.dataset_name == "openbookqa_gen_end_q":
+        dataset = load_dataset("allenai/openbookqa", "main")['validation']
+        formatter = tokenized_openbookqa_gen_end_q
     else: 
         raise ValueError("Invalid dataset name")
 
     print("Tokenizing prompts")
-    if args.dataset_name == "tqa_gen" or args.dataset_name == "tqa_gen_end_q": 
+    if args.dataset_name == "tqa_gen_end_q":
         prompts, labels, categories = formatter(dataset, tokenizer)
         with open(f'../features/{args.model_name}_{args.dataset_name}_categories.pkl', 'wb') as f:
             pickle.dump(categories, f)

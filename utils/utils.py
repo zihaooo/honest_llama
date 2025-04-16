@@ -1,29 +1,23 @@
 import os
 import sys
-sys.path.insert(0, "TruthfulQA")
+sys.path.insert(0, "../TruthfulQA")
 
 import torch
-import torch.nn as nn
 import torch.nn.functional as F
-import llama
 from datasets import load_dataset
 from tqdm import tqdm
 import numpy as np
-import llama
 import pandas as pd
 import warnings
-from einops import rearrange
 from transformers import AutoTokenizer, AutoModelForCausalLM
-from baukit import Trace, TraceDict
-import sklearn
-from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
+from baukit import TraceDict
+from sklearn.metrics import accuracy_score
 from sklearn.linear_model import LogisticRegression
 import pickle
 from functools import partial
-from pprint import pprint
 from sentence_transformers import SentenceTransformer
 
-from truthfulqa import utilities, models, metrics
+from truthfulqa import utilities, metrics
 import openai
 from truthfulqa.configs import BEST_COL, ANSWER_COL, INCORRECT_COL
 
@@ -48,11 +42,9 @@ from truthfulqa.utilities import (
     format_prompt_with_answer_strings,
     split_multi_answer,
     format_best,
-    find_start,
 )
-from truthfulqa.presets import preset_map, COMPARE_PRIMER
-from truthfulqa.models import find_subsequence, set_columns, MC_calcs
-from truthfulqa.evaluate import format_frame, data_to_dict
+from truthfulqa.models import set_columns, MC_calcs
+from truthfulqa.evaluate import format_frame
 
 
 def load_nq():
@@ -75,94 +67,7 @@ def load_triviaqa():
     return df
 
 
-def format_truthfulqa(question, choice):
-    return f"Q: {question} A: {choice}"
-
-
-def format_truthfulqa_end_q(question, choice, rand_question):
-    return f"Q: {question} A: {choice} Q: {rand_question}"
-
-
-def tokenized_tqa(dataset, tokenizer):
-    all_prompts = []
-    all_labels = []
-    for i in range(len(dataset)):
-        question = dataset[i]['question']
-        choices = dataset[i]['mc2_targets']['choices']
-        labels = dataset[i]['mc2_targets']['labels']
-
-        assert len(choices) == len(labels), (len(choices), len(labels))
-
-        for j in range(len(choices)):
-            choice = choices[j]
-            label = labels[j]
-            prompt = format_truthfulqa(question, choice)
-            if i == 0 and j == 0:
-                print(prompt)
-            prompt = tokenizer(prompt, return_tensors='pt').input_ids
-            all_prompts.append(prompt)
-            all_labels.append(label)
-
-    return all_prompts, all_labels
-
-
-def tokenized_tqa_gen_end_q(dataset, tokenizer):
-    all_prompts = []
-    all_labels = []
-    all_categories = []
-    for i in range(len(dataset)):
-        question = dataset[i]['question']
-        category = dataset[i]['category']
-        rand_idx = np.random.randint(len(dataset))
-        rand_question = dataset[rand_idx]['question']
-
-        for j in range(len(dataset[i]['correct_answers'])):
-            answer = dataset[i]['correct_answers'][j]
-            prompt = format_truthfulqa_end_q(question, answer, rand_question)
-            prompt = tokenizer(prompt, return_tensors='pt').input_ids
-            all_prompts.append(prompt)
-            all_labels.append(1)
-            all_categories.append(category)
-
-        for j in range(len(dataset[i]['incorrect_answers'])):
-            answer = dataset[i]['incorrect_answers'][j]
-            prompt = format_truthfulqa_end_q(question, answer, rand_question)
-            prompt = tokenizer(prompt, return_tensors='pt').input_ids
-            all_prompts.append(prompt)
-            all_labels.append(0)
-            all_categories.append(category)
-
-    return all_prompts, all_labels, all_categories
-
-
-def tokenized_tqa_gen(dataset, tokenizer):
-    all_prompts = []
-    all_labels = []
-    all_categories = []
-    for i in range(len(dataset)):
-        question = dataset[i]['question']
-        category = dataset[i]['category']
-
-        for j in range(len(dataset[i]['correct_answers'])):
-            answer = dataset[i]['correct_answers'][j]
-            prompt = format_truthfulqa(question, answer)
-            prompt = tokenizer(prompt, return_tensors='pt').input_ids
-            all_prompts.append(prompt)
-            all_labels.append(1)
-            all_categories.append(category)
-
-        for j in range(len(dataset[i]['incorrect_answers'])):
-            answer = dataset[i]['incorrect_answers'][j]
-            prompt = format_truthfulqa(question, answer)
-            prompt = tokenizer(prompt, return_tensors='pt').input_ids
-            all_prompts.append(prompt)
-            all_labels.append(0)
-            all_categories.append(category)
-
-    return all_prompts, all_labels, all_categories
-
-
-def get_llama_activations_bau(model, prompt, device): 
+def get_llama_activations_bau(model, prompt, device):
     HEADS = [f"model.layers.{i}.self_attn.o_proj" for i in range(model.config.num_hidden_layers)]
     MLPS = [f"model.layers.{i}.mlp" for i in range(model.config.num_hidden_layers)]
 

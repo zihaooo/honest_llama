@@ -1,12 +1,7 @@
 import torch
-import torch.nn as nn
-import torch.nn.functional as F
 from einops import rearrange
-import numpy as np
-import pickle
 import os
 import shutil
-from tqdm import tqdm
 import pandas as pd
 import numpy as np
 import argparse
@@ -14,8 +9,7 @@ from datasets import load_dataset
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import sys
 sys.path.append('../')
-from utils import alt_tqa_evaluate, flattened_idx_to_layer_head, layer_head_to_flattened_idx, get_interventions_dict, get_top_heads, get_separated_activations, get_com_directions
-import llama
+from utils.utils import get_interventions_dict, get_top_heads, get_separated_activations, get_com_directions
 
 HF_NAMES = {
     # 'llama_7B': 'baffo32/decapoda-research-llama-7B-hf',
