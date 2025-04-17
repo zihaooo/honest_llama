@@ -132,6 +132,14 @@ def main():
                                                    separated_head_wise_activations, separated_labels)
         else:
             com_directions = None
+
+        print("Finished computing com_directions of shape", com_directions.shape)
+        top_heads, probes = get_top_heads(train_set_idxs, val_set_idxs, separated_head_wise_activations, separated_labels, num_layers, num_heads, args.seed, args.num_heads, args.use_random_dir)
+        print("Heads intervened: ", sorted(top_heads))
+    
+        interventions = get_interventions_dict(top_heads, probes, tuning_activations, num_heads, args.use_center_of_mass, args.use_random_dir, args.use_mat_direction, args.use_special_direction, com_directions)
+        print("Finished computing interventions dict")
+
         if args.dataset_name == 'tqa_mc2':
             if args.use_center_of_mass:
                 _filename = 'direction_from_truthfulqa_com.npy'
@@ -139,7 +147,7 @@ def main():
                 _filename = 'direction_from_truthfulqa_special.npy'
             else:
                 _filename = 'direction_from_truthfulqa_mat.npy'
-            np.save( _filename, com_directions)
+            np.save(_filename, interventions)
             print(f"Saved com_directions to {_filename}")
         if args.use_existed_direction and args.dataset_name != 'tqa_mc2':
             if args.use_center_of_mass:
@@ -148,14 +156,9 @@ def main():
                 _filename = 'direction_from_truthfulqa_special.npy'
             else:
                 _filename = 'direction_from_truthfulqa_mat.npy'
-            com_directions = np.load(_filename)
+            interventions = np.load(_filename)
             print(f"Use direction from TruthfulQA dataset: {_filename}")
-        print("Finished computing com_directions of shape", com_directions.shape)
-        top_heads, probes = get_top_heads(train_set_idxs, val_set_idxs, separated_head_wise_activations, separated_labels, num_layers, num_heads, args.seed, args.num_heads, args.use_random_dir)
-        print("Heads intervened: ", sorted(top_heads))
-    
-        interventions = get_interventions_dict(top_heads, probes, tuning_activations, num_heads, args.use_center_of_mass, args.use_random_dir, args.use_mat_direction, args.use_special_direction, com_directions)
-        print("Finished computing interventions dict")
+
 
         def lt_modulated_vector_add(_head_output, layer_name, start_edit_location='lt', prompt_encoding=None):
 
@@ -237,10 +240,10 @@ def main():
             filename += '_special'
         if args.use_mat_direction:
             filename += '_mat'
-                                
+        metric_names    = ['mc']
         curr_fold_results = alt_tqa_evaluate(
             models={args.model_name: model},
-            metric_names=['mc'],
+            metric_names=metric_names,
             input_path=f'splits/fold_{i}_test_seed_{args.seed}.csv',
             output_path=f'results_dump/answer_dump/{filename}.csv',
             summary_path=f'results_dump/summary_dump/{filename}.csv',
@@ -261,8 +264,10 @@ def main():
     
     results = np.array(results)
     final = results.mean(axis=0)
-
-    print(f'alpha: {args.alpha}, heads: {args.num_heads}, True*Info Score: {final[1]*final[0]}, True Score: {final[1]}, Info Score: {final[0]}, MC1 Score: {final[2]}, MC2 Score: {final[3]}, CE Loss: {final[4]}, KL wrt Original: {final[5]}')
+    if 'info' not in metric_names and 'judge' not in metric_names:
+        print(f'alpha: {args.alpha}, heads: {args.num_heads}, MC1 Score: {final[0]}, MC2 Score: {final[1]}, CE Loss: {final[2]}, KL wrt Original: {final[3]}')
+    else:
+        print(f'alpha: {args.alpha}, heads: {args.num_heads}, True*Info Score: {final[1]*final[0]}, True Score: {final[1]}, Info Score: {final[0]}, MC1 Score: {final[2]}, MC2 Score: {final[3]}, CE Loss: {final[4]}, KL wrt Original: {final[5]}')
 
 if __name__ == "__main__":
     main()
