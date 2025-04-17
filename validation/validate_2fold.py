@@ -1,3 +1,5 @@
+import pickle
+
 import torch
 from einops import rearrange
 import pandas as pd
@@ -147,7 +149,8 @@ def main():
                 _filename = 'direction_from_truthfulqa_special.npy'
             else:
                 _filename = 'direction_from_truthfulqa_mat.npy'
-            np.save(_filename, interventions)
+            with open(_filename, 'wb') as f:
+                pickle.dump(interventions, f)
             print(f"Saved com_directions to {_filename}")
         if args.use_existed_direction and args.dataset_name != 'tqa_mc2':
             if args.use_center_of_mass:
@@ -156,7 +159,8 @@ def main():
                 _filename = 'direction_from_truthfulqa_special.npy'
             else:
                 _filename = 'direction_from_truthfulqa_mat.npy'
-            interventions = np.load(_filename)
+            with open(_filename, 'rb') as f:
+                interventions = pickle.load(f)
             print(f"Use direction from TruthfulQA dataset: {_filename}")
 
 
