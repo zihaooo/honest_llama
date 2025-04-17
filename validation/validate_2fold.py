@@ -44,7 +44,7 @@ HF_NAMES = {
     'local_llama3_70B_instruct': 'results_dump/edited_models_dump/llama3_70B_instruct_seed_42_top_48_heads_alpha_15'
 }
 
-def main(): 
+def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_name', type=str, default='llama_7B', choices=HF_NAMES.keys(), help='model name')
     parser.add_argument('--model_prefix', type=str, default='', help='prefix to model name')
@@ -80,7 +80,7 @@ def main():
     elif args.dataset_name == 'mmlu_mc2':
         df = pd.read_csv('../MMLU.csv')
 
-    
+
     # get two folds using numpy
     fold_idxs = np.array_split(np.arange(len(df)), args.num_fold)
 
@@ -135,12 +135,6 @@ def main():
         else:
             com_directions = None
 
-        print("Finished computing com_directions of shape", com_directions.shape)
-        top_heads, probes = get_top_heads(train_set_idxs, val_set_idxs, separated_head_wise_activations, separated_labels, num_layers, num_heads, args.seed, args.num_heads, args.use_random_dir)
-        print("Heads intervened: ", sorted(top_heads))
-    
-        interventions = get_interventions_dict(top_heads, probes, tuning_activations, num_heads, args.use_center_of_mass, args.use_random_dir, args.use_mat_direction, args.use_special_direction, com_directions)
-        print("Finished computing interventions dict")
 
         if args.dataset_name == 'tqa_mc2':
             if args.use_center_of_mass:
@@ -150,7 +144,7 @@ def main():
             else:
                 _filename = 'direction_from_truthfulqa_mat.npy'
             with open(_filename, 'wb') as f:
-                pickle.dump(interventions, f)
+                pickle.dump(com_directions, f)
             print(f"Saved com_directions to {_filename}")
         if args.use_existed_direction and args.dataset_name != 'tqa_mc2':
             if args.use_center_of_mass:
@@ -160,9 +154,15 @@ def main():
             else:
                 _filename = 'direction_from_truthfulqa_mat.npy'
             with open(_filename, 'rb') as f:
-                interventions = pickle.load(f)
+                com_directions = pickle.load(f)
             print(f"Use direction from TruthfulQA dataset: {_filename}")
 
+        print("Finished computing com_directions of shape", com_directions.shape)
+        top_heads, probes = get_top_heads(train_set_idxs, val_set_idxs, separated_head_wise_activations, separated_labels, num_layers, num_heads, args.seed, args.num_heads, args.use_random_dir)
+        print("Heads intervened: ", sorted(top_heads))
+
+        interventions = get_interventions_dict(top_heads, probes, tuning_activations, num_heads, args.use_center_of_mass, args.use_random_dir, args.use_mat_direction, args.use_special_direction, com_directions)
+        print("Finished computing interventions dict")
 
         def lt_modulated_vector_add(_head_output, layer_name, start_edit_location='lt', prompt_encoding=None):
 
@@ -251,11 +251,11 @@ def main():
             input_path=f'splits/fold_{i}_test_seed_{args.seed}.csv',
             output_path=f'results_dump/answer_dump/{filename}.csv',
             summary_path=f'results_dump/summary_dump/{filename}.csv',
-            device="cuda", 
-            interventions=interventions, 
-            intervention_fn=lt_modulated_vector_add, 
+            device="cuda",
+            interventions=interventions,
+            intervention_fn=lt_modulated_vector_add,
             instruction_prompt=args.instruction_prompt,
-            judge_name=args.judge_name, 
+            judge_name=args.judge_name,
             info_name=args.info_name,
             use_special_direction=args.use_special_direction
         )
@@ -265,7 +265,7 @@ def main():
 
         curr_fold_results = curr_fold_results.to_numpy()[0].astype(float)
         results.append(curr_fold_results)
-    
+
     results = np.array(results)
     final = results.mean(axis=0)
     if 'info' not in metric_names and 'judge' not in metric_names:
