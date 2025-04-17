@@ -61,6 +61,7 @@ def main():
     parser.add_argument('--instruction_prompt', default='default', help='instruction prompt for truthfulqa benchmarking, "default" or "informative"', type=str, required=False)
     parser.add_argument('--use_special_direction', action='store_true', default=False)
     parser.add_argument('--use_mat_direction', action='store_true', default=False)
+    parser.add_argument('--use_existed_direction', action='store_true', default=False)
     args = parser.parse_args()
 
     # set seeds
@@ -131,6 +132,24 @@ def main():
                                                    separated_head_wise_activations, separated_labels)
         else:
             com_directions = None
+        if args.dataset_name == 'tqa_mc2':
+            if args.use_center_of_mass:
+                _filename = 'direction_from_truthfulqa_com.npy'
+            elif args.use_special_direction:
+                _filename = 'direction_from_truthfulqa_special.npy'
+            else:
+                _filename = 'direction_from_truthfulqa_mat.npy'
+            np.save( _filename, com_directions)
+            print(f"Saved com_directions to {_filename}")
+        if args.use_existed_direction and args.dataset_name != 'tqa_mc2':
+            if args.use_center_of_mass:
+                _filename = 'direction_from_truthfulqa_com.npy'
+            elif args.use_special_direction:
+                _filename = 'direction_from_truthfulqa_special.npy'
+            else:
+                _filename = 'direction_from_truthfulqa_mat.npy'
+            com_directions = np.load(_filename)
+            print(f"Use direction from TruthfulQA dataset: {_filename}")
         print("Finished computing com_directions of shape", com_directions.shape)
         top_heads, probes = get_top_heads(train_set_idxs, val_set_idxs, separated_head_wise_activations, separated_labels, num_layers, num_heads, args.seed, args.num_heads, args.use_random_dir)
         print("Heads intervened: ", sorted(top_heads))
@@ -206,7 +225,7 @@ def main():
             head_output = rearrange(head_output, 'b s h d -> b s (h d)')
             return head_output.type(torch.float16)
 
-        filename = f'{args.model_prefix}{args.model_name}_seed_{args.seed}_top_{args.num_heads}_heads_alpha_{int(args.alpha)}_fold_{i}'
+        filename = f'{args.model_prefix}{args.model_name}_{args.dataset_name}_seed_{args.seed}_top_{args.num_heads}_heads_alpha_{int(args.alpha)}_fold_{i}'
 
         if args.use_center_of_mass:
             filename += '_com'
