@@ -684,7 +684,7 @@ def get_separated_activations(labels, head_wise_activations, dataset_name='tqa_m
         for i in range(len(dataset)):
             answer_key = dataset[i]['answerKey']
             actual_labels.append([1 if _ == answer_key else 0 for _ in dataset[i]['choices']['label']])
-    elif dataset_name == 'mmlu':
+    elif dataset_name == 'mmlu_mc2':
         dataset = load_dataset('cais/mmlu', 'all')['validation']
         actual_labels = []
         for i in range(len(dataset)):
