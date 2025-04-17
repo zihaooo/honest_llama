@@ -64,6 +64,7 @@ def main():
     parser.add_argument('--use_special_direction', action='store_true', default=False)
     parser.add_argument('--use_mat_direction', action='store_true', default=False)
     parser.add_argument('--use_existed_direction', action='store_true', default=False)
+    parser.add_argument('--use_existed_intervention', action='store_true', default=False)
     args = parser.parse_args()
 
     # set seeds
@@ -163,6 +164,27 @@ def main():
 
         interventions = get_interventions_dict(top_heads, probes, tuning_activations, num_heads, args.use_center_of_mass, args.use_random_dir, args.use_mat_direction, args.use_special_direction, com_directions)
         print("Finished computing interventions dict")
+
+        if args.dataset_name == 'tqa_mc2':
+            if args.use_center_of_mass:
+                _filename = 'interventions_from_truthfulqa_com.npy'
+            elif args.use_special_direction:
+                _filename = 'interventions_from_truthfulqa_special.npy'
+            else:
+                _filename = 'interventions_from_truthfulqa_mat.npy'
+            with open(_filename, 'wb') as f:
+                pickle.dump(interventions, f)
+            print(f"Saved interventions to {_filename}")
+        if args.use_existed_intervention and args.dataset_name != 'tqa_mc2':
+            if args.use_center_of_mass:
+                _filename = 'interventions_from_truthfulqa_com.npy'
+            elif args.use_special_direction:
+                _filename = 'interventions_from_truthfulqa_special.npy'
+            else:
+                _filename = 'interventions_from_truthfulqa_mat.npy'
+            with open(_filename, 'rb') as f:
+                interventions = pickle.load(f)
+            print(f"Use interventions from TruthfulQA dataset: {_filename}")
 
         def lt_modulated_vector_add(_head_output, layer_name, start_edit_location='lt', prompt_encoding=None):
 
