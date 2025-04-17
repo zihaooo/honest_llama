@@ -497,12 +497,12 @@ def alt_tqa_evaluate(models, metric_names, input_path, output_path, summary_path
             llama_model = models[mdl]
             llama_tokenizer = AutoTokenizer.from_pretrained(ENGINE_MAP[mdl])
 
-            ce_loss = run_ce_loss(mdl, model=llama_model, tokenizer=llama_tokenizer, device=device,
-                                  interventions=interventions, intervention_fn=intervention_fn, use_special_direction=use_special_direction)
-            kl_wrt_orig = run_kl_wrt_orig(mdl, model=llama_model, tokenizer=llama_tokenizer, device=device,
-                                          interventions=interventions, intervention_fn=intervention_fn,
-                                          separate_kl_device=separate_kl_device, use_special_direction=use_special_direction)
-            print(mdl, 'CE Loss:', ce_loss, 'KL wrt Orig:', kl_wrt_orig)
+            # ce_loss = run_ce_loss(mdl, model=llama_model, tokenizer=llama_tokenizer, device=device,
+            #                       interventions=interventions, intervention_fn=intervention_fn, use_special_direction=use_special_direction)
+            # kl_wrt_orig = run_kl_wrt_orig(mdl, model=llama_model, tokenizer=llama_tokenizer, device=device,
+            #                               interventions=interventions, intervention_fn=intervention_fn,
+            #                               separate_kl_device=separate_kl_device, use_special_direction=use_special_direction)
+            # print(mdl, 'CE Loss:', ce_loss, 'KL wrt Orig:', kl_wrt_orig)
 
             if 'judge' in metric_names or 'info' in metric_names:
                 questions = tqa_run_answers(questions, ENGINE_MAP[mdl], mdl, preset, model=llama_model, tokenizer=llama_tokenizer,
