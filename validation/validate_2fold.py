@@ -267,6 +267,10 @@ def main():
             filename += '_special'
         if args.use_mat_direction:
             filename += '_mat'
+        if args.use_existed_direction:
+            filename += '_existed_direction'
+        if args.use_existed_intervention:
+            filename += '_existed_intervention'
         metric_names    = ['mc']
         curr_fold_results = alt_tqa_evaluate(
             models={args.model_name: model},
