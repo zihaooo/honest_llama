@@ -159,7 +159,7 @@ def main():
             print(f"Use direction from TruthfulQA dataset: {_filename}")
 
         print("Finished computing com_directions of shape", com_directions.shape)
-        top_heads, probes = get_top_heads(train_set_idxs, val_set_idxs, separated_head_wise_activations, separated_labels, num_layers, num_heads, args.seed, args.num_heads, args.use_random_dir)
+        top_heads, probes = get_top_heads(train_set_idxs, val_set_idxs, separated_head_wise_activations, separated_labels, num_layers, num_heads, args.seed, args.num_heads, args.use_random_dir, args.model_name, args.dataset_name)
         print("Heads intervened: ", sorted(top_heads))
 
         interventions = get_interventions_dict(top_heads, probes, tuning_activations, num_heads, args.use_center_of_mass, args.use_random_dir, args.use_mat_direction, args.use_special_direction, com_directions)

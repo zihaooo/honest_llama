@@ -1,5 +1,7 @@
 import os
 import sys
+from pathlib import Path
+
 sys.path.insert(0, "../TruthfulQA")
 
 import torch
@@ -619,10 +621,15 @@ def train_probes(seed, train_set_idxs, val_set_idxs, separated_head_wise_activat
 
     return probes, all_head_accs_np
 
-def get_top_heads(train_idxs, val_idxs, separated_activations, separated_labels, num_layers, num_heads, seed, num_to_intervene, use_random_dir=False):
+def get_top_heads(train_idxs, val_idxs, separated_activations, separated_labels, num_layers, num_heads, seed, num_to_intervene, use_random_dir=False, model_name=None, dataset_name=None):
 
     probes, all_head_accs_np = train_probes(seed, train_idxs, val_idxs, separated_activations, separated_labels, num_layers=num_layers, num_heads=num_heads)
     all_head_accs_np = all_head_accs_np.reshape(num_layers, num_heads)
+    save_dir = Path('../features/head_acc')
+    save_dir.mkdir(parents=True, exist_ok=True)
+    with open(f'{save_dir}/{model_name}_{dataset_name}_all_heads_acc_mat.pkl', 'wb') as f:
+        pickle.dump(all_head_accs_np, f)
+    print(f'{save_dir}/{model_name}_{dataset_name}_all_heads_acc_mat.pkl')
 
     top_heads = []
 
