@@ -71,6 +71,7 @@ def main():
     torch.manual_seed(args.seed)
     np.random.seed(args.seed)
     torch.cuda.manual_seed_all(args.seed)
+    print(args)
 
     if args.dataset_name == 'tqa_mc2':
         dataset = load_dataset("truthful_qa", "multiple_choice")['validation']
@@ -87,7 +88,7 @@ def main():
 
     # create model
     model_name_or_path = HF_NAMES[args.model_prefix + args.model_name]
-    tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, trust_remote_code=True)
+    # tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, trust_remote_code=True)
     model = AutoModelForCausalLM.from_pretrained(model_name_or_path, low_cpu_mem_usage = True, torch_dtype=torch.float16, device_map="auto", trust_remote_code=True)
     # define number of layers and heads
     num_layers = model.config.num_hidden_layers
