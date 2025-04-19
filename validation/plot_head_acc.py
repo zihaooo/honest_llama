@@ -30,12 +30,15 @@ def plot_head_acc(model_name, dataset_name):
     ax.set_xticks(np.arange(0, num_heads, step=2))
     # ax.set_xticklabels(np.arange(0, num_heads, step=2))
     ax.set_xticklabels([])
+    ax.set_title(f'min: {np.min(mat):.1f}, mid: {np.median(mat):.1f}, max: {np.max(mat):.1f}, mean: {np.mean(mat):.1f}, std: {np.std(mat):.1f}')
     fig.suptitle(f'Head-wise accuracy for {title_name_by_dataset.get(dataset_name)} dataset')
     fig.tight_layout()
-    fig.savefig(f'{dataset_name}_all_heads_acc_mat.png', dpi=300)
+    fig_path = Path(f'{save_dir}/{model_name}_{dataset_name}_head_acc.png')
+    fig_path.parent.mkdir(parents=True, exist_ok=True)
+    fig.savefig(fig_path, dpi=300)
 
 
 if __name__ == '__main__':
-    for model_name in ['llama_7B', 'llama2_chat_7B', 'llama3_instruct_8B']:
+    for model_name in ['llama_7B', 'llama2_chat_7B', 'llama3_8B_instruct']:
         for dataset_name in ['mmlu_mc2', 'openbookqa_mc2', 'tqa_mc2']:
             plot_head_acc(model_name, dataset_name)
