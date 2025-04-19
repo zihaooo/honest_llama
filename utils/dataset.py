@@ -183,3 +183,60 @@ def tokenized_mmlu_gen_end_q(dataset, tokenizer):
             all_categories.append('')
 
     return all_prompts, all_labels, all_categories
+  
+  
+  
+def format_arc(question, choice):
+    return f"Q: {question} A: {choice}"
+
+def tokenized_arc(dataset, tokenizer):
+    all_prompts = []
+    all_labels = []
+    for i in range(len(dataset)):
+        question = add_ending(dataset[i]['question'], '?')
+        choices = dataset[i]['choices']['text']
+        labels = dataset[i]['choices']['label']
+        answer_key = dataset[i]['answerKey']
+
+        assert len(choices) == len(labels), (len(choices), len(labels))
+
+        for j in range(len(choices)):
+            choice = add_ending(choices[j], '.')
+            prompt = format_arc(question, choice)
+            if i == 0 and j == 0:
+                print(prompt)
+            prompt = tokenizer(prompt, return_tensors='pt').input_ids
+            all_prompts.append(prompt)
+
+            label = 1 if labels[j] == answer_key else 0
+            all_labels.append(label)
+
+    return all_prompts, all_labels
+  
+  
+def format_arc_end_q(question, choice, rand_question):
+    return f"Q: {question} A: {choice} Q: {rand_question}"
+
+def tokenized_arc_gen_end_q(dataset, tokenizer):
+    all_prompts = []
+    all_labels = []
+    all_categories = []
+    for i in range(len(dataset)):
+        question = add_ending(dataset[i]['question'], '?')
+        rand_idx = np.random.randint(len(dataset))
+        rand_question = add_ending(dataset[rand_idx]['question'], '?')
+        answer_key = dataset[i]['answerKey']
+        answer_by_key = dict(zip(dataset[i]['choices']['label'], dataset[i]['choices']['text']))
+
+        for key, answer in answer_by_key.items():
+            answer = add_ending(answer, '.')
+            prompt = format_arc_end_q(question, answer, rand_question)
+            prompt = tokenizer(prompt, return_tensors='pt').input_ids
+            all_prompts.append(prompt)
+            if key == answer_key:
+                all_labels.append(1)
+            else:
+                all_labels.append(0)
+            all_categories.append('')
+
+    return all_prompts, all_labels, all_categories

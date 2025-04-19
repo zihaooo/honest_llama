@@ -81,7 +81,8 @@ def main():
         df = pd.read_csv('../OpenBookQA.csv')
     elif args.dataset_name == 'mmlu_mc2':
         df = pd.read_csv('../MMLU.csv')
-
+    elif args.dataset_name == 'arc_mc2':
+        df = pd.read_csv('../ARC_Challenge.csv')
 
     # get two folds using numpy
     fold_idxs = np.array_split(np.arange(len(df)), args.num_fold)

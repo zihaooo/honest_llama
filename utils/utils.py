@@ -697,6 +697,12 @@ def get_separated_activations(labels, head_wise_activations, dataset_name='tqa_m
         for i in range(len(dataset)):
             answer_key = dataset[i]['answer']
             actual_labels.append([1 if _ == answer_key else 0 for _ in range(len(dataset[i]['choices']))])
+    elif dataset_name == 'arc_mc2':
+        dataset = load_dataset('ai2_arc', 'ARC-Challenge')['validation']
+        actual_labels = []
+        for i in range(len(dataset)):
+            answer_key = dataset[i]['answerKey']
+            actual_labels.append([1 if _ == answer_key else 0 for _ in dataset[i]['choices']['label']])
     else:
         raise ValueError(f"Unknown dataset name: {dataset_name}")
 
