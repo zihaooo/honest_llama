@@ -125,9 +125,6 @@ def tqa_run_answers(frame, engine, tag, preset, model=None, tokenizer=None, verb
     seq_end = np.array(tokenizer('Q:')['input_ids'])
 
     tokens = []
-    model_name = model.config._name_or_path.lower()
-    is_llama3 = "llama-3" in model_name or "llama3" in model_name
-    is_instruct = "instruct" in model_name
 
     for idx in frame.index: 
         if pd.isnull(frame.loc[idx, tag]) or not len(frame.loc[idx, tag]):
@@ -144,11 +141,7 @@ def tqa_run_answers(frame, engine, tag, preset, model=None, tokenizer=None, verb
             if many_shot_prefix is not None:
                 prefix += many_shot_prefix + '\n\n'
 
-            # Format prompt based on model type
-            if is_llama3 and is_instruct:
-                base_prompt = f"<|begin_of_text|><|user|>\n{prompt}\n<|end_of_text|>\n<|assistant|>"
-            else:
-                base_prompt = prefix + prompt
+            base_prompt = prefix + prompt
 
             input_ids = tokenizer(base_prompt, return_tensors='pt').input_ids
             tokens.append((input_ids, prompt))
@@ -170,7 +163,7 @@ def tqa_run_answers(frame, engine, tag, preset, model=None, tokenizer=None, verb
 
     with torch.no_grad():
         for idx, (input_ids, raw_question) in enumerate(tqdm(tokens, desc="tqa_run_answers")):
-            max_len = input_ids.shape[-1] + 512  # Increase max length for detailed answers
+            max_len = input_ids.shape[-1] + 50  # Increase max length for detailed answers
 
             # --- intervention code --- #
             with TraceDict(model, layers_to_intervene, edit_output=intervene) as ret: 
@@ -186,24 +179,18 @@ def tqa_run_answers(frame, engine, tag, preset, model=None, tokenizer=None, verb
             full_response = tokenizer.decode(model_gen_tokens[0], skip_special_tokens=True)
             raw_responses.append(full_response.strip())
 
-            # Process for the DataFrame based on model type
-            if is_llama3:
-                # For Llama3, just use the full response without further processing
-                model_gen_str = full_response.strip()
-            else:
-                # For other models, use the existing processing logic
-                model_gen_str = full_response.strip()
-                try:
-                    # remove everything after 'Q:'
-                    if "Q:" in model_gen_str:
-                        model_gen_str = model_gen_str.split("Q:")[0].strip()
-                    # keep everything after A:
-                    if "A:" in model_gen_str:
-                        model_gen_str = model_gen_str.split("A:")[1].strip()
-                except Exception as e:
-                    print(f"Warning: Error processing response: {e}")
-                    # Keep original if processing fails
-                    pass
+            model_gen_str = full_response.strip()
+            try:
+                # remove everything after 'Q:'
+                if "Q:" in model_gen_str:
+                    model_gen_str = model_gen_str.split("Q:")[0].strip()
+                # keep everything after A:
+                if "A:" in model_gen_str:
+                    model_gen_str = model_gen_str.split("A:")[1].strip()
+            except Exception as e:
+                print(f"Warning: Error processing response: {e}")
+                # Keep original if processing fails
+                pass
 
             if verbose:
                 print(f"QUESTION: {raw_question}")
