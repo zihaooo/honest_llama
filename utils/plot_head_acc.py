@@ -12,8 +12,8 @@ title_name_by_dataset = {
 }
 
 def plot_head_acc(model_name, dataset_name):
-    save_dir = Path('../features/head_acc')
-    file_name = f'{save_dir}/{model_name}_{dataset_name}_all_heads_acc_mat.pkl'
+    head_acc_dir = Path('../figures/head_acc')
+    file_name = f'{head_acc_dir}/{model_name}_{dataset_name}_all_heads_acc_mat.pkl'
     with open(file_name, 'rb') as f:
         mat = pickle.load(f)
     mat = np.flip(np.sort(mat, axis=1), axis=1) * 100
@@ -33,6 +33,7 @@ def plot_head_acc(model_name, dataset_name):
     ax.set_title(f'min: {np.min(mat):.1f}, mid: {np.median(mat):.1f}, max: {np.max(mat):.1f}, mean: {np.mean(mat):.1f}, std: {np.std(mat):.1f}')
     fig.suptitle(f'Head-wise accuracy for {title_name_by_dataset.get(dataset_name)} dataset')
     fig.tight_layout()
+    save_dir = Path('../figures/head_acc')
     fig_path = Path(f'{save_dir}/{model_name}_{dataset_name}_head_acc.png')
     fig_path.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(fig_path, dpi=300)

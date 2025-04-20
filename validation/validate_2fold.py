@@ -6,10 +6,11 @@ import pandas as pd
 import numpy as np
 import argparse
 from datasets import load_dataset
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoModelForCausalLM
 
 import sys
 sys.path.append('../')
+from utils.plot_figures import plot_kde_in_top_2_direction
 from utils.utils import alt_tqa_evaluate, get_interventions_dict, \
     get_top_heads, get_separated_activations, get_com_directions, get_special_directions, get_matrix_directions
 
@@ -163,6 +164,9 @@ def main():
         print("Finished computing com_directions of shape", com_directions.shape)
         top_heads, probes = get_top_heads(train_set_idxs, val_set_idxs, separated_head_wise_activations, separated_labels, num_layers, num_heads, args.seed, args.num_heads, args.use_random_dir, args.model_name, args.dataset_name)
         print("Heads intervened: ", sorted(top_heads))
+
+        plot_kde_in_top_2_direction(train_set_idxs, val_set_idxs, separated_head_wise_activations, separated_labels, top_heads, args.seed, args.model_name, args.dataset_name)
+        # exit()
 
         interventions = get_interventions_dict(top_heads, probes, tuning_activations, num_heads, args.use_center_of_mass, args.use_random_dir, args.use_mat_direction, args.use_special_direction, com_directions)
         print("Finished computing interventions dict")
